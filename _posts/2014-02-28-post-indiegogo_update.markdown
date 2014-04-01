@@ -2,7 +2,7 @@
 title: Post-Indiegogo Update
 author: Andrew Mike
 date: 2014-02-28
-layout:post
+layout: post
 ---
 Hi everyone! Here's what's going on:
 

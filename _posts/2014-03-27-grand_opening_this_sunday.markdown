@@ -1,6 +1,6 @@
 ---
 title: Grand Opening This Sunday!
-author: Ben Weinstein-Raun
+author: Andrew Mike
 date: 2014-03-27
 layout: post
 ---
