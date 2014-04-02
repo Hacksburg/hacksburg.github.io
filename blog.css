@@ -84,9 +84,16 @@ a {
  * Blog name and description
  */
 
+img.logo {
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
 .blog-header {
   padding-top: 20px;
   padding-bottom: 20px;
+  min-height: 220px;
 }
 .blog-title {
   margin-top: 30px;
