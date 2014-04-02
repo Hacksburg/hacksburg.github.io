@@ -8,6 +8,8 @@ As mentioned at the meeting last night, we need to elect two new members of the 
 
 Membership on the board is a very involved process; we don't have 'employees', so board members are responsible for ensuring that all necessary tasks are completed. So far, that's mostly meant doing them ourselves. We'll also have officer elections in about a month, so that will probably change a little bit, but for now, board members should expect to be very involved in the nitty-gritty details as well as broad directional questions.
 
+Please respond to the [google group message](https://groups.google.com/forum/#!topic/hacksburg/T-C_57g-cBs) with your nominations! (board members must be full members, but membership can be acquired on the event of your election)
+
 See the [bylaws](http://wiki.hacksburg.org/policy:bylaws) on the wiki for more information.
 
 See you then!
