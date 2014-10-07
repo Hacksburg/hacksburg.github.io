@@ -26,11 +26,8 @@ a {
   color: #0f0;
 }
 
-table {
-  border: 2px solid #aaa;
-}
-
 th, td {
+  border: 2px solid #aaa;
   padding: 2px 5px;
 }
 
