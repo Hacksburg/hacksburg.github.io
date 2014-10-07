@@ -8,11 +8,11 @@ We've heard from others that memberships were too expensive. In the past, we wer
 
 Here is the new pricing structure:
 
-| | **Normal Price** 	| **Student Price** 	|
-|-| ------------ | ------------- |
-| **1 month**	 | $40	 | $32	 |
-| **3 months**	 | $108 	| $84	 |
-| **6 months**	 | $204 	| $156	 |
-| **12 months**	 | $384 	| $288	|
+| | **Normal Price** 	| **Student Price** |
+|-| ---	 | ---	 |
+| **1 month** | $40 | $32 |
+| **3 months** | $108 | $84 |
+| **6 months** | $204 | $156 |
+| **12 months** | $384 | $288 |
 
 We'd appreciate your help in spreading the word about these pricing changes as far as possible. If there are any questions, please feel free to contact us at board at hacksburg dot org.
