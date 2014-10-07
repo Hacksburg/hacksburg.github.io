@@ -27,7 +27,7 @@ a {
 }
 
 table {
-  border: 2px #aaa;
+  border: 2px solid #aaa;
 }
 
 th, td {
