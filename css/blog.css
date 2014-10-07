@@ -27,8 +27,11 @@ a {
 }
 
 table {
-  border-spacing: 5px 1px;
-  border: 2px;
+  border: 2px #aaa;
+}
+
+th, td {
+  padding: 2px 5px;
 }
 
 /*
