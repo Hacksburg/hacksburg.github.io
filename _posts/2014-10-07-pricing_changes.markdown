@@ -36,4 +36,5 @@ Here is the new pricing structure:
   </tr>
 </table>
 
+
 We'd appreciate your help in spreading the word about these pricing changes as far as possible. If there are any questions, please feel free to contact us at board at hacksburg dot org.
