@@ -26,6 +26,10 @@ a {
   color: #0f0;
 }
 
+table {
+  border-spacing: 5px 1px;
+  border: 2px;
+}
 
 /*
  * Override Bootstrap's default container.
