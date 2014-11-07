@@ -1,5 +1,5 @@
 ---
-title: Pricing Changes
+title: Fall Open House
 author: Jenn McGuire
 date: 2014-11-07
 layout: post
