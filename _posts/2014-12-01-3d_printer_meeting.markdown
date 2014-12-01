@@ -1,5 +1,5 @@
 ---
-title: 3-D Printer Meeting Tomorrow
+title: 3D Printer Meeting Tomorrow
 author: Andrew Mike
 date: 2014-12-01
 layout: post
