@@ -139,9 +139,11 @@ img.logo {
   margin-bottom: 0;
 }
 
-.sidebar-module li.open { color: #0f0; list-style: none;}
-.sidebar-module li.closed { color: #f00; list-style: none;}
-.sidebar-module li.unknown { color: #bbb; list-style: none;}
+/* status module */
+ul#status li { list-style: none; }
+ul#status .open { text-decoration: bold; color: #0f0; }
+ul#status .closed { text-decoration: bold; color: #f00; }
+ul#status .unknown { text-decoration: bold; color: #bbb; }
 
 
 /* Pagination */
