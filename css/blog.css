@@ -139,6 +139,9 @@ img.logo {
   margin-bottom: 0;
 }
 
+.sidebar-module li.open { color: #0f0; list-style: none;}
+.sidebar-module li.closed { color: #f00; list-style: none;}
+.sidebar-module li.unknown { color: #bbb; list-style: none;}
 
 
 /* Pagination */
