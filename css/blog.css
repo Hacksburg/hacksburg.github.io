@@ -140,10 +140,10 @@ img.logo {
 }
 
 /* status module */
-ul#status > li { list-style: none; }
-ul#status > li.open { text-decoration: bold; color: #0f0; }
-ul#status > li.closed { text-decoration: bold; color: #f00; }
-ul#status > li.unknown { text-decoration: bold; color: #bbb; }
+div#status li { list-style: none; }
+div#status li.open { text-decoration: bold; color: #0f0; }
+div#status li.closed { text-decoration: bold; color: #f00; }
+div#status li.unknown { text-decoration: bold; color: #bbb; }
 
 
 /* Pagination */
