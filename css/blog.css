@@ -141,9 +141,9 @@ img.logo {
 
 /* status module */
 ul#status li { list-style: none; }
-ul#status .open { text-decoration: bold; color: #0f0; }
-ul#status .closed { text-decoration: bold; color: #f00; }
-ul#status .unknown { text-decoration: bold; color: #bbb; }
+ul#status li.open { text-decoration: bold; color: #0f0; }
+ul#status li.closed { text-decoration: bold; color: #f00; }
+ul#status li.unknown { text-decoration: bold; color: #bbb; }
 
 
 /* Pagination */
