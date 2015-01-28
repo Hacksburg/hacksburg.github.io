@@ -140,10 +140,10 @@ img.logo {
 }
 
 /* status module */
-div#status li { list-style: none; }
-div#status li.open { text-decoration: bold; color: #0f0; }
-div#status li.closed { text-decoration: bold; color: #f00; }
-div#status li.unknown { text-decoration: bold; color: #bbb; }
+div#status li { list-style: none; font-size: 16px; }
+div#status li.open {  color: #0f0; }
+div#status li.closed { color: #f00; }
+div#status li.unknown { color: #bbb; }
 
 
 /* Pagination */
