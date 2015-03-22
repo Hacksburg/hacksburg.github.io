@@ -13,4 +13,4 @@ Greetings, everyone! I have several pieces of good news for you all:
   
 It's a time of good things happening for Hacksburg, with more yet to come! We hope you can join us!
 
-**PS:** We'll be having meetings as usual this week on Tuesday (3/24) at the space -- Board meeting at 7 PM, regular meeting at 7:30, Come out and join us!
+**PS:** We'll be having meetings as usual this week on Tuesday (3/24) at the space -- Board meeting at 7 PM, regular meeting at 7:30. Come out and join us!
