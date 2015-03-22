@@ -12,3 +12,5 @@ Greetings, everyone! I have several pieces of good news for you all:
   * Ideas are still brewing for [our booth for Solstice Fest](http://wiki.hacksburg.org/summer_2015_booth)! We'll be meeting at Hacksburg to discuss it this Tuesday after our 7:30 PM regular meeting. Last week, Ben knocked together a prototype of a capacitive sensor, and more is to come!
   
 It's a time of good things happening for Hacksburg, with more yet to come! We hope you can join us!
+
+**PS:** We'll be having meetings as usual this week on Tuesday (3/24) at the space -- Board meeting at 7 PM, regular meeting at 7:30, Come out and join us!
