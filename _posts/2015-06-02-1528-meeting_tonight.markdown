@@ -1,7 +1,7 @@
 ---
 title: Meetings This Week
 author: Andrew Mike
-date: 2015-06-02
+date: 2015-06-02 15:28:00
 layout: post
 ---
 

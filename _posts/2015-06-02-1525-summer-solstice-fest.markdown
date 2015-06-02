@@ -1,7 +1,7 @@
 ---
 title: Summer Solstice Fest
 author: Nicole Schwartz
-date: 2015-06-02
+date: 2015-06-02 15:25:00
 layout: post
 ---
 
