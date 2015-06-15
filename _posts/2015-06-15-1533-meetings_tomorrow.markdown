@@ -1,7 +1,7 @@
 ---
 title: Meetings Tomorrow
 author: Andrew Mike
-date: 2015-06-09
+date: 2015-06-15
 layout: post
 ---
 
