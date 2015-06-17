@@ -11,6 +11,7 @@ We have 2 teams signed up - so a good chance for you last minute people to jump 
 Everyone is welcome to come watch the contest and enjoy a (hopefully) cool beverage.
 
 When: ~~Sunday June 21st 3pm~~ Update: Moved to Saturday July 18th at 6:30pm.
+
 Where: Hacksburg 2200 Kraft Drive, Suite 1475, Blacksburg, VA. 
 
 [Rules](http://wiki.hacksburg.org/beverage_cooling_competition)
