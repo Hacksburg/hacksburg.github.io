@@ -11,7 +11,7 @@ I wanted to let you all know some projects that are happening in / for the space
 Thanks to Kurt - here is what he had to say:  
 <blockquote>
 <p style="font-weight:bold;">Live from Hacksburg</p>
-<p>This week, Hacksburg added a live video feed overlooking our work space in the CRC. To view the feed, visit the front page of our wiki, [http://wiki.hacksburg.org/](http://wiki.hacksburg.org/). The system consists of a USB webcam, a powered USB hub and a Raspberry Pi Model B+. A USB hub is used to provide the option for additional high current USB devices, as the Raspberry Pi has a 600 mA limit by default. The open source software package, 'mjpg-streamer', provides a low latency video stream with adjustable frame rate and resolution (an important feature when running on a device with limited computing power!). At present the feed refreshes three times per second at a resolution of 640x480 using approximately 35% of the Pi’s computing power.</p>
+<p>This week, Hacksburg added a live video feed overlooking our work space in the CRC. To view the feed, visit the front page of our wiki, <a href="http://wiki.hacksburg.org/">http://wiki.hacksburg.org/</a>. The system consists of a USB webcam, a powered USB hub and a Raspberry Pi Model B+. A USB hub is used to provide the option for additional high current USB devices, as the Raspberry Pi has a 600 mA limit by default. The open source software package, 'mjpg-streamer', provides a low latency video stream with adjustable frame rate and resolution (an important feature when running on a device with limited computing power!). At present the feed refreshes three times per second at a resolution of 640x480 using approximately 35% of the Pi’s computing power.</p>
 </blockquote>
 
 **Sewing!**  
