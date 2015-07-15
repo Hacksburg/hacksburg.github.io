@@ -1,7 +1,7 @@
 ---
 title: Steppin' Out
 author: Nicole Schwartz
-date: 2015-07-08
+date: 2015-07-15
 layout: post
 ---
 
