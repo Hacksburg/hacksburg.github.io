@@ -1,7 +1,7 @@
 ---
 title: Meetings Tonight
 author: Andrew Mike
-date: 2015-07-14
+date: 2015-07-21
 layout: post
 ---
 
