@@ -95,6 +95,17 @@ img.logo {
   margin-right: 20px;
 }
 
+img.left {
+  display: block;
+  float: left;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .blog-header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -167,6 +178,7 @@ div#status li.unknown { color: #bbb; }
 
 .blog-post {
   margin-bottom: 60px;
+  overflow: auto;
 }
 .blog-post-title {
   margin-bottom: 5px;
