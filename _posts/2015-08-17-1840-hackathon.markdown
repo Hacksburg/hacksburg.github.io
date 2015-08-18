@@ -15,21 +15,14 @@ Individuals or teams can hack for 12 hours in our space, then show off what they
 
 At Hacksburg 2200 Kraft Drive, Suite 1475, Blacksburg, VA
 
-$20 members
+Admission is $20 for members, $30 for non members.
 
-$30 non members
+Tickets can be purchased [here](https://www.eventbrite.com/e/hackathon-tickets-18036724328), and covers the following:
 
-Buy tickets: [https://www.eventbrite.com/e/hackathon-tickets-18036724328](https://www.eventbrite.com/e/hackathon-tickets-18036724328)
-
-This covers:
-
-    Breakfast: Carol Lee Donuts
-    tea
-    coffee
-    water
-    fruit
-    Lunch: jimmy johns
-    Dinner: Pizza
+  * Breakfast from Carol Lee Donuts
+  * Drinks and Snacks (tea, coffee, water, fruit)
+  * Lunch from Jimmy John's
+  * Pizza Dinner
 
 There is also the potential of a welding class occurring during the hackathon - if there is enough interest, there would be an additional fee. Please contact us if you are interested.
 
