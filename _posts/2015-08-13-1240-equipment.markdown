@@ -8,6 +8,7 @@ layout: post
 We ran a survey last month on equipment people would like to see at the space in order decide to join.
 
 The most common replies were:
+
   * table saw
   * lathe
   * laser cutter
