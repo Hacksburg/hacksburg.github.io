@@ -7,7 +7,7 @@ layout: post
 
 Hello everyone! 
 
-Tonight, we'll have our general meeting at 7:30 PM at the space. The agenda is [here](http://wiki.hacksburg.org/meetings:meeting_agenda_and_minutes_for_2015-09-28).
+Tonight, we'll have our general meeting at 7:30 PM at the space. The agenda is [here](http://wiki.hacksburg.org/meetings:meeting_agenda_and_minutes_for_2015-09-29).
 
 Tonight we'll be discussing our tea class, as well as upcoming events. Hope you can join us!
 
