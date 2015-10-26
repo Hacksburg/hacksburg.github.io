@@ -1,5 +1,5 @@
 ---
-title: Writeup: 3D Printing Class
+title: 'Writeup: 3D Printing Class'
 author: Andrew Mike
 date: 2015-10-26
 layout: post
