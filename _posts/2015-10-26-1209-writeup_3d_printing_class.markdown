@@ -15,9 +15,11 @@ One of the class attendees, Zephyr, wanted to print [a keychain depicting a flux
 After getting it to a decent size, it started printing:
 <a href="http://wiki.hacksburg.org/_media/3d_printing_20151018_02.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/3d_printing_20151018_02.jpg" height="400"></a>
 <a href="http://wiki.hacksburg.org/_media/3d_printing_20151018_03.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/3d_printing_20151018_03.jpg" height="400"></a>
+<br />
 
 It finished some 10 minutes later, and though not useable as a keychain, it still looked cool:
 <a href="http://wiki.hacksburg.org/_media/3d_printing_20151018_04.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/3d_printing_20151018_04.jpg" height="400"></a>
+<br />
 
 And thus ended another class at Hacksburg. We'll be holding more throughout the year; check this blog or our calendar to the right for more learning opportunities!
 
