@@ -7,7 +7,8 @@ layout: post
 
 Last Saturday Hacksburg hosted a Tea 101 class taught by member Nicole Schwartz owner and tea blender of [The Devotea USA](http://thedevoteausa.com/)
 
-Participants sampled 6 teas
+Participants sampled 6 teas:
+
  - Shou Mei white tea
  - [Gunpowder](http://thedevoteausa.myshopify.com/products/gunpowder-green-tea) green tea
  - [Jade Oolong](http://thedevoteausa.myshopify.com/products/jade-oolong) tea
