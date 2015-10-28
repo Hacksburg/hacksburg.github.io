@@ -7,17 +7,17 @@ layout: post
 Last Sunday, we made Jack-O-Lanterns for [the Corporate Research Center's pumpkin carving contest](http://www.vtcrc.com/events/2015pumpkincontest/). Over the course of several hours, we employed scoops, knives, rotary tools, and circuit boards to turn gourds into ghouls.
 
 <figure>
-<a href="http://wiki.hacksburg.org/_media/hacksburg_pumpkins_00.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/hacksburg_pumpkins_00.jpg" height="300"></a>
+<a href="http://wiki.hacksburg.org/_media/hb_pumpkins_00.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/hb_pumpkins_00.jpg" height="300"></a>
 <figcaption>Nicole and Kurt carving pumpkins</figcaption>
 </figure>
 
 <figure>
-<a href="http://wiki.hacksburg.org/_media/hacksburg_pumpkins_01.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/hacksburg_pumpkins_01.jpg" height="300"></a>
+<a href="http://wiki.hacksburg.org/_media/hb_pumpkins_01.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/hb_pumpkins_01.jpg" height="300"></a>
 <figcaption>Jenn and Susie carving pumpkins</figcaption>
 </figure>
 
 <figure>
-<a href="http://wiki.hacksburg.org/_media/hacksburg_pumpkins_02.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/hacksburg_pumpkins_02.jpg" height="300"></a>
+<a href="http://wiki.hacksburg.org/_media/hb_pumpkins_02.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/hb_pumpkins_02.jpg" height="300"></a>
 <figcaption>Kurt breaks out the rotary tool to carve an Aperture</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ Last Sunday, we made Jack-O-Lanterns for [the Corporate Research Center's pumpki
 </figure>
 
 <figure>
-<a href="http://wiki.hacksburg.org/_media/hacksburg_pumpkins_05.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/hacksburg_pumpkins_05.jpg" height="300"></a>
+<a href="http://wiki.hacksburg.org/_media/hb_pumpkins_05.jpg"><img class="center" src="http://wiki.hacksburg.org/_media/hb_pumpkins_05.jpg" height="300"></a>
 <figcaption>The complete set of jack-o-lanterns!</figcaption>
 </figure>
 
