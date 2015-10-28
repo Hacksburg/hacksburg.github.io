@@ -9,9 +9,8 @@ Last Sunday, we made Jack-O-Lanterns for [the Corporate Research Center's pumpki
 
 <figure>
 <a href="http://wiki.hacksburg.org/_media/hb_pumpkins_00.jpg"><img class="left" src="http://wiki.hacksburg.org/_media/hb_pumpkins_00.jpg" height="300"></a>
-<figcaption>Nicole and Kurt carving pumpkins</figcaption>
+<figcaption><p>Nicole and Kurt carving pumpkins</p></figcaption>
 </figure>
-<br />
 <figure>
 <a href="http://wiki.hacksburg.org/_media/hb_pumpkins_01.jpg"><img class="left" src="http://wiki.hacksburg.org/_media/hb_pumpkins_01.jpg" height="300"></a>
 <figcaption>Jenn and Susie carving pumpkins</figcaption>
