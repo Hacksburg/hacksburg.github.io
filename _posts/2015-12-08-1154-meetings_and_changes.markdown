@@ -9,8 +9,6 @@ Hello everyone! Tonight, we'll have our general meeting at 7:30 PM at the space.
 
 We'll be talking about upcoming events and projects we've worked on. Hope you can join us!
 
-
-
 In addition, we've made a couple of changes recently:
 
 * First, at our [special meeting on December 1st](https://wiki.hacksburg.org/meetings:meeting_agenda_and_minutes_for_2015-12-01#special_meeting), the [proposed Bylaws changes](https://wiki.hacksburg.org/policy:proposed_bylaws_changes_2015-12-01) passed by a unanimous vote. Therefore, the changes have been incorporated into our Bylaws, which you can view [here](https://wiki.hacksburg.org/policy:bylaws).
