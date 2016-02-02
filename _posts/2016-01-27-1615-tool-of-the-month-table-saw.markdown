@@ -11,6 +11,6 @@ A project idea for you cat (or rabbit) owners - [cat trees](http://www.meow-cat.
 
 What cool projects have you done with a table saw?
 
-Have a project in mind that needs a table saw but do not have one? We offer 5 day memberships. [More information about joining Hacksburg](http://hacksburg.org/join.html)
+Have a project in mind that needs a table saw but do not have one? We offer 5 day memberships. [Here's more information about joining.](http://hacksburg.org/join.html)
 
-Never used a table saw, check out the videos and then join us for our [hand tools and basic woodworking safty class](https://wiki.hacksburg.org/hand_tools_and_basic_woodworking_safety)!
+Never used a table saw? Check out the videos and then join us for our [hand tools and basic woodworking safty class](https://wiki.hacksburg.org/hand_tools_and_basic_woodworking_safety)!
