@@ -1,0 +1,18 @@
+---
+title: Adafruit group buy
+author: Nicole Schwartz
+date: 2016-02-10
+layout: post
+---
+
+We're putting together an [Adafruit](http://adafruit.com/) group buy!
+
+This is open to members and non-members
+
+Why a group buy? We could get 30% off many items.
+
+Please list your name and what items (and quantity) you are interested in [here](https://wiki.hacksburg.org/adafruit_wish_list) - and provide your email privately to [Nicole](mailto:nicole@hacksburg.org).
+
+At the end of Feburary we will assemble an order and see which items are discounted. You can then opt out of non-discounted items.
+
+If we meet the minimum (250) after updating each persons shopping list, we will send the amount each person owes - payment will have a due date, orders will be placed after the collection of funds (via check), pickup will occur at Hacksburg.
