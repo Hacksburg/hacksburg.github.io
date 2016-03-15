@@ -7,7 +7,7 @@ layout: post
 
 Hello everyone! 
 
-Tonight, we'll have our general meeting at 7:30 PM at the space. The agenda is [here](https://wiki.hacksburg.org/meetings:2016-03-18_general_meeting). 
+Tonight, we'll have our general meeting at 7:30 PM at the space. The agenda is [here](https://wiki.hacksburg.org/meetings:2016-03-08_general_meeting). 
 
 We'll be discussing upcoming March events (Hackwood Derby, Homebrewing Demo, 3D printing Class), and making our Adafruit group buy purchase. Payments for those participating are due tonight at the meeting in cash or check. Pickup will be at the space.
 
