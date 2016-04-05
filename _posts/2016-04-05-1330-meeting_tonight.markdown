@@ -11,4 +11,4 @@ Tonight, we'll have our general meeting at 7:30 PM at the space. I wish I could 
 
 As a reminder, the next class in our cosplay series will be this Saturday (April 9th) from Noon-2 PM. This time, local cosplayer and makeup artist Chris DeHart will be holding a Makeup and Prosthetics Workshop. Cost is $10 for the public, $5 for students, and free for members. We hope you can join us!
 
-**Update (4/5 6:49 PM):** The wiki is back up, and the agenda is [here](https://wiki.hacksburg.org/meetings:2016-04-05_general_meeting)
+**Update (4/5 6:49 PM):** The wiki is back up, and the agenda is [here](https://wiki.hacksburg.org/meetings:2016-04-05_general_meeting).
