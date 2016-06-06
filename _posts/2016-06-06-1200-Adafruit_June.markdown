@@ -23,6 +23,7 @@ Timeline
 The List
 
 In order to save a bunch of headache, the list will be on Google Drive. Here's how you can place items to order:
+
   * Go [here](https://docs.google.com/spreadsheets/d/1kYwiL8VUUjOhwPp4ukG80Gye57XLzWO85eTOlvPCW0w/edit#gid=353455354) to access the Google spreadsheet for the items.
   * Make a duplicate of the “Template” worksheet, and rename it to your name.
   * Check out the Adafruit website to see what you want.
