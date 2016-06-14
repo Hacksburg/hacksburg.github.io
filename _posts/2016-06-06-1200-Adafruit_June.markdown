@@ -15,9 +15,9 @@ Adafruit has a hackerspace discount that Hacksburg has qualified for. If Hacksbu
 
 Timeline
 
-  * Now-June 10: Potential buyers get their orders in.
-  * June 10, 5PM EDT: Deadline for new orders. Google doc is locked, and items are checked for availability.
-  * June 17, 7:30 PM EDT: Adafruit finalization meeting. Confirmed buyers come to Hacksburg to finalize orders and pay. Adafruit order is placed that night.
+  * Now-June 17: Potential buyers get their orders in.
+  * June 17, 5PM EDT: Deadline for new orders. Google doc is locked, and items are checked for availability.
+  * June 21, 7:30 PM EDT: Adafruit finalization meeting. Confirmed buyers come to Hacksburg to finalize orders and pay. Adafruit order is placed that night.
   * Late June/Early July: Order arrives at Hacksburg and is divided by buyer; buyers notified to pick up orders at the next Hacksburg meeting.
 
 The List
