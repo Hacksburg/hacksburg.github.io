@@ -11,6 +11,6 @@ First, we'd like to thank all those who volunteered at our booth at Summer Solst
 
 Second, we've extended the deadline for the [Adafruit group buy](https://wiki.hacksburg.org/adafruit_wish_list) to **June 28th**, as we're still a bit short on orders that meet the $250 threshold. This will likely be the last extension; if we don't get any interest after this, the group buy will be cancelled.
 
-Finally, we're havinga general meeting tonight at 7:30 PM at the space. The agenda is [here](https://wiki.hacksburg.org/meetings:2016-06-14_general_meeting). As always, we'll also be talking about what we've worked on the past week, so feel free to bring your projects (or pics thereof) for show-and-tell. After the meeting, we will, as usual, have our open work session, where you can get help with a project you're roadblocked on or hang out with like-minded makers.
+Finally, we're having a general meeting tonight at 7:30 PM at the space. The agenda is [here](https://wiki.hacksburg.org/meetings:2016-06-21_general_meeting). As always, we'll also be talking about what we've worked on the past week, so feel free to bring your projects (or pics thereof) for show-and-tell. After the meeting, we will, as usual, have our open work session, where you can get help with a project you're roadblocked on or hang out with like-minded makers.
 
 Hope to see you there!
