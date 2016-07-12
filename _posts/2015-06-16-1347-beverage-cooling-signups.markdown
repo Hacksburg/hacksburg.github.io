@@ -14,7 +14,7 @@ When: ~~Sunday June 21st 3pm~~ Update: Moved to Saturday July 18th at 6:30pm.
 
 Where: Hacksburg 2200 Kraft Drive, Suite 1475, Blacksburg, VA. 
 
-[Rules](http://wiki.hacksburg.org/beverage_cooling_competition)
+[Rules](http://wiki.hacksburg.org/events:2015:beverage_cooling_competition)
 
 [Sign Up](https://docs.google.com/forms/d/1pZsR5yCmt3hbYEpzOu1gAOpp4V7nXcZMCEOnS6wvZG4/viewform)
 
