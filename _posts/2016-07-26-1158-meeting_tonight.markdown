@@ -1,7 +1,7 @@
 ---
 title: Meeting Tonight, Picnic Heads-Up for Members
 author: Andrew Mike
-date: 2016-07-19
+date: 2016-07-26
 layout: post
 ---
 
