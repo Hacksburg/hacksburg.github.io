@@ -1,7 +1,7 @@
 ---
 title: Meeting Tonight, Space Reserved Saturday
 author: Andrew Mike
-date: 2016-08-09
+date: 2016-08-16
 layout: post
 ---
 
