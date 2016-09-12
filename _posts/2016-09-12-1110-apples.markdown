@@ -15,8 +15,8 @@ Grinder (Thanks John!)
 Which was upgraded to a much easier (on the arms) item this year
  - 2016 [badger 900 insinkerator](https://smile.amazon.com/InSinkErator-Badger-900-Continuous-Disposer/dp/B009IOUN56/ref=sr_1_2?ie=UTF8&qid=1473691699&sr=8-2&keywords=badger+900+insinkerator) mounted in a wooden frame with a lightswitch control
  
-![Image of grinder](https://github.com/Hacksburg/hacksburg.github.io/blob/master/images/apple_01.jpg)
-![Image of grinder](https://github.com/Hacksburg/hacksburg.github.io/blob/master/images/apple_02.jpg)
+![Image of grinder](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/apple_01.jpg)
+![Image of grinder](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/apple_02.jpg)
 
 Press (Thanks Brent!)
  - Wooden frame to hold pressing pots above juice container and below press
@@ -25,8 +25,8 @@ Press (Thanks Brent!)
  - The muslin cloth was then topped with a piece of hardwood cut to fit the plastic container.
  - On top of the hardwood we put a [4 ton bottle jack](https://smile.amazon.com/Torin-T90403-Hydraulic-Bottle-Jack/dp/B000CO9YPG/ref=sr_1_2?ie=UTF8&qid=1473691641&sr=8-2&keywords=4+ton+bottle+jack), and some blocks of wood just to get the right sizing.
  
-![Image of press](https://github.com/Hacksburg/hacksburg.github.io/blob/master/images/apple_03.jpg)
-![Image of press](https://github.com/Hacksburg/hacksburg.github.io/blob/master/images/apple_04.jpg)
+![Image of press](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/apple_03.jpg)
+![Image of press](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/apple_04.jpg)
 
 Does anyone have any good ideas, other than compost or animal feed, for that to do with the juiced pulp after?
 
