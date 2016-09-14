@@ -5,7 +5,7 @@ date: 2016-09-14
 layout: post
 ---
 
-![Here is a little video about Hacksburg](https://www.youtube.com/watch?v=P7zGPgfvnu8)
+[Here is a little video about Hacksburg](https://www.youtube.com/watch?v=P7zGPgfvnu8)
 
 Hacksburg is Blacksburg’s first hackerspace. A hackerspace is just your dream garage, at a fraction of the cost, and full of smart people.
 
