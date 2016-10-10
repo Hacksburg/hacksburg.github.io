@@ -18,7 +18,7 @@ We ended up with the following schedule:
   
 If any speakers want to let us know links to projects discussed or further materials we would be glad to link them. 
 
-https://wiki.hacksburg.org/events:unconference_ii
+[https://wiki.hacksburg.org/events:unconference_ii]
 
 Thank you to all the attendees and our sponors.
 
