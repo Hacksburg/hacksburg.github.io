@@ -1,0 +1,45 @@
+---
+title: Drone Class
+author: Nicole Schwartz
+date: 2016-10-10
+layout: post
+---
+
+Do you want to fly a drone?
+
+Have you ever wanted to get into remote controlled drone aircraft like planes and quadcopters? Not sure where to start? Hacksburg is hosting a class, taught by Stephen Tanner, where you will build your own remote controlled fixed wing plane.
+
+January 28, 2017 9:30am-5pm
+
+Hacksburg - in the CRC at 2200 Kraft Drive, Suite 1475, Blacksburg, VA
+
+Buy Tickets: [http://tilt.tc/3Vbh?s=wb&u=nschwartz42]
+
+For $100 we will supply all the parts needed for you to build and take home a working remote controlled rechargeable fixed wing plane by the end of the class. 
+
+You will also be able to use the skills learned in this class to build and operate drone quadcopters or more complex drone planes.
+
+Items included in your class fee (exact models may change based on availability)
+  * 3x Servos 9g
+  * ESC 12A    
+  * Motor DYS 1806 2300kv    
+  * Receiver/Transmitter    HK 6ch rx    
+  * Battery    850 3S 25c jst    
+  * Foam Board Trainer Airframe    
+  * Charger    2-3s balance charger    
+  * Tape, Hot Glue, exacto, ruler, pencils, erasers, wires, connectors, linkage stoppers, control rods, propellers
+
+Due to shipping time ticket sales for the class with kit will cut off November 26, 2016. We will continue to sell tickets to attend, but not to build, after that date. If you bring all your own parts (as listed in our final purchase list) you will be able to participate but we can not assist with parts that are not the same as ones we have listed if they develop issues as we might not have experience with them.
+
+You may choose to attend the class for the information only, you will not get parts to build the plane but it may help you decide if this a hobby you wish to pursue!
+
+You may also choose to attend the class but get a kit that does NOT include a motor, transmitter or charger. We obviously choose the inexpensive models to keep the class fee low and if you know you want to be in this hobby for a while it would be best if you upgraded your kit right at the beginning. We will provide those who choose this ticket option a list of alternate upgraded parts. You  MUST bring these parts to class with you in order to participate.
+
+Class starts at 10am promptly, suggested arrival 9:30 for registration and collection of kits ends at 5pm. Please pack a brown bag lunch.
+
+Like the idea of classes like this? Support our hackerspace - we are a 501c3 entity and can accept donations (membership and class fees do NOT count as donations).
+
+Buy Tickets: [http://tilt.tc/3Vbh?s=wb&u=nschwartz42]
+
+[Wiki](https://wiki.hacksburg.org/events:drone)
+[Facebook Event](https://www.facebook.com/events/350694268609967/)
