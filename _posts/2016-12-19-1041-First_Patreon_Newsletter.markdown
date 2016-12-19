@@ -7,6 +7,8 @@ layout: post
 
 For our [Patreon](https://www.patreon.com/Hacksburg/) sponsors - The first newsletter is out!
 
+Thank you [Kurt Rooks](https://kurtrooks.com/) and [Nicole Schwartz](http://thedevoteausa.com/) our current sponsors.
+
 Are you not a patron yet? [Join today](https://www.patreon.com/Hacksburg/) and you'll be signed up for January.
 
 You can also donate to us other ways:
