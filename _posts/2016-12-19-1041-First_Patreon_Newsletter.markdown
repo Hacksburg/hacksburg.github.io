@@ -7,13 +7,13 @@ layout: post
 
 For our Patreon sponsors - The first newsletter is out!
 
-https://www.patreon.com/Hacksburg/
+[https://www.patreon.com/Hacksburg/]
 
 Are you not a patron yet? Join today and you'll be signed up for January.
 
 You can also donate to us other ways:
 
-https://wiki.hacksburg.org/donate
+[https://wiki.hacksburg.org/donate]
 
 I hope to see you all tomorrow, December 20 at 8:00pm for Tool Tuesday, following our normal weekly meeting, Laser Engraving 101. This is a presentation on using the laser engraver in the shop. This is free and open to everyone!
 
