@@ -1,5 +1,5 @@
 ---
-title: Tool Tuesday: Introduction to the Oscilloscope 
+title: Tool Tuesday -- Introduction to the Oscilloscope 
 author: Nicole Schwartz
 date: 2017-01-09
 layout: post
