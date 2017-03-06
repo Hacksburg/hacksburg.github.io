@@ -5,7 +5,7 @@ date: 2017-03-06
 layout: post
 ---
 
-March 7th**
+**March 7th**
 
 Magic Wand Contest Awards Party March 7th at 8pm
 
@@ -13,13 +13,13 @@ Join the party that concludes our [Witch and Wizard Wand Contest](https://wiki.h
 
 You can still enter! Channel your inner wizard by making a magic wand that will wow our members! Prizes will be awarded in multiple categories. More details at the link above.
 
-March 11
+**March 11**
 
 Hacksburg Open House 1-4pm 
 
 Stop in to get a tour of our space, some tea or coco, and be able to ask any questions about our organization. This is free and open to everyone!
 
-March 21
+**March 21**
 
 Hacksburg Tool Tuesday - Introduction to 3D printing - 8:00pm
  
@@ -31,7 +31,7 @@ This event will follow our normal weekly meeting (which starts at 7:30pm) and wi
 
 which are always open to anyone! A great time to get a tour or be able to sit down and work on a project.
 
-Directions: 2200 Kraft Drive, Suite 1475, Blacksburg, VA
+**Directions: 2200 Kraft Drive, Suite 1475, Blacksburg, VA**
 
 Take the right turn near the bottom of the hill, right before you get to the bank. This will bring you to the KnowledgeWorks buildings.
 
