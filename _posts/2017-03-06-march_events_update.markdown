@@ -5,23 +5,17 @@ date: 2017-03-06
 layout: post
 ---
 
-**March 7th**
-
-Magic Wand Contest Awards Party March 7th at 8pm
+**March 7th Magic Wand Contest Awards Party March 7th at 8pm**
 
 Join the party that concludes our [Witch and Wizard Wand Contest](https://wiki.hacksburg.org/events:2017:magic_wand_contest).
 
 You can still enter! Channel your inner wizard by making a magic wand that will wow our members! Prizes will be awarded in multiple categories. More details at the link above.
 
-**March 11**
-
-Hacksburg Open House 1-4pm 
+**March 11 Hacksburg Open House 1-4pm**
 
 Stop in to get a tour of our space, some tea or coco, and be able to ask any questions about our organization. This is free and open to everyone!
 
-**March 21**
-
-Hacksburg Tool Tuesday - Introduction to 3D printing - 8:00pm
+**March 21 Hacksburg Tool Tuesday - Introduction to 3D printing - 8:00pm**
  
 Come on out to Hacksburg's monthly Tool Tuesday and learn what 3D printing is, what uses it has, and the basics of doing it from Andrew, a board member.
 
