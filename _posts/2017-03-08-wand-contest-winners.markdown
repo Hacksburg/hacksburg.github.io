@@ -13,7 +13,7 @@ Entries
 ![Wands3](https://github.com/Hacksburg/hacksburg.github.io/blob/master/images/wands3.jpg)
 
 
-- here are the winners
+Here are the winners
 
 Ollivander's Own – Best In Show. #10 dragon 3d printed (6,9 runners up)
 ![Ollivander](https://github.com/Hacksburg/hacksburg.github.io/blob/master/images/Ollivander.jpg)
