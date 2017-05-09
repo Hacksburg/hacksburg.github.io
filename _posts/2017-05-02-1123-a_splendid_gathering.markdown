@@ -1,5 +1,5 @@
 ---
-title: A Spendid Gathering
+title: A Splendid Gathering
 author: Andrew Mike
 date: 2017-05-02
 layout: post
