@@ -1,7 +1,7 @@
 ---
 title: Cider Making Event
 author: John Hutchinson
-date: 2017-09-18
+date: 2017-10-04
 layout: post
 ---
 
