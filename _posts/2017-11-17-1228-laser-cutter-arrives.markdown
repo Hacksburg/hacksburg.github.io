@@ -10,10 +10,15 @@ Hacksburg's new laser cutter has arrived! The unit is an 80W [CAMFive CFL-CMA 24
 Photos:
 
 ![CAMFive1](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/CAMFive1.jpg)
+
 ![CAMFive2](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/CAMFive2.jpg)
+
 ![CAMFive3](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/CAMFive3.jpg)
+
 ![CAMFive1](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/CAMFive4.jpg)
+
 ![CAMFive2](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/CAMFive5.jpg)
+
 ![CAMFive3](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/CAMFive6.jpg)
 
 Thanks to Brent, Rob, and Hany for coming to help out!
