@@ -8,4 +8,4 @@ Hacksburg members attended the Roanoke Raspberry Jam this weekend to celebrate t
 
 ![PiJam1](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/2018_PiFest1.jpg)
 ![PiJam2](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/2018_PiFest2.jpg)
-![PiJam3](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/2018_PiFest3.jpg)
+![PiJam4](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/2018_PiFest4.jpg)
