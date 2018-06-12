@@ -1,5 +1,5 @@
 ---
-title:Summer Solstice!
+title: Summer Solstice!
 author: Jenn McGuire
 date: 2018-06-12
 layout: post
