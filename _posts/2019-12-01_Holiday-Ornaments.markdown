@@ -1,7 +1,7 @@
 ---
 title: DIY Holiday Ornaments
 author: John Hutchinson
-date: 2018-12-01
+date: 2019-12-01
 layout: post
 ---
 
