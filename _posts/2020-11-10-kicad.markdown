@@ -5,7 +5,7 @@ date: 2020-11-10
 layout: post
 ---
 
-![PCB](http://hacksburg.org/images/pcb.png)
+![PCB](http://hacksburg.org/images/pcb.PNG)
 
 Ever wanted to make a professional-quality printed circuit board (PCB) for your electronics project? This class covers what you need to know to get started making your own schematic designs and circuit boards in KiCAD, a free and open source schematic capture and circuit board layout tool used by large groups like CERN and the Raspberry Pi Foundation. We recommend this class for people who have at least a basic level of experience making circuits on a breadboard.
 
