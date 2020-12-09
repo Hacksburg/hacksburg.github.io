@@ -34,7 +34,7 @@ Ordering a Kit
 
 You can order a kit by following this link:
 
-https://docs.google.com/forms/d/e/1FAIpQLScKv0bndwDxoF6bQ-VFkTGzrcV-iRUeDZ74E0mG-fyrYRu9SQ/viewform
+[https://docs.google.com/forms/d/e/1FAIpQLScKv0bndwDxoF6bQ-VFkTGzrcV-iRUeDZ74E0mG-fyrYRu9SQ/viewform](https://docs.google.com/forms/d/e/1FAIpQLScKv0bndwDxoF6bQ-VFkTGzrcV-iRUeDZ74E0mG-fyrYRu9SQ/viewform)
 
 Orders will be taken until December 18, so act now!
 
