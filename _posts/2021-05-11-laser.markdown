@@ -1,0 +1,24 @@
+---
+title: Laser 101 — Make Your Own Rubber Stamps — Online
+author: Max Bareiss
+date: 2021-05-11
+layout: post
+---
+
+![CAMFive](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/laser_2.jpg)
+
+Hacksburg will be hosting a laser cutter class this Sunday. This class offers attendees a tutorial on using the Hacksburg 80W CO<sub>2</sub> Laser Cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own rubber stamps, designed on the computer and cut out on the laser.
+
+This class will not be held in person to encourage social distancing. The class will be held using Jitsi Meet.
+
+Please RSVP if you're planning on attending by sending an email to [rsvp@hacksburg.org](mailto:rsvp@hacksburg.org). The stream will be available at the URL listed below.
+
+**Time**: May 16 from 1:00PM to 4:00PM
+
+**Location**: Online. The class instructor will not be at Hacksburg.
+
+**URL**: <https://meet.hacksburg.org/class>
+
+**Cost**: Free for members; $5 for non-members. Payment online can be done at <https://paypal.me/hacksburg>.
+
+**RSVP**: RSVP by emailing [rsvp@hacksburg.org](mailto:rsvp@hacksburg.org).
