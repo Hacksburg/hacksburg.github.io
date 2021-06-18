@@ -1,0 +1,20 @@
+{
+	"api": "0.13",
+	"space": "Hacksburg",
+	"logo": "http://hacksburg.org/images/hacksburg.png",
+	"url": "http://hacksburg.org/images/hacksburg.png",
+	"location": {
+		"address": "1872 Pratt Drive, Suite 1620, Blacksburg, VA",
+		"lat": 37.201575595766045,
+		"lon": -80.41285242152368
+	},
+	"contact": {
+		"email": "board@hacksburg.org"
+	},
+	"issue_report_channels": ["email"],
+	"state": {
+		"open": true,
+		"lastchange": 1624040948,
+		"message": ""
+	}
+}
