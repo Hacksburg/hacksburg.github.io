@@ -5,7 +5,7 @@ markdown: kramdown
 
 name: Hacksburg
 description: The blog of Blacksburg's Workshop
-url: http://hacksburg.org
+url: https://hacksburg.org
 # baseurl:    http://hacksburg.org
 plugins:
  - jekyll-redirect-from
