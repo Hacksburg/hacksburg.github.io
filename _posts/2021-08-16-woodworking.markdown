@@ -19,6 +19,6 @@ This class is for attendees age 16 and up. Minors will need to have parent/guard
 
 **Online**: This class will only be held in-person.
 
-**Cost**:  Free for Hacksburg members, $5 for non-members.
+**Cost**:  **UPDATED (wood is expensive now)** $10 for Hacksburg members, $15 for non-members.
 
 **RSVP**: Email [rsvp@hacksburg.org](https://hb.gy/YBbRu) or sign up on [Meetup](https://hb.gy/0BSwd)!
