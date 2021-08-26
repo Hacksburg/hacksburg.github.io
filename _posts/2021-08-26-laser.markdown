@@ -1,0 +1,24 @@
+---
+title: Laser 101 — Online and In-Person
+author: Max Bareiss
+date: 2021-08-26
+layout: post
+---
+
+![CAMFive](https://github.com/Hacksburg/hacksburg.github.io/raw/master/images/laser_2.jpg)
+
+Hacksburg will be hosting a laser cutter class this Sunday. This class offers attendees a tutorial on using the Hacksburg 80W CO<sub>2</sub> Laser Cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make a basic laser cutter project, and some time will be available to help class attendees with their own projects.
+
+This will be held as a hybrid class, both in-person and online. The online class will be held using the Jitsi Meet URL below.
+
+Please RSVP if you're planning on attending by sending an email to [rsvp@hacksburg.org](https://hb.gy/5wpjw) or RSVPing on Meetup ([https://www.meetup.com/HacksburgVA/events/278986947](https://hb.gy/Gu3Jw)). The stream will be available at the URL listed below.
+
+**Time**: Sunday, August 29 from 1:00PM to 4:00PM
+
+**Location**: Online and Hacksburg: 1872 Pratt Drive Suite 1700. Come to the back of the building and enter through the double doors marked with our event sign. Masks or other suitable face coverings required for in-person attendance.
+
+**URL**: <https://meet.hacksburg.org/class>
+
+**Cost**: Free for members; $5 for non-members. Payment online can be done at <https://paypal.me/hacksburg>.
+
+**RSVP**: RSVP by emailing [rsvp@hacksburg.org](https://hb.gy/5wpjw) or RSVPing on Meetup ([https://www.meetup.com/HacksburgVA/events/278986947](https://hb.gy/Gu3Jw)).
