@@ -1,5 +1,5 @@
 ---
-title: Canning 101 — Online
+title: Canning 101 — Online and In-Person
 author: Max Bareiss
 date: 2021-09-09
 layout: post
