@@ -6,6 +6,7 @@ layout: post
 ---
 
 ![Deadpool resin printed miniature](//hacksburg.org/images/IMG_0712-1.jpg)
+
 *(printed on our printer! roughly two inches across, for scale)*
 
 &nbsp;
