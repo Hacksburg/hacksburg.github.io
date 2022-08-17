@@ -5,8 +5,8 @@ layout: default
 
   <div class="blog-post">
     <h2 class="blog-post-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-    <p class="blog-post-meta">{{ page.date | date: "%B %-d %Y" }} by {{ page.author }}</p>
     {{ content }}
+    <p class="blog-post-meta">Posted on {{ page.date | date: "%B %-d %Y" }} by {{ page.author }}</p>
   </div><!-- /.blog-post -->
 </div>
 
