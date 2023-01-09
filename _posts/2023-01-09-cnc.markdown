@@ -5,7 +5,7 @@ date: 2023-01-09
 layout: post
 ---
 
-![CNC Machine](//hacksburg.org/images/IMG_3741-1.jpg)
+![CNC Machine](//hacksburg.org/images/IMG_3741-2.jpg)
 
 Hacksburg will be hosting our CNC class on Sunday, January 15.
 Attendees will learn how to do basic CNC operations and think like a machinist.
