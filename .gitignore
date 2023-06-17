@@ -1,3 +1,4 @@
-
-_posts/bs_soap.xml
-wkspce.code-workspace
+*.DS_Store
+*~
+*.swp
+*.swo
