@@ -71,7 +71,7 @@ def json_to_html():
 		html += '\t\t\t\t\t\t<div class="closeable">\n'
 		html += '\t\t\t\t\t\t\t<div class="post_body">\n'
 		if post["image"]:
-			html += f'\t\t\t\t\t\t\t\t<img class="post_image" src="../hacksburg_dot_org/resources/images/{post["image"]}" loading="lazy">\n'
+			html += f'\t\t\t\t\t\t\t\t<img class="post_image" src="/resources/images/{post["image"]}" loading="lazy">\n'
 			html += f'\t\t\t\t\t\t\t\t<div class="post_text">{post["description"]}<br><br>\n'
 		else:
 			html += f'\t\t\t\t\t\t\t\t<div class="post_text" style="width: 100%">{post["description"]}<br><br>\n'

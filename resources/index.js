@@ -1,4 +1,4 @@
-let images = ['../hacksburg_dot_org/resources/images/seedstarting_cropped.jpg', '../hacksburg_dot_org/resources/images/      casting_cropped.jpg', '../hacksburg_dot_org/resources/images/deadpool_cropped.jpg'];
+let images = ['/resources/images/seedstarting_cropped.jpg', '/resources/images/      casting_cropped.jpg', '/resources/images/deadpool_cropped.jpg'];
 let index = 0;
 let imgElement = null;
 
