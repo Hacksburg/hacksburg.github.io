@@ -1,6 +1,21 @@
 {
 	"posts": [
 		{
+			"title": "Weekly Meeting",
+			"subtitle": "See what Hacksburg's all about",
+			"description": "Hacksburg's weekly meeting is open to the public every Tuesday at 7:30pm (online and in person).",
+			"date": "2023-06-20",
+			"start_time": "7:00pm",
+			"end_time": "9:00pm",
+			"offsite_location": null,
+			"offered_online": true,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": "locker_room.jpg",
+			"meetup_link": "https://www.meetup.com/hacksburgva/"
+		},
+		{
 			"title": "Intro to Programming with Python",
 			"subtitle": "Learn the basics of the Python programming language",
 			"description": "Attendees will learn the basics of the Python programming language. Python is an exciting programming language which enables you to program anything from smart light bulbs to the world's largest supercomputers. <p>Laptop required. Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b></p>",
