@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Run build script and upload to pages
+name: Build and upload preview
 
 on:
   # Runs when posts are updated on the default branch
