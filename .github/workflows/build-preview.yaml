@@ -3,7 +3,7 @@ name: Run build script and upload to pages
 
 on:
   # Runs when posts are updated on the default branch
-  pull-request:
+  pull_request:
     types: [opened, synchronize, reopened, closed] # Include closed for cleanup
     branches: ["master"] # Target master branch
     paths:
