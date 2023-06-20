@@ -2,12 +2,12 @@
 name: Run build script and upload to pages
 
 on:
-  # Runs when posts are updated on the default branch
+  # Runs when posts or previews are updated on the default branch
   push:
     branches: ["master"]
     paths:
       - 'posts.json'
-  # Future PR workflow: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#running-your-pull_request_target-workflow-when-a-pull-request-merges
+      - 'pr-preview/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

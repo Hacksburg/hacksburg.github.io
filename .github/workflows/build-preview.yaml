@@ -1,0 +1,49 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Build and upload preview
+concurrency: preview-${{ github.ref }}
+
+on:
+  # Runs when posts are updated on the default branch
+  pull_request:
+    types: [opened, synchronize, reopened, closed] # Include closed for cleanup
+    branches: ["master"] # Target master branch
+    paths:
+      - 'posts.json' # Only on changes to posts file 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # Built and committed here, deployed by master workflow
+  build-and-commit-preview:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # install the python version needed
+      
+      # build.py is only using standard packages
+      # - name: Install python packages
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     pip install -r requirements.txt
+      
+      - name: Execute py script # run main.py
+        run: python build.py
+
+      - name: Copy built files to temp directory
+        run: mkdir -p ./temp && cp index.html $_ && ls ./temp
+
+      # Deploy preview should actually deploy preview, but fails as it does not support deployment with github actions
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./temp
+          preview-branch: master
+          umbrella-dir: pr-preview
+          custom-url: hacksburg.org
+
