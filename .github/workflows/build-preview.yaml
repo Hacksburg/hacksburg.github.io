@@ -38,6 +38,7 @@ jobs:
       - name: Copy built files to temp directory
         run: mkdir -p ./temp && cp index.html $_ && ls ./temp
 
+      # Deploy preview should actually deploy preview, but fails as it does not support deployment with github actions
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
