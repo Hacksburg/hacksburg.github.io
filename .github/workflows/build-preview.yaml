@@ -13,8 +13,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Single deploy job since we're just deploying
-  build-and-deploy-preview:
+  # Built and committed here, deployed by master workflow
+  build-and-commit-preview:
     runs-on: ubuntu-latest
     
     steps:
@@ -45,3 +45,4 @@ jobs:
           preview-branch: master
           umbrella-dir: pr-preview
           custom-url: hacksburg.org
+
