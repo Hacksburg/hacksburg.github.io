@@ -10,8 +10,8 @@
 			"offsite_location": null,
 			"offered_online": false,
 			"offered_in_person": true,
-			"member_price": "0",
-			"non_member_price": "5",
+			"member_price": 0,
+			"non_member_price": 5,
 			"image": "python.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227465/"
 		},
@@ -25,8 +25,8 @@
 			"offsite_location": null,
 			"offered_online": false,
 			"offered_in_person": true,
-			"member_price": "0",
-			"non_member_price": "5",
+			"member_price": 0,
+			"non_member_price": 5,
 			"image": "bicycles.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227436/"
 		},
@@ -40,8 +40,8 @@
 			"offsite_location": null,
 			"offered_online": false,
 			"offered_in_person": true,
-			"member_price": "0",
-			"non_member_price": "5",
+			"member_price": 0,
+			"non_member_price": 5,
 			"image": "3dprinting_2.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227406/"
 		},
