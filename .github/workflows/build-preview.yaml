@@ -1,0 +1,59 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Run build script and upload to pages
+
+on:
+  # Runs when posts are updated on the default branch
+  pull-request:
+    types: [opened, synchronize, reopened, closed] # Include closed for cleanup
+    branches: ["master"] # Target master branch
+    paths:
+      - 'posts.json' # Only on changes to posts file 
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  # Single deploy job since we're just deploying
+  build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # install the python version needed
+      
+      # build.py is only using standard packages
+      # - name: Install python packages
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     pip install -r requirements.txt
+      
+      - name: Execute py script # run main.py
+        run: python build.py
+
+      - name: Copy built files to temp directory
+        run: mkdir -p ./temp && cp index.html $_
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./temp
+          preview-branch: master
+          custom-url: hacksburg.org
