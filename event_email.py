@@ -63,12 +63,24 @@ if __name__ == "__main__":
 
             rsvp = "RSVP at "
 
-            if "<p>" not in post['description']:
-                output += "<p>"+post['description']+f" RSVP at <a href=\"{post['meetup_link']}\">"+post['meetup_link']+"</a> .</p>\n"
+            if post['member_price'] == post['non_member_price']:
+                if post['member_price'] == 0:
+                    price_text = f" No class fee."
+                else:
+                    price_text = f" ${post['member_price']} materials fee."
             else:
-                output += post['description']+f"<p>RSVP at <a href=\"{post['meetup_link']}\">"+post['meetup_link']+"</a> .</p>\n"
+                if post['member_price'] == 0:
+                    price_text = f" Free for Hacksburg members, ${post['non_member_price']} for non-members."
+                else:
+                    price_text = f" ${post['member_price']} for Hacksburg members, ${post['non_member_price']} for non-members."
 
-    output += """Hacksburg is a community makerspace located at 1872 Pratt Drive, Suite 1620. Come to the back of the building. Open meetings for the public are every Tuesday at 7:30PM.
+            if "<p>" not in post['description']:
+                output += "<p>"+post['description']+price_text+f" RSVP at <a href=\"{post['meetup_link']}\">"+post['meetup_link']+"</a> .</p>\n"
+            else:
+                output += post['description']+f"<p>{price_text} RSVP at <a href=\"{post['meetup_link']}\">"+post['meetup_link']+"</a> .</p>\n"
+
+    output += """---
+Hacksburg is a community makerspace located at 1872 Pratt Drive, Suite 1620. Come to the back of the building. Open meetings for the public are every Tuesday at 7:30PM.
 \"\"\"
 
 Thanks,
