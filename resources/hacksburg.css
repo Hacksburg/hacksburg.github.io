@@ -4,8 +4,9 @@
 	--tomato: tomato;
 	--tomato_soup: #ff5537;
 	--white: #ffffff;
-	--offwhite: #f0f0f0;
+	--offwhite: #d5d5d5;
 	--black: #000000;
+	--offblack: #151920;
 }
 
 html{
@@ -13,7 +14,7 @@ html{
 }
 
 ::selection {
-	color: var(--darker_green);;
+	color: var(--darker_green);
 }
 
 @font-face {
@@ -45,6 +46,10 @@ body {
 }
 
 #hacksignia_dark {
+	display: none;
+}
+
+#pushpin_dark {
 	display: none;
 }
 
@@ -163,14 +168,14 @@ body {
 	font-size: 1rem;
 	display: flex;
 	flex-direction: row;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	height: fit-content;
 	transition: background-color .15s ease-in-out;
 }
 
-.calendar_link:hover {
+/*.calendar_link:hover {
 	background-color: var(--offwhite);
-}
+}*/
 
 .circled_date {
 	border-radius: 100%;
@@ -530,6 +535,25 @@ a {
 	display: none;
 }
 
+.closeable {
+	overflow-y: hidden;
+	max-height: 150rem;
+	transition-property: all;
+	transition-duration: .5s;
+}
+
+.closeable_extra_tall {
+	max-height: 250rem;
+}
+
+.closeable_extra_extra_tall {
+	max-height: 350rem;
+}
+
+.closeable.closed {
+	max-height: 0;
+}
+
 @media only screen and (max-width: 66rem){
 	#nav_links {
 		margin-left: 1.5rem;
@@ -650,22 +674,92 @@ a {
 	}
 }
 
-.closeable {
-	overflow-y: hidden;
-	max-height: 150rem;
-	transition-property: all;
-	transition-duration: .5s;
+@media (prefers-color-scheme: dark) {
+	:root {
+		--darker_green: #00b000;	
+	}
+	#hacksignia_light {
+		display: none;
+	}
+	#hacksignia_dark {
+		display: inline-block;
+	}
+	body {
+		background-color: var(--offblack);
+	}
+	#header_text {
+		color: var(--offwhite);
+	}
+	#nav_links > a {
+		color: var(--offwhite);
+	}
+	.rule {
+		background-color: var(--offwhite);
+	}
+	.post_text_rule {
+		background-color: var(--offwhite);
+	}
+	.title_and_subtitle {
+		color: var(--offwhite);
+	}
+	.x {
+		background: var(--offwhite);
+	}
+	.x:after {
+		background: var(--offwhite);
+	}
+	.pushpin {
+		color: var(--offwhite);
+	}
+	.post_text {
+		background-color: var(--offblack);
+		color: var(--offwhite);
+	}
+	.button.disabled {
+		background-color: var(--offblack);
+	}
+	.post {
+		box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.47);
+	}
+	.post_map {
+		filter: invert(100%) grayscale(100%)  opacity(35%) brightness();
+	}
+	.button {
+		--darker_green: #00a000;
+		--lighter_green: #00b000;
+	}
+	#current_page {
+		--black: var(--offwhite);
+	}
+	#pushpin_light {
+		display: none;
+	}
+	#pushpin_dark {
+		display: inline-block;
+	}
+	.calendar_link {
+		background-color: var(--offblack);
+	}
+	.month_and_time {
+		color: var(--offwhite);
+	}
+	.circled_date {
+		background-color: var(--offwhite);
+		color: var(--black);
+	}
+	.post_text_rule_mini {
+		background-color: var(--offwhite);
+	}
+	.past_text {
+		color: var(--offwhite);
+	}
+	.past_line {
+		background-color: var(--offwhite);
+	}
+	.post_image {
+		filter: brightness(75%);
+	}
+	#donation_jar {
+		filter: brightness(75%);
+	}
 }
-
-.closeable_extra_tall {
-	max-height: 250rem;
-}
-
-.closeable_extra_extra_tall {
-	max-height: 350rem;
-}
-
-.closeable.closed {
-	max-height: 0;
-}
-
