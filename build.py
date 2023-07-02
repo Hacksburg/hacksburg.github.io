@@ -22,13 +22,35 @@ def build_index():
 	with open('index.html', 'r') as html_file:
 		lines = html_file.readlines()
 		
+	state = "scanning" # Set initial state
+
 	with open('temp.html', 'w') as file:
 		for line in lines:
-			file.write(line)
-			if line.strip().startswith('<!-- FEED START !-->'):
-				break
-		file.write(json_to_html())		
-		file.write("\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</body>\n</html>")
+			# Get state based on file flags
+			if line.strip().startswith('<!-- ANNOUNCEMENTS START !-->'):
+				file.write(line)
+				state = "announcements"
+			elif line.strip().startswith('<!-- ANNOUNCEMENTS END !-->'):
+				state = "scanning"
+			elif line.strip().startswith('<!-- FEED START !-->'):
+				file.write(line)
+				state = "posts"
+			elif line.strip().startswith('<!-- FEED END !-->'):
+				state = "scanning"
+			
+			# Execute based on state (replace content between start and end tags)
+			if state == "scanning":
+				# Copy exiting file
+				file.write(line)
+			elif state == "announcements":
+				# Write announcement to file
+				file.write(announcements_to_html())
+				state = "waiting" # do nothing
+			elif state == "posts":
+				# Write posts to file
+				file.write(json_to_html())
+				state = "waiting" # do nothing
+				# file.write("\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</body>\n</html>")
 	
 	shutil.move('temp.html', 'index.html')
 		
@@ -119,6 +141,28 @@ def json_to_html():
 		
 		html += '\t\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
+		html += '\t\t\t\t\t\t</div>\n'
+		html += '\t\t\t\t\t</div>\n'
+		
+	return html
+
+def announcements_to_html():
+	with open('posts.json') as json_file:
+		data = json.load(json_file)
+		posts = data['announcements']
+
+	html = ""
+	for post in posts:
+		html += f'\n\t\t\t\t\t<div class="post">\n'
+		html += '\t\t\t\t\t\t<div class="post_header">\n'
+		html += '\t\t\t\t\t\t\t<div class="title_and_subtitle">\n'
+		html += f'\t\t\t\t\t\t\t\t<div class="title">{post["title"]}</div>\n'
+		html += f'\t\t\t\t\t\t\t\t<div class="subtitle">{post["subtitle"]}</div>\n'
+		html += '\t\t\t\t\t\t\t</div>\n'
+		html += '\t\t\t\t\t\t\t<div class="info">ⓘ</div>\n'
+		html += '\t\t\t\t\t\t</div>\n'
+		html += '\t\t\t\t\t\t<div class="post_body">\n'
+		html += f'\t\t\t\t\t\t\t<div class="post_text" style="width: 100%">{post["description"]}<br><br></div>\n'
 		html += '\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t</div>\n'
 		
