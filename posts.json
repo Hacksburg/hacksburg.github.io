@@ -1,16 +1,40 @@
 {
-	"announcements": [
-		{
-			"title": "No Meeting July 4th",
-			"subtitle": "Happy Independence Day!",
-			"description": "The Hacksburg Business Meeting originally scheduled for July 4th is canceled due to the Independence Day holiday. Regular meetings will resume July 11th."
-		}
-	],
+	"announcements": [],
 	"posts": [
+		{
+			"title": "Intro to Slide Rules Mini-class",
+			"subtitle": "",
+			"description": "<p>Learn how to use a slide rule to perform calculations, no electronics required! Slide rules will be provided for a hands-on demonstration, feel free to bring your own.</p><p>Mini-classes are shorter 30-90 minute casual events held after the weekly meeting. They may introduce a new topic, expand on a previous class, or be a forum for discussion. No RSVP required!</p>",
+			"date": "2023-08-01",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
+		},
+		{
+			"title": "Using AI Tools Mini-class",
+			"subtitle": "",
+			"description": "<p>Learn how to access and use AI tools including chatbots and image generators. Will also discuss limitations and risks of these tools. Bring a computer!</p><p>Mini-classes are shorter 30-90 minute casual events held after the weekly meeting. They may introduce a new topic, expand on a previous class, or be a forum for discussion. No RSVP required!</p>",
+			"date": "2023-07-25",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
+		},
 		{
 			"title": "Intro to Programming with Python",
 			"subtitle": "Learn the basics of the Python programming language",
-			"description": "Attendees will learn the basics of the Python programming language. Python is an exciting programming language which enables you to program anything from smart light bulbs to the world's largest supercomputers. <p>Laptop required. Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b></p>",
+			"description": "<p>Attendees will learn the basics of the Python programming language. Python is an exciting programming language which enables you to program anything from smart light bulbs to the world's largest supercomputers.</p> <p>Laptop required. Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b></p>",
 			"date": "2023-07-23",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -23,9 +47,24 @@
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227465/"
 		},
 		{
+			"title": "Future Aerial Transport Mini-class",
+			"subtitle": "",
+			"description": "<p>A time to discuss concepts in future aerial transportation including personal aircraft, alternative fuels, and more!</p><p>Mini-classes are shorter 30-90 minute casual events held after the weekly meeting. They may introduce a new topic, expand on a previous class, or be a forum for discussion. No RSVP required!</p>",
+			"date": "2023-07-18",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
+		},
+		{
 			"title": "Bicycle Repair Day",
 			"subtitle": "Two wheels good!",
-			"description": "Have a bike that needs work? Hacksburg will host a work session to provide help with basic bicycle repair and maintenance. Hacksburg will supply space, tools, cleaners and lubricants; attendees will provide bicycles. Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class and approve all shop tool use.</b>",
+			"description": "<p>Have a bike that needs work? Hacksburg will host a work session to provide help with basic bicycle repair and maintenance. Hacksburg will supply space, tools, cleaners and lubricants; attendees will provide bicycles.</p> <p>Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class and approve all shop tool use.</b></p>",
 			"date": "2023-07-16",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -38,9 +77,24 @@
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227436/"
 		},
 		{
+			"title": "Working with Stepper Motors Mini-class",
+			"subtitle": "",
+			"description": "<p>Learn how stepper motors work, why you would want to use them, and how to add them to your projects.</p><p>Mini-classes are shorter 30-90 minute casual events held after the weekly meeting. They may introduce a new topic, expand on a previous class, or be a forum for discussion. No RSVP required!</p>",
+			"date": "2023-07-11",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
+		},
+		{
 			"title": "3D Printer Community Work Day",
 			"subtitle": "Make your printer harder, better, faster, stronger!",
-			"description": "Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer! Ages 16+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b>",
+			"description": "<p>Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer!</p> <p>Ages 16+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b></p>",
 			"date": "2023-07-09",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -55,7 +109,7 @@
 		{
 			"title": "Leatherworking Basics",
 			"subtitle": "Learn how to make long-lasting leather goods",
-			"description": "Today, most leather hides are discarded and completely wasted, but you can still make many useful things, like shoes, belts, bags, and clothing from leather. This class will cover selecting leather, project planning, cutting, sewing, molding, decoration, and finishing. Attendees can make a cell phone holster or/and a decorative drink coaster, as time permits. Ages 16+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class and approve all shop tool use.</b>",
+			"description": "<p>Today, most leather hides are discarded and completely wasted, but you can still make many useful things, like shoes, belts, bags, and clothing from leather. This class will cover selecting leather, project planning, cutting, sewing, molding, decoration, and finishing. Attendees can make a cell phone holster or/and a decorative drink coaster, as time permits.</p> <p>Ages 16+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class and approve all shop tool use.</b></p>",
 			"date": "2023-06-25",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -70,7 +124,7 @@
 		{
 			"title": "Hacksburg Open House",
 			"subtitle": "Tour our Community Workshop",
-			"description": "Hacksburg is a non-profit Makerspace located in Blacksburg, VA. Started in 2014, we're a community workshop focused on helping creatives and entrepreneurs in the New River Valley complete projects that would otherwise be out of reach. Whether you need equipment, mentorship, or just a place to work, Hacksburg is an accessible, collaborative, and affordable resource where you can build anything from rockets to robots to rocking chairs. Hacksburg members must be 18+, but all ages are welcome at this open house. Attendees under 18 must be accompanied by a parent/guardian for the full duration of their visit.",
+			"description": "<p>Hacksburg is a non-profit Makerspace located in Blacksburg, VA. Started in 2014, we're a community workshop focused on helping creatives and entrepreneurs in the New River Valley complete projects that would otherwise be out of reach. Whether you need equipment, mentorship, or just a place to work, Hacksburg is an accessible, collaborative, and affordable resource where you can build anything from rockets to robots to rocking chairs.</p> <p>Hacksburg members must be 18+, but all ages are welcome at this open house. Attendees under 18 must be accompanied by a parent/guardian for the full duration of their visit.</p>",
 			"date": "2023-06-18",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -85,7 +139,7 @@
 		{
 			"title": "Hacksburg at Summer Solstice Fest",
 			"subtitle": "The summer festival for locals",
-			"description": "Hacksburg will be exhibiting at the Downtown Blacksburg Summer Solstice Fest. Come out and enjoy hands-on activities, locally made products for sale, food trucks, live music, and more! This event is free and family friendly.<br>Learn more at <a href='https://downtownblacksburg.com/index.php/events/summer-solstice-fest'>downtownblacksburg.com</a>.",
+			"description": "Hacksburg will be exhibiting at the Downtown Blacksburg Summer Solstice Fest. Come out and enjoy hands-on activities, locally made products for sale, food trucks, live music, and more! This event is free and family friendly.Learn more at <a href='https://downtownblacksburg.com/index.php/events/summer-solstice-fest'>downtownblacksburg.com</a>.",
 			"date": "2023-06-17",
 			"start_time": "1:00pm",
 			"end_time": "11:00pm",
@@ -100,7 +154,7 @@
 		{
 			"title": "Modern Kites",
 			"subtitle": "These aren't just for the beach!",
-			"description": "Learn how modern kites are designed and constructed using advanced materials. Stunt kites, kiteboarding, and even kite photography will be discussed. This event is open to all ages, but attendees under 18 must be accompanied by a parent/guardian for the full duration of the class.",
+			"description": "Learn how modern kites are designed and constructed using advanced materials. Stunt kites, kiteboarding, and even kite photography will be discussed. <p>This event is open to all ages, but attendees under 18 must be accompanied by a parent/guardian for the full duration of the class.</p>",
 			"date": "2023-06-04",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -115,7 +169,7 @@
 		{
 			"title": "Modifying CAD",
 			"subtitle": "Learn to modify existing models for 3D printing",
-			"description": "There are an incredible variety of 3D models available online for 3D printers. But what if you need to change something about a model to suit your needs? In this class, you'll learn basic and advanced techniques for modifying 3D models.<br><br>This class is intended for ages 16 and up, but younger attendees with 3D printing experience are welcome if you confirm with the board ahead of time (<a href='mailto:board@hacksburg.org'>board@hacksburg.org</a>). Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class.",
+			"description": "There are an incredible variety of 3D models available online for 3D printers. But what if you need to change something about a model to suit your needs? In this class, you'll learn basic and advanced techniques for modifying 3D models. <p>This class is intended for ages 16 and up, but younger attendees with 3D printing experience are welcome if you confirm with the board ahead of time (<a href='mailto:board@hacksburg.org'>board@hacksburg.org</a>). Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class.</p>",
 			"date": "2023-05-21",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -145,7 +199,7 @@
 		{
 			"title": "Resin Printing Basics",
 			"subtitle": "Learn to use Hacksburg's 8K SLA resin printer",
-			"description": "Filament-based 3D printers are capable of making an incredible array of parts, but, for high-detail miniatures, our new resin printer is capable of over 10x the resolution. In this class, you'll learn how to use Hacksburg's resin printer, which kind of parts are best-suited to resin printing, and how these machines differ from filament-based printers.<br><br>This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.",
+			"description": "Filament-based 3D printers are capable of making an incredible array of parts, but, for high-detail miniatures, our new resin printer is capable of over 10x the resolution. In this class, you'll learn how to use Hacksburg's resin printer, which kind of parts are best-suited to resin printing, and how these machines differ from filament-based printers.This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.",
 			"date": "2023-04-30",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -175,7 +229,7 @@
 		{
 			"title": "Intro to CNC Machining",
 			"subtitle": "Learn to use Hacksburg's CNC gantry router",
-			"description": "In part one of our series of CNC classes, attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of Hacksburg's CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will machine a demonstration part.<br><br>This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.",
+			"description": "In part one of our series of CNC classes, attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of Hacksburg's CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will machine a demonstration part.This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.",
 			"date": "2023-04-02",
 			"start_time": "1:00pm",
 			"end_time": "4:30pm",

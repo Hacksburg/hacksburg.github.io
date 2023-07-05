@@ -94,10 +94,11 @@ def json_to_html():
 		html += '\t\t\t\t\t\t\t<div class="post_body">\n'
 		if post["image"]:
 			html += f'\t\t\t\t\t\t\t\t<img class="post_image" src="/resources/images/{post["image"]}" loading="lazy">\n'
-			html += f'\t\t\t\t\t\t\t\t<div class="post_text">{post["description"]}<br><br>\n'
+			html += f'\t\t\t\t\t\t\t\t<div class="post_text">{post["description"]}\n'
 		else:
-			html += f'\t\t\t\t\t\t\t\t<div class="post_text" style="width: 100%">{post["description"]}<br><br>\n'
-				
+			html += f'\t\t\t\t\t\t\t\t<div class="post_text" style="width: 100%">{post["description"]}\n'
+		
+		html += '\t\t\t\t\t\t\t\t\t<p>\n'
 		if date and start_time and end_time:
 			date_obj = datetime.strptime(date, "%Y-%m-%d").date()
 			formatted_date_str = date_obj.strftime(f"%A, %B {date_obj.day}{date_suffix(date_obj.day)}")
@@ -128,6 +129,7 @@ def json_to_html():
 			html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["non_member_price"]}. Pay in person or online at <a href="paypal.me/hacksburg">paypal.me/hacksburg</a>.\n'
 		else:
 			html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["member_price"]} for Hacksburg members; ${post["non_member_price"]} for non-members. Pay in person or online at <a href="paypal.me/hacksburg">paypal.me/hacksburg</a>.\n'
+		html += '\t\t\t\t\t\t\t\t\t</p>\n'
 
 		meetup_link = post["meetup_link"]
 		
@@ -162,7 +164,7 @@ def announcements_to_html():
 		html += '\t\t\t\t\t\t\t<div class="info">ⓘ</div>\n'
 		html += '\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t<div class="post_body">\n'
-		html += f'\t\t\t\t\t\t\t<div class="post_text" style="width: 100%">{post["description"]}<br><br></div>\n'
+		html += f'\t\t\t\t\t\t\t<div class="post_text" style="width: 100%">{post["description"]}</div>\n'
 		html += '\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t</div>\n'
 		
