@@ -361,7 +361,8 @@ a {
 
 .post_text p {
 	padding: 0;
-	margin: 0;
+	/* margin: 0; */
+
 }
 
 .full_width {
