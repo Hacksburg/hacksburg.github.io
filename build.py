@@ -119,22 +119,22 @@ def json_to_html():
 		
 		if post["offered_online"]:
 			html += '\t\t\t\t\t\t\t\t\t<b>URL</b>: '
-			html += '<a href="meet.hacksburg.org/class" target="_blank">meet.hacksburg.org/class</a><br>\n'
+			html += '<a href="https://meet.hacksburg.org/class" target="_blank">meet.hacksburg.org/class</a><br>\n'
 
 		if post["member_price"] == 0 and post["non_member_price"] == 0:
 			html += '\t\t\t\t\t\t\t\t\t<b>Cost</b>: Free!\n'
 		elif post["member_price"] == 0:
-			html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: Free for Hacksburg members; ${post["non_member_price"]} for non-members. Pay in person or online at <a href="paypal.me/hacksburg">paypal.me/hacksburg</a>.\n'
+			html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: Free for Hacksburg members; ${post["non_member_price"]} for non-members. Pay in person or online at <a href="https://paypal.me/hacksburg" target="_blank">paypal.me/hacksburg</a>.\n'
 		elif post["member_price"] == post["non_member_price"]:
-			html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["non_member_price"]}. Pay in person or online at <a href="paypal.me/hacksburg">paypal.me/hacksburg</a>.\n'
+			html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["non_member_price"]}. Pay in person or online at <a href="https://paypal.me/hacksburg" target="_blank">paypal.me/hacksburg</a>.\n'
 		else:
-			html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["member_price"]} for Hacksburg members; ${post["non_member_price"]} for non-members. Pay in person or online at <a href="paypal.me/hacksburg">paypal.me/hacksburg</a>.\n'
+			html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["member_price"]} for Hacksburg members; ${post["non_member_price"]} for non-members. Pay in person or online at <a href="https://paypal.me/hacksburg" target="_blank">paypal.me/hacksburg</a>.\n'
 		html += '\t\t\t\t\t\t\t\t\t</p>\n'
 
 		meetup_link = post["meetup_link"]
 		
 		if post["meetup_link"]:
-			html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp_button" href="{meetup_link}">RSVP on Meetup</a>\n'
+			html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp_button" href="{meetup_link}" target="_blank">RSVP on Meetup</a>\n'
 			html += '\t\t\t\t\t\t\t\t\t<div class="below_button_text">\n'
 			subject = f'RSVP for {post["title"]}'
 			body = f'I am confirming my RSVP for \"{post["title"]}\" on {formatted_date_str} from {time_string}.'
