@@ -35,10 +35,12 @@ body {
 	display: flex;
 	width: fit-content;
 	overflow: hidden;
+	min-height: 6rem;
 }
 
 .hacksignia {
-	max-width: 6rem;
+	width: 6rem;
+	height: 6rem;
 	margin-right:.8rem;
 }
 
@@ -641,7 +643,8 @@ a {
 		font-size: 1.15rem;
 	}
 	.hacksignia {
-		max-width: 4.5rem;
+		width: 4.5rem;
+		height: 4.5rem;
 		margin-right:.8rem;
 	}
 	#header_text > h1 {
@@ -663,6 +666,7 @@ a {
 	#header {
 		padding: 1rem;
 		padding-bottom: 1.4rem;
+		min-height: 4.5rem;
 	}
 	.post {
 		margin-bottom: 4rem;
