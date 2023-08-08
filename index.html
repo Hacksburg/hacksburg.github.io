@@ -7,6 +7,7 @@
 		</title>
 		<link rel="icon" href="/resources/hacksignia_light.svg" type="image/svg+xml">
 		<link rel="stylesheet" type="text/css" href="/resources/hacksburg.css">
+		<script type="text/javascript" src="/resources/home.js"></script>
 		<script type="text/javascript" src="/resources/hacksburg.js"></script>
 		<script type="text/javascript" src="/resources/index.js"></script>
 		<!-- Google tag (gtag.js) -->
@@ -59,13 +60,14 @@
 						</div>
 						<div class="closeable">
 							<div class="post_body">
-								<div id="carousel_container">
-									<img class="post_image carousel" src="/resources/images/seedstarting_cropped.jpg">
-									<div class="carousel_nav">
+								<div id="carousel_container" data-images='["/resources/images/outreach.jpg", "/resources/images/welding.jpg", "/resources/images/lightsaber.jpg"]'>
+									<img class="post_image first" src="/resources/images/outreach.jpg">
+									<img class="post_image second">
+									<div id="carousel_nav">
 										<div class="carousel_nav_inner">
-											<div class="carousel_nav_dot" onclick="this.classList.toggle('active');"></div>
-											<div class="carousel_nav_dot" onclick="this.classList.toggle('active');"></div>
-											<div class="carousel_nav_dot active" onclick="this.classList.toggle('active');"></div>
+											<div class="carousel_nav_dot active"></div>
+											<div class="carousel_nav_dot"></div>
+											<div class="carousel_nav_dot"></div>
 										</div>
 									</div>
 								</div>
@@ -84,7 +86,7 @@
 							</div>
 						</div>
 					</div>
-					
+
 					<!-- FEED START !-->
 
 					<div class="post" data-isodate="2023-08-27">
