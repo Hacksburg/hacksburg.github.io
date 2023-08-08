@@ -61,6 +61,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		var images = JSON.parse(carousel.dataset.images);
 		var dots = carousel.querySelectorAll('.carousel_nav_inner .carousel_nav_dot');
 
+		var firstImage = carousel.querySelector('.post_image.first'); //the image we're transitioning from
+		firstImage.addEventListener('transitionend', function() {
+			this.src = carousel.querySelector('.post_image.second').src;
+			this.style.opacity = '1';
+			carousel.setAttribute('data_isTransitioning', 'false');
+		});
+
 		function advanceCarouselTo(index) {
 			var dot = dots[index];
 			var isTransitioning = carousel.getAttribute('data_isTransitioning');
@@ -77,16 +84,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			var secondImage = carousel.querySelector('.post_image.second'); //the image we're transitioning to
 			secondImage.src = images[index];
 
-			var firstImage = carousel.querySelector('.post_image.first'); //the image we're transitioning from
 			firstImage.style.transition = 'opacity 700ms';
 			carousel.setAttribute('data_isTransitioning', 'true');
 			firstImage.style.opacity = '0';
-
-			firstImage.addEventListener('transitionend', function() {
-				this.src = secondImage.src;
-				this.style.opacity = '1';
-				carousel.setAttribute('data_isTransitioning', 'false');
-			}, { once: true });
 		}
 
 		dots.forEach(function(dot, index) {
@@ -111,5 +111,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 		var autoAdvanceInterval = setInterval(autoAdvance, 5000); // Start auto-advancement
 	}
+
 
 });
