@@ -206,6 +206,12 @@ body {
 	color: var(--white);
 }
 
+.title_and_subtitle_wrapper {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
 .title {
 	font-family: Electrolize;
 	font-size: 1.9rem;
