@@ -8,7 +8,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	// Iterate through the images array and preload each one
 	for(var i = 0; i < images.length; i++) {
 		new Image().src = images[i];
-		console.log(images[i]);
 	}
 	
 	// Get all posts with the 'data-isodate' attribute
@@ -65,12 +64,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		firstImage.addEventListener('transitionend', function() {
 			this.src = carousel.querySelector('.post_image.second').src;
 			this.style.opacity = '1';
-			carousel.setAttribute('data_isTransitioning', 'false');
+			carousel.setAttribute('data-isTransitioning', 'false');
 		});
 
 		function advanceCarouselTo(index) {
 			var dot = dots[index];
-			var isTransitioning = carousel.getAttribute('data_isTransitioning');
+			var isTransitioning = carousel.getAttribute('data-isTransitioning');
 
 			if (isTransitioning === 'true' || dot.classList.contains('active')) {
 				return; //ignore clicks during transition
@@ -85,7 +84,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			secondImage.src = images[index];
 
 			firstImage.style.transition = 'opacity 700ms';
-			carousel.setAttribute('data_isTransitioning', 'true');
+			carousel.setAttribute('data-isTransitioning', 'true');
 			firstImage.style.opacity = '0';
 		}
 
