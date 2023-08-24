@@ -510,21 +510,6 @@
 			"non_member_price": 20,
 			"image": "seedstarting.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/291358474/"
-		},
-		{
-			"title": "Template",
-			"subtitle": "",
-			"description": "<p>Description</p><p>This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.</p>",
-			"date": "1970-08-27",
-			"start_time": "1:00pm",
-			"end_time": "4:00pm",
-			"offsite_location": null,
-			"offered_online": false,
-			"offered_in_person": true,
-			"member_price": 0,
-			"non_member_price": 5,
-			"image": null,
-			"meetup_link": null
 		}
 	]
 }
