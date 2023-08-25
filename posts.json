@@ -2,6 +2,21 @@
 	"announcements": [],
 	"posts": [
 		{
+			"title": "Hacksburg Halloween",
+			"subtitle": "\ud83d\udc7b Get your spook on \ud83c\udf83",
+			"description": "<p>Show off your coolest costume at the weekly meeting, bonus points for DIY! Bring a (small) pumpkin and get it laser engraved on Hacksburg's laser cutter.</p><p>Join online at <a href=https://meet.hacksburg.org/OpenGroupMeeting>meet.hacksburg.org/OpenGroupMeeting</a></p><p>No RSVP required!</p>",
+			"date": "2023-10-31",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
+		},
+		{
 			"title": "Fermentation and Hard Cider Basics",
 			"subtitle": "Intro to Homebrewing",
 			"description": "<p>We will cover the basics of turning apple cider (and other fruit juices) into an alcoholic drink. Works great with fresh cider from the Ninth Annual Hacksburg Cider Making!</p> <p>This class is for attendees age 21 and up. No underage class attendees permitted.</p>",
@@ -15,6 +30,21 @@
 			"non_member_price": 5,
 			"image": "apple_05.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657924/"
+		},
+		{
+			"title": "Intro to Solar Power",
+			"subtitle": "Clean energy from the sun",
+			"description": "<p>A group discussion of solar power from grid-scale, to rooftop, to portable and how you can get started.</p><p>Join online at <a href=https://meet.hacksburg.org/OpenGroupMeeting>meet.hacksburg.org/OpenGroupMeeting</a></p><p>Mini-classes are shorter 30-90 minute casual events held after the weekly meeting. They may introduce a new topic, expand on a previous class, or be a forum for discussion. No RSVP required!</p>",
+			"date": "2023-10-24",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
 		},
 		{
 			"title": "Ninth Annual Hacksburg Cider Making",
@@ -47,6 +77,36 @@
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657877/"
 		},
 		{
+			"title": "Apple Grinder Prep",
+			"subtitle": "Apples go brrr",
+			"description": "<p>Help replace the motor on Hacksburg's apple grinder in preparation for cider making.</p><p>No RSVP required!</p>",
+			"date": "2023-10-10",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
+		},
+		{
+			"title": "Working with LEDs",
+			"subtitle": "Give your costume a glow-up",
+			"description": "<p>Learn about the types of LED lights and how to integrate them into costumes and cosplay.</p><p>Join online at <a href=https://meet.hacksburg.org/OpenGroupMeeting>meet.hacksburg.org/OpenGroupMeeting</a></p><p>Mini-classes are shorter 30-90 minute casual events held after the weekly meeting. They may introduce a new topic, expand on a previous class, or be a forum for discussion. No RSVP required!</p>",
+			"date": "2023-10-03",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
+		},
+		{
 			"title": "3D Printer Community Work Day",
 			"subtitle": "Make your printer harder, better, faster, stronger!",
 			"description": "<p>Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer!</p> <p>Instructions on how to customize and compile firmware for your 3D printer will also be presented.</p> <p>This class is for attendees age 16 and up. <strong>If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class.</strong></p>",
@@ -75,6 +135,21 @@
 			"non_member_price": 0,
 			"image": "foam_mask.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657977/"
+		},
+		{
+			"title": "Photogrammetry",
+			"subtitle": "3D scans from your camera",
+			"description": "<p>A group discussion of the tools and techniques for photogrammetry, a method of extracting 3D information from photographs.</p><p>Join online at <a href=https://meet.hacksburg.org/OpenGroupMeeting>meet.hacksburg.org/OpenGroupMeeting</a></p><p>Mini-classes are shorter 30-90 minute casual events held after the weekly meeting. They may introduce a new topic, expand on a previous class, or be a forum for discussion. No RSVP required!</p>",
+			"date": "2023-09-26",
+			"start_time": "8:30pm",
+			"end_time": "9:30pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": null,
+			"meetup_link": null
 		},
 		{
 			"title": "Animation in Blender",
