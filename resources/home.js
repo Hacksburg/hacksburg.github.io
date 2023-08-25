@@ -53,43 +53,46 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		parent.appendChild(post);
 	}
 	
-	//handle image carousel
-	var carousel = document.querySelector('#carousel_container');
-	if (carousel && carousel.hasAttribute('data-images')) {
-		var carousel_autoadvance = true;
-		var images = JSON.parse(carousel.dataset.images);
-		var dots = carousel.querySelectorAll('.carousel_nav_inner .carousel_nav_dot');
+	// Handle image carousel
+	let carousel = document.querySelector('#carousel_container');
 
-		var firstImage = carousel.querySelector('.post_image.first'); //the image we're transitioning from
-		firstImage.addEventListener('transitionend', function() {
-			this.src = carousel.querySelector('.post_image.second').src;
-			this.style.opacity = '1';
-			carousel.setAttribute('data-isTransitioning', 'false');
-		});
+	if (carousel && carousel.hasAttribute('data-images')) {
+		let carousel_autoadvance = true;
+		let images = JSON.parse(carousel.dataset.images);
+		let dots = carousel.querySelectorAll('.carousel_nav_inner .carousel_nav_dot');
+		let firstImage = carousel.querySelector('.post_image.first'); // The image we're transitioning from
+		let secondImage = carousel.querySelector('.post_image.second'); // The image we're transitioning to
+	
+		let isTransitioning = false;
+
+		function endTransition() {
+			// Reset states after transition
+			firstImage.style.transition = 'opacity 0ms';
+			firstImage.src = secondImage.src;
+			firstImage.style.opacity = '1';
+			isTransitioning = false;
+		}
 
 		function advanceCarouselTo(index) {
-			var dot = dots[index];
-			var isTransitioning = carousel.getAttribute('data-isTransitioning');
-
-			if (isTransitioning === 'true' || dot.classList.contains('active')) {
-				return; //ignore clicks during transition
+			if (isTransitioning || dots[index].classList.contains('active')) {
+				return; // Ignore clicks during transition
 			}
 
-			carousel.querySelectorAll('.carousel_nav_inner .carousel_nav_dot.active').forEach(function(activeDot) {
-				activeDot.classList.remove('active');
-			});
+			isTransitioning = true;
+			dots.forEach((dot) => dot.classList.remove('active'));
+			dots[index].classList.add('active');
+			
+			setTimeout(() => {
+				endTransition();
+			}, 700); // Match this time with the duration of the CSS transition
 
-			dot.classList.add('active');
-			var secondImage = carousel.querySelector('.post_image.second'); //the image we're transitioning to
 			secondImage.src = images[index];
-
 			firstImage.style.transition = 'opacity 700ms';
-			carousel.setAttribute('data-isTransitioning', 'true');
 			firstImage.style.opacity = '0';
 		}
 
-		dots.forEach(function(dot, index) {
-			dot.addEventListener('click', function() {
+		dots.forEach((dot, index) => {
+			dot.addEventListener('click', () => {
 				advanceCarouselTo(index);
 
 				// Stop auto-advancement on user interaction
@@ -103,13 +106,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		function autoAdvance() {
 			if (!carousel_autoadvance) return;
 
-			var activeDotIndex = Array.from(dots).findIndex(dot => dot.classList.contains('active'));
-			var nextIndex = (activeDotIndex + 1) % dots.length;
+			let activeDotIndex = Array.from(dots).findIndex((dot) => dot.classList.contains('active'));
+			let nextIndex = (activeDotIndex + 1) % dots.length;
 			advanceCarouselTo(nextIndex);
 		}
 
-		var autoAdvanceInterval = setInterval(autoAdvance, 5000); // Start auto-advancement
+		let autoAdvanceInterval = setInterval(autoAdvance, 5000); // Start auto-advancement
 	}
-
 
 });
