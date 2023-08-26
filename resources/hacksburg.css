@@ -321,6 +321,11 @@ body {
 	margin-top: 0;
 }
 
+.post_text a {
+	word-wrap:break-word;
+}
+
+
 .post_text p:last-child {
 	margin-bottom: 0;
 }
