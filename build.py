@@ -108,7 +108,7 @@ def json_to_html():
 		
 		if cancelled:
 			html += f'<s>{post["description"]}</s>\n'
-			html += '\t\t\t\t\t\t\t\t<br><p><b>This event has been cancelled.</b></p>\n'
+			html += '\t\t\t\t\t\t\t\t\t<br><p><b>This event has been cancelled.</b></p>\n'
 		else:
 			html += f'{post["description"]}\n'
 		
