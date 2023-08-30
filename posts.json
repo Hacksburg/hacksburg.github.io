@@ -14,7 +14,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Fermentation and Hard Cider Basics",
@@ -29,7 +30,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "apple_05.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657924/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657924/",
+			"cancelled": false
 		},
 		{
 			"title": "Intro to Solar Power",
@@ -44,7 +46,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Ninth Annual Hacksburg Cider Making",
@@ -59,7 +62,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "2018_cidermaking.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657883/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657883/",
+			"cancelled": false
 		},
 		{
 			"title": "Ninth Annual Hacksburg Cider Making",
@@ -74,7 +78,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "2018_cidermaking.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657877/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657877/",
+			"cancelled": false
 		},
 		{
 			"title": "Apple Grinder Prep",
@@ -89,7 +94,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Working with LEDs",
@@ -104,7 +110,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "3D Printer Community Work Day",
@@ -119,7 +126,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "3dprinting_2.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657691/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657691/",
+			"cancelled": false
 		},
 		{
 			"title": "Costume and Cosplay Tips and Tricks",
@@ -134,7 +142,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "foam_mask.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657977/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657977/",
+			"cancelled": false
 		},
 		{
 			"title": "Photogrammetry",
@@ -149,7 +158,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Animation in Blender",
@@ -164,7 +174,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "blender.png",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657658/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657658/",
+			"cancelled": false
 		},
 		{
 			"title": "Maple Tree Identification Walk",
@@ -179,7 +190,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "maple.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657828/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657828/",
+			"cancelled": false
 		},
 		{
 			"title": "DIY Home Maintenance",
@@ -194,7 +206,8 @@
 			"member_price": 5,
 			"non_member_price": 10,
 			"image": "home_maintenance.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657781/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657781/",
+			"cancelled": false
 		},
 		{
 			"title": "Laser Taco Tuesday",
@@ -209,7 +222,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "laser_taco_tuesday.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295658678/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295658678/",
+			"cancelled": false
 		},
 		{
 			"title": "Laser Cutter 101",
@@ -224,7 +238,8 @@
 			"member_price": 10,
 			"non_member_price": 15,
 			"image": "laser_3.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657648/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657648/",
+			"cancelled": false
 		},
 		{
 			"title": "Hacksburg Open House",
@@ -239,7 +254,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "laser_room.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295210629/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295210629/",
+			"cancelled": false
 		},
 		{
 			"title": "Intro to CNC Machining",
@@ -254,7 +270,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "cnc.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114339/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114339/",
+			"cancelled": false
 		},
 		{
 			"title": "Canning Basics",
@@ -269,7 +286,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "canning.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114326/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114326/",
+			"cancelled": false
 		},
 		{
 			"title": "Forest Maintenance Discussion",
@@ -284,7 +302,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Animation in Blender",
@@ -299,7 +318,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "blender.png",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114315/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114315/",
+			"cancelled": false
 		},
 		{
 			"title": "E-Commerce Mini-class",
@@ -314,7 +334,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Basic Web Development",
@@ -329,7 +350,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "python.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114282/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114282/",
+			"cancelled": true
 		},
 		{
 			"title": "Intro to Slide Rules Mini-class",
@@ -344,7 +366,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Using AI Tools Mini-class",
@@ -359,7 +382,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Intro to Programming with Python",
@@ -374,7 +398,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "python.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227465/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227465/",
+			"cancelled": false
 		},
 		{
 			"title": "Future Aerial Transport Mini-class",
@@ -389,7 +414,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "Bicycle Repair Day",
@@ -404,7 +430,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "bicycles.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227436/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227436/",
+			"cancelled": false
 		},
 		{
 			"title": "Working with Stepper Motors Mini-class",
@@ -419,7 +446,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": null,
-			"meetup_link": null
+			"meetup_link": null,
+			"cancelled": false
 		},
 		{
 			"title": "3D Printer Community Work Day",
@@ -434,7 +462,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "3dprinting_2.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227406/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227406/",
+			"cancelled": false
 		},
 		{
 			"title": "Leatherworking Basics",
@@ -449,7 +478,8 @@
 			"member_price": 5,
 			"non_member_price": 5,
 			"image": "leatherworking.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/294089600/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/294089600/",
+			"cancelled": false
 		},
 		{
 			"title": "Hacksburg Open House",
@@ -464,7 +494,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "locker_room.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997582/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997582/",
+			"cancelled": false
 		},
 		{
 			"title": "Hacksburg at Summer Solstice Fest",
@@ -479,7 +510,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "summer_solstice_fest.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/293868702/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/293868702/",
+			"cancelled": false
 		},
 		{
 			"title": "Modern Kites",
@@ -494,7 +526,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "modern_kites.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380255/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380255/",
+			"cancelled": false
 		},
 		{
 			"title": "Modifying CAD",
@@ -509,7 +542,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "modifying_cad.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997667/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997667/",
+			"cancelled": false
 		},
 		{
 			"title": "Building Radios",
@@ -524,7 +558,8 @@
 			"member_price": 5,
 			"non_member_price": 10,
 			"image": "radio.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997547/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997547/",
+			"cancelled": false
 		},
 		{
 			"title": "Resin Printing Basics",
@@ -539,7 +574,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "deadpool_cropped.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380272/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380272/",
+			"cancelled": false
 		},
 		{
 			"title": "Synthesizer Mini-Class",
@@ -554,7 +590,8 @@
 			"member_price": 0,
 			"non_member_price": 0,
 			"image": "synthesizer.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380091/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380091/",
+			"cancelled": false
 		},
 		{
 			"title": "Intro to CNC Machining",
@@ -569,7 +606,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"image": "cnc.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380004/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380004/",
+			"cancelled": false
 		},
 		{
 			"title": "Seedstarting and Gardening Basics",
@@ -584,7 +622,8 @@
 			"member_price": 15,
 			"non_member_price": 20,
 			"image": "seedstarting.jpg",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/291358474/"
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/291358474/",
+			"cancelled": false
 		}
 	]
 }
