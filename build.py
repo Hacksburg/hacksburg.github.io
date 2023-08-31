@@ -61,21 +61,20 @@ def json_to_html():
 
 	html = ""
 	for post in posts:
-		date = post["date"]
+		date = datetime.strptime(post["date"], '%Y-%m-%d')
 		start_time = post["start_time"]
 		end_time = post["end_time"]
 		cancelled = post["cancelled"]
 
+		# Header
 		html += f'\n\t\t\t\t\t<div class="post" data-isodate="{date}">\n'
 		html += '\t\t\t\t\t\t<div class="post_header">\n'
 		
 		if date and start_time and end_time:
-			calendar_day = datetime.strptime(post["date"], '%Y-%m-%d').day
 			html += f'\t\t\t\t\t\t\t<div class="calendar_link noselect">\n'
-			html += f'\t\t\t\t\t\t\t\t<div class="circled_date">{calendar_day}</div>\n'
-			
-			month_int = int(post["date"].split("-")[1])
-			month = datetime(month=month_int, day=1, year=1).strftime('%B')
+			html += f'\t\t\t\t\t\t\t\t<div class="circled_date">{date.day}</div>\n'
+
+			month = date.strftime('%B')
 			html += f'\t\t\t\t\t\t\t\t<div class="month_and_time">{month}<br>\n'
 			
 			time_string = start_time + " - " + end_time if start_time[-2:] != end_time[-2:] else start_time[:-2] + " - " + end_time
@@ -83,6 +82,7 @@ def json_to_html():
 			html += '\t\t\t\t\t\t\t\t</div>\n'
 			html += '\t\t\t\t\t\t\t</div>\n'
 
+		# Title
 		html += '\t\t\t\t\t\t\t<div class="title_and_subtitle_wrapper">\n'
 		html += '\t\t\t\t\t\t\t\t<div class="title_and_subtitle">\n'
 		html += f'\t\t\t\t\t\t\t\t\t<div class="title">'
@@ -96,6 +96,8 @@ def json_to_html():
 		html += '\t\t\t\t\t\t\t\t<div class="x"></div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t</div>\n'
+
+		# Image
 		html += '\t\t\t\t\t\t<div class="closeable">\n'
 		html += '\t\t\t\t\t\t\t<div class="post_body">\n'
 		if post["image"]:
@@ -106,17 +108,18 @@ def json_to_html():
 		else:
 			html += ' style="width: 100%">'
 		
+		# Description
 		if cancelled:
 			html += f'<s>{post["description"]}</s>\n'
 			html += '\t\t\t\t\t\t\t\t\t<br><p><b>This event has been cancelled.</b></p>\n'
 		else:
 			html += f'{post["description"]}\n'
 		
+		# Event details (time, location, cost)
 		if not cancelled:
 			html += '\t\t\t\t\t\t\t\t\t<p>\n'
 			if date and start_time and end_time:
-				date_obj = datetime.strptime(date, "%Y-%m-%d").date()
-				formatted_date_str = date_obj.strftime(f"%A, %B {date_obj.day}{date_suffix(date_obj.day)}")
+				formatted_date_str = date.strftime(f"%A, %B %d{date_suffix(date.day)}")
 				html += f'\t\t\t\t\t\t\t\t\t<b>Time</b>: {formatted_date_str} from {time_string}<br>\n'
 			
 			location_str = ""
@@ -146,11 +149,10 @@ def json_to_html():
 				html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["member_price"]} for Hacksburg members; ${post["non_member_price"]} for non-members. Pay in person or online at <a href="https://paypal.me/hacksburg" target="_blank">paypal.me/hacksburg</a>.\n'
 			html += '\t\t\t\t\t\t\t\t\t</p>\n'
 
-		meetup_link = post["meetup_link"]
-		
+		# Meetup/RSVP link
 		if post["meetup_link"]:
 			if not cancelled:
-				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp_button" href="{meetup_link}" target="_blank">RSVP on Meetup</a>\n'
+				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp_button" href="{post["meetup_link"]}" target="_blank">RSVP on Meetup</a>\n'
 				html += '\t\t\t\t\t\t\t\t\t<div class="below_button_text">\n'
 				subject = f'RSVP for {post["title"]}'
 				body = f'I am confirming my RSVP for \"{post["title"]}\" on {formatted_date_str} from {time_string}.'
@@ -158,7 +160,7 @@ def json_to_html():
 				html += '\t\t\t\t\t\t\t\t\t</div>\n'
 
 			else:
-				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp_button disabled" href="{meetup_link}" target="_blank">View on Meetup</a>\n'
+				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp_button disabled" href="{post["meetup_link"]}" target="_blank">View on Meetup</a>\n'
 		
 		html += '\t\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
