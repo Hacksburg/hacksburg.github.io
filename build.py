@@ -192,18 +192,22 @@ def announcements_to_html():
 	return html
 
 def date_suffix(day):
-    if 4 <= day <= 20 or 24 <= day <= 30:
-        return "th"
-    else:
-        return ["st", "nd", "rd"][day%10 - 1]
-        
-        import urllib.parse
+	if 11 <= day <= 13:
+		return "th"
+	last_digit = day % 10
+	if last_digit == 1:
+		return "st"
+	elif last_digit == 2:
+		return "nd"
+	elif last_digit == 3:
+		return "rd"
+	else:
+		return "th"
 
 def build_mailto(subject, body):
-    subject = urllib.parse.quote(subject)
-    body = urllib.parse.quote(body)
-    return f'mailto:rsvp@hacksburg.org?subject={subject}&body={body}'
-
+	subject = urllib.parse.quote(subject)
+	body = urllib.parse.quote(body)
+	return f'mailto:rsvp@hacksburg.org?subject={subject}&body={body}'
 
 if __name__ == "__main__":
 	build_index()
