@@ -119,7 +119,7 @@ def json_to_html():
 		if not cancelled:
 			html += '\t\t\t\t\t\t\t\t\t<p>\n'
 			if date and start_time and end_time:
-				formatted_date_str = date.strftime(f"%A, %B %d{date_suffix(date.day)}")
+				formatted_date_str = f"{date.strftime('%A')}, {date.strftime('%B')} {date.day}{date_suffix(date.day)}"
 				html += f'\t\t\t\t\t\t\t\t\t<b>Time</b>: {formatted_date_str} from {time_string}<br>\n'
 			
 			location_str = ""
