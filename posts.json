@@ -500,7 +500,7 @@
 		{
 			"title": "Hacksburg at Summer Solstice Fest",
 			"subtitle": "The summer festival for locals",
-			"description": "Hacksburg will be exhibiting at the Downtown Blacksburg Summer Solstice Fest. Come out and enjoy hands-on activities, locally made products for sale, food trucks, live music, and more! This event is free and family friendly.Learn more at <a href='https://downtownblacksburg.com/index.php/events/summer-solstice-fest'>downtownblacksburg.com</a>.",
+			"description": "<p>Hacksburg will be exhibiting at the Downtown Blacksburg Summer Solstice Fest. Come out and enjoy hands-on activities, locally made products for sale, food trucks, live music, and more! This event is free and family friendly.Learn more at <a href='https://downtownblacksburg.com/index.php/events/summer-solstice-fest'>downtownblacksburg.com</a>.</p>",
 			"date": "2023-06-17",
 			"start_time": "1:00pm",
 			"end_time": "11:00pm",
@@ -516,7 +516,7 @@
 		{
 			"title": "Modern Kites",
 			"subtitle": "These aren't just for the beach!",
-			"description": "Learn how modern kites are designed and constructed using advanced materials. Stunt kites, kiteboarding, and even kite photography will be discussed. <p>This event is open to all ages, but attendees under 18 must be accompanied by a parent/guardian for the full duration of the class.</p>",
+			"description": "<p>Learn how modern kites are designed and constructed using advanced materials. Stunt kites, kiteboarding, and even kite photography will be discussed.</p><p>This event is open to all ages, but attendees under 18 must be accompanied by a parent/guardian for the full duration of the class.</p>",
 			"date": "2023-06-04",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -532,7 +532,7 @@
 		{
 			"title": "Modifying CAD",
 			"subtitle": "Learn to modify existing models for 3D printing",
-			"description": "There are an incredible variety of 3D models available online for 3D printers. But what if you need to change something about a model to suit your needs? In this class, you'll learn basic and advanced techniques for modifying 3D models. <p>This class is intended for ages 16 and up, but younger attendees with 3D printing experience are welcome if you confirm with the board ahead of time (<a href='mailto:board@hacksburg.org'>board@hacksburg.org</a>). Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class.</p>",
+			"description": "<p>There are an incredible variety of 3D models available online for 3D printers. But what if you need to change something about a model to suit your needs? In this class, you'll learn basic and advanced techniques for modifying 3D models.</p><p>This class is intended for ages 16 and up, but younger attendees with 3D printing experience are welcome if you confirm with the board ahead of time (<a href='mailto:board@hacksburg.org'>board@hacksburg.org</a>). Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class.</p>",
 			"date": "2023-05-21",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -548,7 +548,7 @@
 		{
 			"title": "Building Radios",
 			"subtitle": "A hands-on lesson in electromagnetism",
-			"description": "In this class, attendees will build radios in groups while learning the basics of how sound is transmitted using electromagnetic waves. Digital data transmission (Wi-Fi, Bluetooth, etc) will be surveyed with enough information to ignite future learning. Ages 14+.",
+			"description": "<p>In this class, attendees will build radios in groups while learning the basics of how sound is transmitted using electromagnetic waves. Digital data transmission (Wi-Fi, Bluetooth, etc) will be surveyed with enough information to ignite future learning. Ages 14+.</p>",
 			"date": "2023-05-07",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -564,7 +564,7 @@
 		{
 			"title": "Resin Printing Basics",
 			"subtitle": "Learn to use Hacksburg's 8K SLA resin printer",
-			"description": "Filament-based 3D printers are capable of making an incredible array of parts, but, for high-detail miniatures, our new resin printer is capable of over 10x the resolution. In this class, you'll learn how to use Hacksburg's resin printer, which kind of parts are best-suited to resin printing, and how these machines differ from filament-based printers.This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.",
+			"description": "<p>Filament-based 3D printers are capable of making an incredible array of parts, but, for high-detail miniatures, our new resin printer is capable of over 10x the resolution. In this class, you'll learn how to use Hacksburg's resin printer, which kind of parts are best-suited to resin printing, and how these machines differ from filament-based printers.</p><p>This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.<p>",
 			"date": "2023-04-30",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -580,7 +580,7 @@
 		{
 			"title": "Synthesizer Mini-Class",
 			"subtitle": "Bebop to the boolean boogie",
-			"description": "Learn how to make a basic electronic synthesizer by connecting digital and analog electronic components in ways their designers never intended! Attendees will learn the basics of synthesizers and how they are implemented in this informal class after the regular Tuesday meeting.",
+			"description": "<p>Learn how to make a basic electronic synthesizer by connecting digital and analog electronic components in ways their designers never intended! Attendees will learn the basics of synthesizers and how they are implemented in this informal class after the regular Tuesday meeting.</p>",
 			"date": "2023-04-04",
 			"start_time": "8:30pm",
 			"end_time": "10:30pm",
@@ -596,7 +596,7 @@
 		{
 			"title": "Intro to CNC Machining",
 			"subtitle": "Learn to use Hacksburg's CNC gantry router",
-			"description": "In part one of our series of CNC classes, attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of Hacksburg's CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will machine a demonstration part.This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.",
+			"description": "<p>In part one of our series of CNC classes, attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of Hacksburg's CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will machine a demonstration part.</p><p>This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.</p>",
 			"date": "2023-04-02",
 			"start_time": "1:00pm",
 			"end_time": "4:30pm",
@@ -612,7 +612,7 @@
 		{
 			"title": "Seedstarting and Gardening Basics",
 			"subtitle": "Learn how to grow your own food",
-			"description": "Get ready for garden season by learning how to start your own plants from seed. Starting from seed saves money and increases the variety of plants you can grow! This class will also cover basic garden prep information such as mixing soil and making planters. The class fee covers a seed-starting kit and seeds. Feel free to bring your own seeds as well!",
+			"description": "<p>Get ready for garden season by learning how to start your own plants from seed. Starting from seed saves money and increases the variety of plants you can grow! This class will also cover basic garden prep information such as mixing soil and making planters. The class fee covers a seed-starting kit and seeds. Feel free to bring your own seeds as well!</p>",
 			"date": "2023-03-19",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
