@@ -1,4 +1,4 @@
-import json, os, shutil, urllib.parse
+import json, os, shutil, urllib.parse, hashlib
 from datetime import datetime
 
 def sort_posts():
@@ -67,7 +67,7 @@ def json_to_html():
 		cancelled = post["cancelled"]
 
 		# Header
-		html += f'\n\t\t\t\t\t<div class="post" data-isodate="{date}">\n'
+		html += f'\n\t\t\t\t\t<div class="post" data-isodate="{date}" ' + f'data-hash="{generate_hash(post["title"] + start_time)}">\n'
 		html += '\t\t\t\t\t\t<div class="post_header">\n'
 		
 		if date and start_time and end_time:
@@ -169,6 +169,9 @@ def json_to_html():
 		
 	return html
 
+def generate_hash(str):
+	return hashlib.sha256(str.encode()).hexdigest()[:8]
+
 def announcements_to_html():
 	with open('posts.json') as json_file:
 		data = json.load(json_file)
@@ -176,7 +179,7 @@ def announcements_to_html():
 
 	html = ""
 	for post in posts:
-		html += f'\n\t\t\t\t\t<div class="post">\n'
+		html += f'\n\t\t\t\t\t<div class="post" ' + f'data-hash="{generate_hash(post["title"])}">\n'
 		html += '\t\t\t\t\t\t<div class="post_header">\n'
 		html += '\t\t\t\t\t\t\t<div class="title_and_subtitle">\n'
 		html += f'\t\t\t\t\t\t\t\t<div class="title">{post["title"]}</div>\n'

@@ -27,8 +27,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		String(today.getSeconds()).padStart(2, '0')
 	].join(':');
 
-	console.log(todayFormatted);
-
 	// Split posts into future and past
 	let futurePosts = posts.filter(post => post.getAttribute('data-isodate') >= todayFormatted);
 	let pastPosts = posts.filter(post => post.getAttribute('data-isodate') < todayFormatted);
