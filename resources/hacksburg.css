@@ -230,9 +230,7 @@ body {
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
-	transform: rotate(-45deg);
 	margin-left: auto;
-	transition: transform .15s ease-in-out;
 }
 
 .info {
@@ -268,7 +266,8 @@ body {
 	height: 20px;
 	position: relative;
 	width: 4px;
-	transition: background .15s ease-in-out;
+	transition: background .15s ease-in-out, transform .15s ease-in-out;
+	transform: rotate(-45deg);
 }
 
 .x:after {
