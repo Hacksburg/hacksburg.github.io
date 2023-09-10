@@ -22,14 +22,20 @@ function undim_current_page() {
 	current_page.style.cssText = "color: var(--darker_green)";
 }
 
-function togglePostOpened(x)
+function togglePostOpened(x_box)
 {
-	closeable = x.parentNode.parentNode.querySelector('.closeable');
+	// get closest parent's data-hash attribute
+	// if it's not in localstorage, store a false and continue
+	// if it is in localstorage, toggle it
+
+	closeable = x_box.parentNode.parentNode.querySelector('.closeable');
 	if (closeable.classList.contains('closed')) {
+		x = x_box.querySelector('.x');
 		x.style.transform = 'rotate(-45deg)';
 		closeable.classList.remove('closed');
 	}
 	else {
+		x = x_box.querySelector('.x');
 		x.style.transform = "rotate(0deg)";
 		closeable.classList.add('closed'); 
 	}
