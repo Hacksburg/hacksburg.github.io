@@ -17,7 +17,17 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	let today = new Date();
 
 	// Format today's date to match the 'data-isodate' attribute format
-	let todayFormatted = today.toISOString().substring(0, 10);
+	let todayFormatted = [
+		today.getFullYear(),
+		String(today.getMonth() + 1).padStart(2, '0'),
+		String(today.getDate()).padStart(2, '0')
+	].join('-') + ' ' + [
+		String(today.getHours()).padStart(2, '0'),
+		String(today.getMinutes()).padStart(2, '0'),
+		String(today.getSeconds()).padStart(2, '0')
+	].join(':');
+
+	console.log(todayFormatted);
 
 	// Split posts into future and past
 	let futurePosts = posts.filter(post => post.getAttribute('data-isodate') >= todayFormatted);

@@ -61,7 +61,7 @@ def json_to_html():
 
 	html = ""
 	for post in posts:
-		date = datetime.strptime(post["date"], '%Y-%m-%d')
+		date = datetime.strptime(f"{post['date']} {datetime.strptime(post['end_time'], '%I:%M%p').strftime('%H:%M')}", '%Y-%m-%d %H:%M')
 		start_time = post["start_time"]
 		end_time = post["end_time"]
 		cancelled = post["cancelled"]
