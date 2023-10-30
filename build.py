@@ -24,7 +24,7 @@ def build_index():
 		
 	state = "scanning" # Set initial state
 
-	with open('temp.html', 'w') as file:
+	with open('temp.html', 'w', encoding='utf-8') as file:
 		for line in lines:
 			# Get state based on file flags
 			if line.strip().startswith('<!-- ANNOUNCEMENTS START !-->'):
