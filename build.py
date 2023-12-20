@@ -77,7 +77,12 @@ def json_to_html():
 			month = date.strftime('%B')
 			html += f'\t\t\t\t\t\t\t\t<div class="month-and-time">{month}<br>\n'
 			
-			time_string = start_time + " - " + end_time if start_time[-2:] != end_time[-2:] else start_time[:-2] + " - " + end_time
+			start_time = datetime.strptime(start_time, "%I:%M%p").strftime("%-I:%M%p").lower()
+			end_time = datetime.strptime(end_time, "%I:%M%p").strftime("%-I:%M%p").lower()
+			if start_time[-2:] != end_time[-2:]:
+				time_string = f"{start_time} - {end_time}"
+			else:
+				time_string = f"{start_time[:-2]} - {end_time}"
 			html += f'\t\t\t\t\t\t\t\t\t<div class="time">{time_string}</div>\n'
 			html += '\t\t\t\t\t\t\t\t</div>\n'
 			html += '\t\t\t\t\t\t\t</div>\n'
