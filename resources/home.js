@@ -1,23 +1,98 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-	//if js is enabled, show carousel_nav
-	document.getElementById("carousel_nav").style.display = "block";
-	
-	// Grab the data-images attribute from the div with the id 'carousel_container'
-	var images = JSON.parse(document.querySelector('#carousel_container').getAttribute('data-images'));
+	setupCarousel();
+	sortAndDisplayPosts();
+});
 
-	// Iterate through the images array and preload each one
-	for(var i = 0; i < images.length; i++) {
-		new Image().src = images[i];
+function setupCarousel() {
+	// Show the carousel navigation if JavaScript is enabled
+	document.getElementById("carousel-nav").style.display = "block";
+
+	// Preload images for the carousel
+	let carouselContainer = document.querySelector('#carousel-container');
+	if (carouselContainer && carouselContainer.hasAttribute('data-images')) {
+		let images = JSON.parse(carouselContainer.getAttribute('data-images'));
+		images.forEach(imageSrc => {
+			let img = new Image();
+			img.src = imageSrc;
+		});
 	}
-	
-	// Get all posts with the 'data-isodate' attribute
+
+	// Initialize and manage the carousel functionality
+	initializeCarousel();
+}
+
+function initializeCarousel() {
+	let carousel = document.querySelector('#carousel-container');
+	if (!carousel || !carousel.hasAttribute('data-images')) return;
+
+	let images = JSON.parse(carousel.dataset.images);
+	let dots = carousel.querySelectorAll('.carousel-nav-inner .carousel-nav-dot');
+	let firstImage = carousel.querySelector('.post-image.first');
+	let secondImage = carousel.querySelector('.post-image.second');
+	let isTransitioning = false;
+	let carouselAutoadvance = true;
+	let autoAdvanceInterval;
+
+	function endTransition() {
+		firstImage.style.transition = 'opacity 0ms';
+		firstImage.src = secondImage.src;
+		firstImage.style.opacity = '1';
+		isTransitioning = false;
+	}
+
+	function advanceCarouselTo(index) {
+		if (isTransitioning || dots[index].classList.contains('active')) {
+			return;
+		}
+
+		isTransitioning = true;
+		dots.forEach(dot => dot.classList.remove('active'));
+		dots[index].classList.add('active');
+
+		secondImage.src = images[index];
+		firstImage.style.transition = 'opacity 700ms';
+		firstImage.style.opacity = '0';
+
+		setTimeout(endTransition, 700);
+	}
+
+	dots.forEach((dot, index) => {
+		dot.addEventListener('click', () => {
+			advanceCarouselTo(index);
+			carouselAutoadvance = false;
+			if (autoAdvanceInterval) {
+				clearInterval(autoAdvanceInterval);
+			}
+		});
+	});
+
+	function autoAdvance() {
+		if (!carouselAutoadvance) return;
+
+		let activeDotIndex = Array.from(dots).findIndex(dot => dot.classList.contains('active'));
+		let nextIndex = (activeDotIndex + 1) % dots.length;
+		advanceCarouselTo(nextIndex);
+	}
+
+	autoAdvanceInterval = setInterval(autoAdvance, 5000);
+}
+
+function sortAndDisplayPosts() {
+	// Collect and sort posts based on their date
 	let posts = Array.from(document.querySelectorAll('.post[data-isodate]'));
+	let todayFormatted = getFormattedCurrentDateTime();
+	let [futurePosts, pastPosts] = splitAndSortPosts(posts, todayFormatted);
 
-	// Get today's date
+	// Remove existing posts and reinsert them in sorted order
+	let parent = posts[0].parentNode;
+	posts.forEach(post => parent.removeChild(post));
+	insertSortedPosts(parent, futurePosts, pastPosts, todayFormatted);
+}
+
+function getFormattedCurrentDateTime() {
+	// Format the current date and time
 	let today = new Date();
-
-	// Format today's date to match the 'data-isodate' attribute format
-	let todayFormatted = [
+	return [
 		today.getFullYear(),
 		String(today.getMonth() + 1).padStart(2, '0'),
 		String(today.getDate()).padStart(2, '0')
@@ -26,100 +101,36 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		String(today.getMinutes()).padStart(2, '0'),
 		String(today.getSeconds()).padStart(2, '0')
 	].join(':');
+}
 
-	// Split posts into future and past
+function splitAndSortPosts(posts, todayFormatted) {
+	// Split posts into future and past and sort future posts
 	let futurePosts = posts.filter(post => post.getAttribute('data-isodate') >= todayFormatted);
 	let pastPosts = posts.filter(post => post.getAttribute('data-isodate') < todayFormatted);
 
-	// Sort future posts in ascending order
 	futurePosts.sort((a, b) => a.getAttribute('data-isodate').localeCompare(b.getAttribute('data-isodate')));
 
-	// Merge sorted arrays
-	let sortedPosts = futurePosts.concat(pastPosts);
+	return [futurePosts, pastPosts];
+}
 
-	// Get parent element
-	let parent = posts[0].parentNode;
-
-	// Remove all posts from DOM
-	for (let post of posts) {
-		parent.removeChild(post);
-	}
-
-	// Insert marker for past events at correct position
+function insertSortedPosts(parent, futurePosts, pastPosts, todayFormatted) {
+	// Insert sorted posts and add a marker for past events
+	let sortedPosts = [...futurePosts, ...pastPosts];
 	let pastEventsAdded = false;
-	for (let i = 0; i < sortedPosts.length; i++) {
-		let post = sortedPosts[i];
+
+	sortedPosts.forEach(post => {
 		if (post.getAttribute('data-isodate') < todayFormatted && !pastEventsAdded) {
-			// Insert the past events marker before the current post
-			let marker = document.createElement('div');
-			marker.classList.add('past_events_marker');
-			marker.innerHTML = `<div class="past_text noselect">Past Events</div><div class="past_line"></div>`;
-			parent.appendChild(marker);
+			parent.appendChild(createPastEventsMarker());
 			pastEventsAdded = true;
 		}
-		// Add post back into DOM
 		parent.appendChild(post);
-	}
-	
-	// Handle image carousel
-	let carousel = document.querySelector('#carousel_container');
+	});
+}
 
-	if (carousel && carousel.hasAttribute('data-images')) {
-		let carousel_autoadvance = true;
-		let images = JSON.parse(carousel.dataset.images);
-		let dots = carousel.querySelectorAll('.carousel_nav_inner .carousel_nav_dot');
-		let firstImage = carousel.querySelector('.post_image.first'); // The image we're transitioning from
-		let secondImage = carousel.querySelector('.post_image.second'); // The image we're transitioning to
-	
-		let isTransitioning = false;
-
-		function endTransition() {
-			// Reset states after transition
-			firstImage.style.transition = 'opacity 0ms';
-			firstImage.src = secondImage.src;
-			firstImage.style.opacity = '1';
-			isTransitioning = false;
-		}
-
-		function advanceCarouselTo(index) {
-			if (isTransitioning || dots[index].classList.contains('active')) {
-				return; // Ignore clicks during transition
-			}
-
-			isTransitioning = true;
-			dots.forEach((dot) => dot.classList.remove('active'));
-			dots[index].classList.add('active');
-			
-			setTimeout(() => {
-				endTransition();
-			}, 700); // Match this time with the duration of the CSS transition
-
-			secondImage.src = images[index];
-			firstImage.style.transition = 'opacity 700ms';
-			firstImage.style.opacity = '0';
-		}
-
-		dots.forEach((dot, index) => {
-			dot.addEventListener('click', () => {
-				advanceCarouselTo(index);
-
-				// Stop auto-advancement on user interaction
-				carousel_autoadvance = false;
-				if (autoAdvanceInterval) {
-					clearInterval(autoAdvanceInterval);
-				}
-			});
-		});
-
-		function autoAdvance() {
-			if (!carousel_autoadvance) return;
-
-			let activeDotIndex = Array.from(dots).findIndex((dot) => dot.classList.contains('active'));
-			let nextIndex = (activeDotIndex + 1) % dots.length;
-			advanceCarouselTo(nextIndex);
-		}
-
-		let autoAdvanceInterval = setInterval(autoAdvance, 5000); // Start auto-advancement
-	}
-
-});
+function createPastEventsMarker() {
+	// Create a marker for past events
+	let marker = document.createElement('div');
+	marker.classList.add('past-events-marker');
+	marker.innerHTML = `<div class="past-text noselect">Past Events</div><div class="past-line"></div>`;
+	return marker;
+}
