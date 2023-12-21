@@ -68,23 +68,28 @@ def json_to_html():
 
 		# Header
 		html += f'\n\t\t\t\t\t<div class="post" data-isodate="{date}">\n'
-		html += '\t\t\t\t\t\t<div class="post_header">\n'
+		html += '\t\t\t\t\t\t<div class="post-header">\n'
 		
 		if date and start_time and end_time:
-			html += f'\t\t\t\t\t\t\t<div class="calendar_link noselect">\n'
-			html += f'\t\t\t\t\t\t\t\t<div class="circled_date">{date.day}</div>\n'
+			html += f'\t\t\t\t\t\t\t<div class="calendar-link noselect">\n'
+			html += f'\t\t\t\t\t\t\t\t<div class="circled-date">{date.day}</div>\n'
 
 			month = date.strftime('%B')
-			html += f'\t\t\t\t\t\t\t\t<div class="month_and_time">{month}<br>\n'
+			html += f'\t\t\t\t\t\t\t\t<div class="month-and-time">{month}<br>\n'
 			
-			time_string = start_time + " - " + end_time if start_time[-2:] != end_time[-2:] else start_time[:-2] + " - " + end_time
+			start_time = datetime.strptime(start_time, "%I:%M%p").strftime("%-I:%M%p").lower()
+			end_time = datetime.strptime(end_time, "%I:%M%p").strftime("%-I:%M%p").lower()
+			if start_time[-2:] != end_time[-2:]:
+				time_string = f"{start_time} - {end_time}"
+			else:
+				time_string = f"{start_time[:-2]} - {end_time}"
 			html += f'\t\t\t\t\t\t\t\t\t<div class="time">{time_string}</div>\n'
 			html += '\t\t\t\t\t\t\t\t</div>\n'
 			html += '\t\t\t\t\t\t\t</div>\n'
 
 		# Title
-		html += '\t\t\t\t\t\t\t<div class="title_and_subtitle_wrapper">\n'
-		html += '\t\t\t\t\t\t\t\t<div class="title_and_subtitle">\n'
+		html += '\t\t\t\t\t\t\t<div class="title-and-subtitle-wrapper">\n'
+		html += '\t\t\t\t\t\t\t\t<div class="title-and-subtitle">\n'
 		html += f'\t\t\t\t\t\t\t\t\t<div class="title">'
 		if cancelled:
 			html += '(Cancelled) '
@@ -92,17 +97,17 @@ def json_to_html():
 		html += f'\t\t\t\t\t\t\t\t\t<div class="subtitle">{post["subtitle"]}</div>\n'
 		html += '\t\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
-		html += '\t\t\t\t\t\t\t<div class="x_box" onClick="togglePostOpened(this)">\n'
+		html += '\t\t\t\t\t\t\t<div class="x-box" onClick="togglePostOpened(this)">\n'
 		html += '\t\t\t\t\t\t\t\t<div class="x"></div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t</div>\n'
 
 		# Image
 		html += '\t\t\t\t\t\t<div class="closeable">\n'
-		html += '\t\t\t\t\t\t\t<div class="post_body">\n'
+		html += '\t\t\t\t\t\t\t<div class="post-body">\n'
 		if post["image"]:
-			html += f'\t\t\t\t\t\t\t\t<img class="post_image" src="/resources/images/{post["image"]}" loading="lazy">\n'
-		html += f'\t\t\t\t\t\t\t\t<div class="post_text"'
+			html += f'\t\t\t\t\t\t\t\t<img class="post-image" src="/resources/images/{post["image"]}" loading="lazy">\n'
+		html += f'\t\t\t\t\t\t\t\t<div class="post-text"'
 		if post["image"]:
 			html += '>'
 		else:
@@ -152,15 +157,15 @@ def json_to_html():
 		# Meetup/RSVP link
 		if post["meetup_link"]:
 			if not cancelled:
-				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp_button" href="{post["meetup_link"]}" target="_blank">RSVP on Meetup</a>\n'
-				html += '\t\t\t\t\t\t\t\t\t<div class="below_button_text">\n'
+				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp-button" href="{post["meetup_link"]}" target="_blank">RSVP on Meetup</a>\n'
+				html += '\t\t\t\t\t\t\t\t\t<div class="below-button-text">\n'
 				subject = f'RSVP for {post["title"]}'
 				body = f'I am confirming my RSVP for \"{post["title"]}\" on {formatted_date_str} from {time_string}.'
 				html += f'\t\t\t\t\t\t\t\t\t\tor <a href="{build_mailto(subject, body)}" target="_blank">RSVP by Email</a>\n'
 				html += '\t\t\t\t\t\t\t\t\t</div>\n'
 
 			else:
-				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp_button disabled" href="{post["meetup_link"]}" target="_blank">View on Meetup</a>\n'
+				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp-button" href="{post["meetup_link"]}" target="_blank">View on Meetup</a>\n'
 		
 		html += '\t\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
@@ -177,15 +182,15 @@ def announcements_to_html():
 	html = ""
 	for post in posts:
 		html += f'\n\t\t\t\t\t<div class="post">\n'
-		html += '\t\t\t\t\t\t<div class="post_header">\n'
-		html += '\t\t\t\t\t\t\t<div class="title_and_subtitle">\n'
+		html += '\t\t\t\t\t\t<div class="post-header">\n'
+		html += '\t\t\t\t\t\t\t<div class="title-and-subtitle">\n'
 		html += f'\t\t\t\t\t\t\t\t<div class="title">{post["title"]}</div>\n'
 		html += f'\t\t\t\t\t\t\t\t<div class="subtitle">{post["subtitle"]}</div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t\t<div class="info">ⓘ</div>\n'
 		html += '\t\t\t\t\t\t</div>\n'
-		html += '\t\t\t\t\t\t<div class="post_body">\n'
-		html += f'\t\t\t\t\t\t\t<div class="post_text" style="width: 100%">{post["description"]}</div>\n'
+		html += '\t\t\t\t\t\t<div class="post-body">\n'
+		html += f'\t\t\t\t\t\t\t<div class="post-text" style="width: 100%">{post["description"]}</div>\n'
 		html += '\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t</div>\n'
 		
