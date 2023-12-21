@@ -78,7 +78,7 @@ function initializeCarousel() {
 }
 
 function sortAndDisplayPosts() {
-	// Collect and sort posts based on their date
+	// Collect and sort posts by date
 	let posts = Array.from(document.querySelectorAll('.post[data-isodate]'));
 	let todayFormatted = getFormattedCurrentDateTime();
 	let [futurePosts, pastPosts] = splitAndSortPosts(posts, todayFormatted);
@@ -107,6 +107,17 @@ function splitAndSortPosts(posts, todayFormatted) {
 	// Split posts into future and past and sort future posts
 	let futurePosts = posts.filter(post => post.getAttribute('data-isodate') >= todayFormatted);
 	let pastPosts = posts.filter(post => post.getAttribute('data-isodate') < todayFormatted);
+
+	pastPosts.forEach(post => {
+		let rsvpButton = post.querySelector('.rsvp-button');
+		if (rsvpButton) {
+			rsvpButton.innerText = 'View on Meetup';
+		}
+		let belowButtonText = post.querySelector('.below-button-text');
+		if (belowButtonText) {
+			belowButtonText.remove();
+		}
+	});
 
 	futurePosts.sort((a, b) => a.getAttribute('data-isodate').localeCompare(b.getAttribute('data-isodate')));
 

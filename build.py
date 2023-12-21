@@ -165,7 +165,7 @@ def json_to_html():
 				html += '\t\t\t\t\t\t\t\t\t</div>\n'
 
 			else:
-				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp-button disabled" href="{post["meetup_link"]}" target="_blank">View on Meetup</a>\n'
+				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp-button" href="{post["meetup_link"]}" target="_blank">View on Meetup</a>\n'
 		
 		html += '\t\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
