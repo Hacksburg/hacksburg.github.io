@@ -4,7 +4,7 @@
 		{
 			"title": "Intro to Woodturning on the Lathe",
 			"subtitle": "",
-			"description": "<p>Learn the basics of woodturning! This class will cover the tools and techniques of using a wood lathe.</p> <p>Wood will be provided to make a small project. Ages 16+.</p>",
+			"description": "<p>Learn the basics of woodturning! This class will cover the tools and techniques of using a wood lathe. Wood will be provided to make a small project.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-02-25",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -20,7 +20,7 @@
 		{
 			"title": "CNC Machining",
 			"subtitle": "",
-			"description": "<p>Attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of the Hacksburg CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will show the machining of a demo part. Feel free to attend only this first part.</p> <p>If you intend on getting CNC trained as a Hacksburg member, we will schedule a time to hold Part 2, where I will teach the CAM programming on the computer and give you remote access to our CAM computer. You will then receive a homework assignment, in the form of a STEP file that you will generate a machining plan and gcode for. You will then execute the plan, with me or another Hacksburg member, to confirm your ability to do CAM programming and CNC machining.</p> <p>This class is for attendees age 16 and up. The class is free for Hacksburg members and $5 for non-members. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all shop tool use.</p>",
+			"description": "<p>Attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of the Hacksburg CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will show the machining of a demo part. Feel free to attend only this first part.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-02-18",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -52,7 +52,7 @@
 		{
 			"title": "Woodworking 101",
 			"subtitle": "",
-			"description": "<p>Attendees will have the opportunity to make a simple wooden box. The project is designed to utilize almost all of the woodworking tools Hacksburg offers and provide a great introduction to woodworking.</p> <p>To cover the cost of wood, this class will be $30 for Hacksburg members and $35 for non-members.</p>",
+			"description": "<p>Attendees will have the opportunity to make a simple wooden box. The project is designed to utilize almost all of the woodworking tools Hacksburg offers and provide a great introduction to woodworking.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-02-04",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -68,7 +68,7 @@
 		{
 			"title": "Intro to Electronics with Radios",
 			"subtitle": "",
-			"description": "<p>In this class, attendees will learn about understand, build, and test electronics by building a radio kit. The basics of radio transmission and modulation will also be covered. Ages 14+.</p> <p>Class is $10 for non-members and $5 for Hacksburg members</p>",
+			"description": "<p>In this class, attendees will learn about understand, build, and test electronics by building a radio kit. The basics of radio transmission and modulation will also be covered.</p> <p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-01-28",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -100,7 +100,7 @@
 		{
 			"title": "Sewing 101",
 			"subtitle": "",
-			"description": "<p>Learn the basics of sewing using the sewing machines at Hacksburg. Attendees will make a basic project (likely a pillow case). This class is for ages 14 and up. The class is free for Hacksburg members and $5 for non-members.</p>",
+			"description": "<p>Learn the basics of sewing using the sewing machines at Hacksburg. Attendees will make a basic project (likely a pillow case).</p> <p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-01-14",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
