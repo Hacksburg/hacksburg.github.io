@@ -4,15 +4,15 @@
 		{
 			"title": "Intro to Woodturning on the Lathe",
 			"subtitle": "",
-			"description": "<p>Learn the basics of woodturning! This class will cover the tools and techniques of using a wood lathe. Wood will be provided to make a small project.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>Learn the basics of woodturning! This class will cover the tools and techniques of using a wood lathe.</p> <p>Free for members and $5 for non-members, plus $15 optional materials fee.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-02-25",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
 			"offsite_location": null,
 			"offered_online": false,
 			"offered_in_person": true,
-			"member_price": 0,
-			"non_member_price": 5,
+			"member_price": 15,
+			"non_member_price": 20,
 			"image": "wooden_lathe.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063962/",
 			"cancelled": false
