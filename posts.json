@@ -95,7 +95,7 @@
 			"non_member_price": 5,
 			"image": "bicycles.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/299197487/",
-			"cancelled": false
+			"cancelled": true
 		},
 		{
 			"title": "3D Printer Community Work Day",
