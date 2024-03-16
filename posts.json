@@ -79,7 +79,7 @@
 			"non_member_price": 20,
 			"image": "seedstarting.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/299197479/",
-			"cancelled": false
+			"cancelled": true
 		},
 		{
 			"title": "Bicycle Repair Day",
