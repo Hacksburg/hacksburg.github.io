@@ -2,25 +2,9 @@
 	"announcements": [],
 	"posts": [
 		{
-			"title": "Designing Circuit Boards in KiCad",
-			"subtitle": "",
-			"description": "<p>Learn how to design your own circuit boards using KiCad, a free software suite for electronic design automation. We will cover the use of the software to design a custom circuit and how to have it manufactured.<\/p> <p>Please bring a computer for the hands-on portion of the class!<\/p> <p>Free for members and $5 for non-members.<\/p> <p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent\/guardian at all times.<\/p>",
-			"date": "2024-05-12",
-			"start_time": "01:00pm",
-			"end_time": "04:00pm",
-			"offsite_location": null,
-			"offered_online": false,
-			"offered_in_person": true,
-			"member_price": 0,
-			"non_member_price": 5,
-			"image": "",
-			"meetup_link": "https:\/\/www.meetup.com\/hacksburgva\/events\/300620550\/",
-			"cancelled": false
-		},
-		{
 			"title": "Introduction to Holograms",
 			"subtitle": "",
-			"description": "<p>Learn about lasers and how a hologram captures details of light to make your own hologram. Bring a small object or scene about the size of a business card. Shiny finishes should be avoided where possible. White or grey objects work well, but you can also do colored objects like M&amp;M's.<\/p> <p>Visit (<a href=\"https:\/\/www.litiholo.com\/hologram-gallery.html\" target=\"_blank\">https:\/\/www.litiholo....<\/a>\" class=\"linkified\"&gt;<a href=\"https:\/\/www.litiholo.com\/hologram-gallery.html](https:\/\/www.litiholo.com\/hologram-gallery.html\" target=\"_blank\">https:\/\/www.litiholo....<\/a><\/a>) to view examples.<\/p> <p>$15 for members and $20 for non-members to cover hologram materials.<\/p> <p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent\/guardian at all times.<\/p>",
+			"description": "<p>Learn about lasers and how a hologram captures details of light to make your own hologram. Bring a small object or scene about the size of a business card. Shiny finishes should be avoided where possible. White or grey objects work well, but you can also do colored objects like M&amp;M's.</p> <p>Visit <a href=\"https://www.litiholo.com/hologram-gallery.html\" target=\"_blank\">litiholo.com</a> to view examples.</p><p>$15 for members and $20 for non-members to cover hologram materials.</p><p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2024-05-19",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -29,8 +13,24 @@
 			"offered_in_person": true,
 			"member_price": 15,
 			"non_member_price": 20,
-			"image": "",
-			"meetup_link": "https:\/\/www.meetup.com\/hacksburgva\/events\/300620652\/",
+			"image": "holograms.jpg",
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/300620652/",
+			"cancelled": false
+		},
+		{
+			"title": "Designing Circuit Boards in KiCad",
+			"subtitle": "",
+			"description": "<p>Learn how to design your own circuit boards using KiCad, a free software suite for electronic design automation. We will cover the use of the software to design a custom circuit and how to have it manufactured.</p> <p>Please bring a computer for the hands-on portion of the class!</p> <p>Free for members and $5 for non-members.</p> <p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
+			"date": "2024-05-12",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"image": "kicad.jpg",
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/300620550/",
 			"cancelled": false
 		},
 		{

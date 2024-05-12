@@ -779,7 +779,7 @@ a {
 		background-color: var(--offwhite);
 	}
 	.post-image {
-		filter: brightness(75%);
+		filter: brightness(95%);
 	}
 	#donation-jar {
 		filter: brightness(75%);
