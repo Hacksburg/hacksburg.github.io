@@ -2,6 +2,38 @@
 	"announcements": [],
 	"posts": [
 		{
+			"title": "Resin Printer Basics",
+			"subtitle": "Learn to use Hacksburg's 8K SLA resin printer",
+			"description": "<p>Normal filament-based 3D printers are capable of making an incredible array of parts, but for high-detail miniatures our new resin printer is capable of over 10x the resolution. Learn how to use the Hacksburg resin printer, what parts work best, and how these machines differ from filament-based printers. The class is free for Hacksburg members and $5 for non-members.</p> <p>This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all equipment use.</p>",
+			"date": "2024-06-09",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"image": "resin_print_3.jpg",
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/301294492/",
+			"cancelled": false
+		},
+		{
+			"title": "Woodworking 101",
+			"subtitle": "",
+			"description": "<p>Attendees will have the opportunity to make a simple wooden box. The project is designed to utilize almost all of the woodworking tools Hacksburg offers and provide a great introduction to woodworking.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"date": "2024-06-02",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 30,
+			"non_member_price": 35,
+			"image": "wooden_box2.jpg",
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/301294474/",
+			"cancelled": false
+		},
+		{
 			"title": "Introduction to Holograms",
 			"subtitle": "",
 			"description": "<p>Learn about lasers and how a hologram captures details of light to make your own hologram. Bring a small object or scene about the size of a business card. Shiny finishes should be avoided where possible. White or grey objects work well, but you can also do colored objects like M&amp;M's.</p> <p>Visit <a href=\"https://www.litiholo.com/hologram-gallery.html\" target=\"_blank\">litiholo.com</a> to view examples.</p><p>$15 for members and $20 for non-members to cover hologram materials.</p><p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
