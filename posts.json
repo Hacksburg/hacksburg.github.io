@@ -29,7 +29,7 @@
 			"offered_in_person": true,
 			"member_price": 30,
 			"non_member_price": 35,
-			"image": "wooden_box2.jpg",
+			"image": "wooden_box_2.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/301294474/",
 			"cancelled": false
 		},
@@ -116,7 +116,7 @@
 		{
 			"title": "Hacksburg at Maker Faire Lynchburg",
 			"subtitle": "Making is better together",
-			"description": "<p>Hacksburg will be exhibiting at Maker Faire Lynchburg. Come out and enjoy hands-on activities, amazing exhibits, locally made products for sale, food trucks, a group build project and more!</p><p>This event is free and family-friendly. There will be activities for kids as young as 4, plus fun for grown-up makers too.</p> <p>More info at <a href=https://lynchburg.makerfaire.com target=_blank>Maker Faire Lynchburg</a></p>",
+			"description": "<p>Hacksburg will be exhibiting at Maker Faire Lynchburg. Come out and enjoy hands-on activities, amazing exhibits, locally made products for sale, food trucks, a group build project and more!</p><p>This event is free and family-friendly. There will be activities for kids as young as 4, plus fun for grown-up makers too.</p> <p>More info at <a href=https://lynchburg.makerfaire.com target=_blank>Maker Faire Lynchburg</a>.</p>",
 			"date": "2024-03-24",
 			"start_time": "11:00am",
 			"end_time": "02:00pm",
@@ -205,7 +205,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
-			"image": "cnc_5.jpg",
+			"image": "cnc.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063947/",
 			"cancelled": false
 		},
@@ -237,14 +237,14 @@
 			"offered_in_person": true,
 			"member_price": 30,
 			"non_member_price": 35,
-			"image": "wooden_box.jpg",
+			"image": "wooden_box_2.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063956/",
 			"cancelled": false
 		},
 		{
 			"title": "Intro to Electronics with Radios",
 			"subtitle": "",
-			"description": "<p>In this class, attendees will learn about understand, build, and test electronics by building a radio kit. The basics of radio transmission and modulation will also be covered.</p> <p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>In this class, attendees will build radios in groups while learning the basics of how sound is transmitted using electromagnetic waves. Digital data transmission (Wi-Fi, Bluetooth, etc) will be surveyed with enough information to ignite future learning. Ages 14+.</p>",
 			"date": "2024-01-28",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -557,7 +557,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
-			"image": "blender.png",
+			"image": "blender.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657658/",
 			"cancelled": false
 		},
@@ -580,7 +580,7 @@
 		{
 			"title": "Laser Cutter 101",
 			"subtitle": "Make Your Own Edge-Lit Acrylic Sign",
-			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive the LED base with the optional materials fee.</p> <p>Free for members and $5 for non-members, plus $10 optional materials fee.</p><p><b>This event has been rescheduled</b></p>",
+			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive the LED base with the optional materials fee.</p> <p>Free for members and $5 for non-members, plus $10 optional materials fee.</p><p><b>This event has been rescheduled</b>.</p>",
 			"date": "2023-09-23",
 			"start_time": "2:00pm",
 			"end_time": "4:00pm",
@@ -701,7 +701,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
-			"image": "blender.png",
+			"image": "blender.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114315/",
 			"cancelled": false
 		},
@@ -884,7 +884,7 @@
 		{
 			"title": "Hacksburg at Summer Solstice Fest",
 			"subtitle": "The summer festival for locals",
-			"description": "<p>Hacksburg will be exhibiting at the Downtown Blacksburg Summer Solstice Fest. Come out and enjoy hands-on activities, locally made products for sale, food trucks, live music, and more! This event is free and family friendly.Learn more at <a href='https://downtownblacksburg.com/index.php/events/summer-solstice-fest'>downtownblacksburg.com</a>.</p>",
+			"description": "<p>Hacksburg will be exhibiting at the Downtown Blacksburg Summer Solstice Fest. Come out and enjoy hands-on activities, locally made products for sale, food trucks, live music, and more! This event is free and family friendly. Learn more at <a href='https://downtownblacksburg.com/index.php/events/summer-solstice-fest'>downtownblacksburg.com</a>.</p>",
 			"date": "2023-06-17",
 			"start_time": "1:00pm",
 			"end_time": "11:00pm",
