@@ -7,16 +7,26 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 function setupCarousel() {
 	// Show the carousel navigation if JavaScript is enabled
-	document.getElementById("carousel-nav").style.display = "block";
+	const carouselNav = document.getElementById("carousel-nav");
+	if (carouselNav) {
+		carouselNav.style.display = "block";
+	}
 
 	// Preload images for the carousel
-	let carouselContainer = document.querySelector('#carousel-container');
+	const carouselContainer = document.querySelector('#carousel-container');
 	if (carouselContainer && carouselContainer.hasAttribute('data-images')) {
-		let images = JSON.parse(carouselContainer.getAttribute('data-images'));
+		const images = JSON.parse(carouselContainer.getAttribute('data-images'));
 		images.forEach(imageSrc => {
-			let img = new Image();
+			const img = new Image();
 			img.src = imageSrc;
 		});
+	}
+
+	// Preload the carousel substitute image (for mobile)
+	const substituteImage = document.querySelector('#carousel-substitute');
+	if (substituteImage) {
+		const img = new Image();
+		img.src = substituteImage.src;
 	}
 
 	// Initialize and manage the carousel functionality

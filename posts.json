@@ -3,7 +3,7 @@
 	"posts": [
 		{
 			"title": "Laser Cutter 101",
-			"subtitle": "Make Your Own Edge-Lit Acrylic Sign",
+			"subtitle": "Make your own edge-lit acrylic sign",
 			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive an LED base with the optional materials fee.</p> <p>This class is free for members and $5 for non-members, plus an optional $10 materials fee.</p>",
 			"date": "2024-06-30",
 			"start_time": "1:00pm",
@@ -19,8 +19,8 @@
 		},
 		{
 			"title": "Hacksburg Open House",
-			"subtitle": "Tour our Community Workshop",
-			"description": "<p>Hacksburg is a non-profit Makerspace located in Blacksburg, VA. Started in 2014, we're a community workshop focused on helping creatives and entrepreneurs in the New River Valley complete projects that would otherwise be out of reach. Whether you need equipment, mentorship, or just a place to work, Hacksburg is an accessible, collaborative, and affordable resource where you can build anything from rockets to robots to rocking chairs.</p><p>Hacksburg members must be 18+, but all ages are welcome at this open house. Attendees under 18 must be accompanied by a parent/guardian for the full duration of their visit.</p>",
+			"subtitle": "Tour our community workshop",
+			"description": "<p>Hacksburg is a non-profit Makerspace located in Blacksburg, VA. For over 10 years, we've helped creatives and entrepreneurs in the New River Valley complete projects that would otherwise be out of reach. Whether you need equipment, mentorship, or just a place to work, Hacksburg is an accessible, collaborative resource where you can build anything from rockets to robots to rocking chairs.</p><p>Hacksburg members must be 18+, but all ages are welcome at this open house. Attendees under 18 must be accompanied by a parent/guardian for the full duration of their visit.</p>",
 			"date": "2024-06-16",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
