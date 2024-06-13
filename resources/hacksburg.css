@@ -334,6 +334,10 @@ body {
 	left: 0;
 }
 
+#carousel-substitute {
+	display: none;
+}
+
 .post-image.first {
 	opacity: 1;
 	z-index: 0;
@@ -422,9 +426,10 @@ a {
 }
 
 #pinned-post-buttons {
-	margin: 1rem;
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
+	max-width: 100%;
 	justify-content: center;
 	margin-top: 2.75rem;
 	margin-bottom: 0;
@@ -432,11 +437,8 @@ a {
 
 #learn-more {
 	margin-left: 0;
-	margin-right:0;
-}
-
-#join-meeting-container {
-	margin-left: 1.75rem;
+	margin-right: 0;
+	margin-bottom: .5rem;
 }
 
 .pushpin {
@@ -530,8 +532,8 @@ a {
 .membership-options-container {
 	display: flex;
 	flex-direction: row;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
 	width: 100%;
 }
 
@@ -587,10 +589,6 @@ a {
 }
 
 @media only screen and (max-width: 63rem){
-	#pinned-post-buttons {
-		margin-left: 0;
-		margin-right: 0;
-	}
 	#nav-break {
 		display: flex;
 	}
@@ -661,10 +659,16 @@ a {
 	}
 	.title {
 		font-family: Electrolize;
-		font-size: 1.3rem;
+		font-size: 1.4rem;
 	}
 	.subtitle {
-		font-size: .9rem;
+		display: none;
+	}
+	.x-box {
+		display: none !important;
+	}
+	.pushpin {
+		display: none !important;
 	}
 	#bulletin-board {
 		margin-top: 2rem;
@@ -677,22 +681,67 @@ a {
 	.post {
 		margin-bottom: 4rem;
 	}
+	.post-text {
+		padding: 1rem;
+		padding-top: 1rem;
+		padding-bottom: 2.5rem;
+	}
 	.past-events-marker {
 		margin-bottom: 4rem;
 	}
 	.post-image {
 		max-height: 40rem;
 	}
-	#pinned-post-buttons {
-		flex-direction: column;
+	#bulletin-board {
+		padding: 0;
+		margin-top: 0;
 	}
-	#learn-more {
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 1.5rem;
+	#nav-links {
+		margin-left: .75rem;
+		margin-right: .75rem;
 	}
-	#join-meeting-container {
-		margin-left: 0;
+	.rule {
+		display: none;
+	}
+	#carousel-container {
+		display: none;
+	}
+	#carousel-substitute {
+		display: flex;
+	}
+	#header {
+		display: none;
+	}
+	.post-map {
+		max-height: 16rem;
+	}
+	#donation-jar-container {
+		display: none;
+	}
+	.past-events-marker {
+		margin-left: .75rem;
+		margin-right: .75rem;
+	}
+	#bulletin-board .post:last-child {
+		margin-bottom: 0;
+	}
+	#page-container {
+		padding-bottom: 0;
+	}
+	.post-section-header {
+		font-size: 1.4rem;
+	}
+	#donate-button {
+		margin-top: 2rem;
+	}
+	.past-text {
+		font-size: 1.4rem;
+	}
+	.membership-price {
+		margin-bottom: .8rem;
+	}
+	.button {
+		padding: .8rem;
 	}
 }
 
