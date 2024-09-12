@@ -2,6 +2,22 @@
 	"announcements": [],
 	"posts": [
 		{
+			"title": "Maple Tree Identification Walk",
+			"subtitle": "",
+			"description": "<p>Prepare for maple syrup season by learning how to identify the many varieties of maple trees. Although maple tapping takes place in the winter, maple trees are most easily identified in the fall due to their distinct, vibrant leaves!</p><p>This event is free for members and non-members!</p>",
+			"date": "2024-10-5",
+			"start_time": "1:00pm",
+			"end_time": "2:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": "maple.jpg",
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/303331401/",
+			"cancelled": false
+		},
+		{
 			"title": "Fermentation: Hard Cider & Homebrewing Basics",
 			"subtitle": "Intro to Homebrewing",
 			"description": "<p>We will cover the basics of turning apple cider (and other fruit juices) into an alcoholic drink. Works great with fresh cider from the Tenth Annual Hacksburg Cider Making!</p> <p>This class is for attendees age 21 and up. No underage class attendees permitted.</p>",
@@ -50,6 +66,22 @@
 			"cancelled": false
 		},
 		{
+			"title": "Laser Taco Tuesday",
+			"subtitle": "It's a fiery fiesta",
+			"description": "<p>Customize your Taco Tuesday experience by laser engraving your tortilla on Hacksburg's 80W CO2 laser cutter! Tortillas and fillings will be provided, bring your own tortilla design ideas.</p><p>This is a family friendly event. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the event, and parent/guardian must approve all equipment use.</p><p>This event is free, but donations to cover ingredients are appreciated!</p>",
+			"date": "2024-10-01",
+			"start_time": "8:00pm",
+			"end_time": "9:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": "laser_taco_tuesday.jpg",
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/303331426/",
+			"cancelled": false
+		},
+		{
 			"title": "Designing Circuit Boards in KiCad",
 			"subtitle": "Open source software for PCB design",
 			"description": "<p>Learn how to design your own circuit boards using KiCad, a free software suite for electronic design automation. We will cover the use of the software to design a custom circuit and how to have it manufactured.</p> <p>Please bring a computer for the hands-on portion of the class!</p> <p>Free for members and $5 for non-members.</p> <p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
@@ -63,6 +95,22 @@
 			"non_member_price": 5,
 			"image": "kicad.jpg",
 			"meetup_link": "https://www.meetup.com/hacksburgva/events/302852534/",
+			"cancelled": false
+		},
+		{
+			"title": "Lunar Eclipse Watch Party",
+			"subtitle": "",
+			"description": "<p>Join Hacksburg members to watch a partial lunar eclipse. Members will bring telescopes, binoculars, and cameras to observe the eclipse.</p><p>Please note, this is NOT a total eclipse. Only a small bite (about 9%) of the moon will be covered!</p><ul><li>Begins: 10:12:58 pm</li><li>Maximum: 10:44:18 pm</li><li>Ends: 11:15:38 pm</li></ul>",
+			"date": "2024-09-17",
+			"start_time": "10:00pm",
+			"end_time": "11:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"image": "lunar_eclipse.jpg",
+			"meetup_link": "https://www.meetup.com/hacksburgva/events/303331375/",
 			"cancelled": false
 		},
 		{
@@ -883,7 +931,7 @@
 		},
 		{
 			"title": "Laser Taco Tuesday",
-			"subtitle": "Its a fiery fiesta",
+			"subtitle": "It's a fiery fiesta",
 			"description": "<p>Customize your Taco Tuesday experience by laser engraving your tortilla on Hacksburg's 80W CO2 laser cutter! Tortillas and fillings will be provided, bring your own tortilla design ideas.</p> <p>This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.</p> <p>This event is free, but donations to cover ingredients are appreciated!</p>",
 			"date": "2023-09-12",
 			"start_time": "8:30pm",
