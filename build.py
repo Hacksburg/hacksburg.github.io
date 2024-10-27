@@ -2,14 +2,27 @@ import json, os, shutil, urllib.parse, hashlib
 from datetime import datetime
 
 def sort_posts():
-	print("Sorting posts.json by date...")
+	print("Standardizing dates and sorting posts.json by date...")
 	with open('posts.json', 'r+') as json_file:
 		data = json.load(json_file)
+		
+		# Standardize dates in the posts
+		for post in data['posts']:
+			if 'date' in post:
+				# Split the date into components
+				year, month, day = post['date'].split('-')
+				
+				# Zero-pad month and day if needed
+				month = month.zfill(2)
+				day = day.zfill(2)
+				
+				# Reconstruct the standardized date
+				post['date'] = f"{year}-{month}-{day}"
 
 		# Sort posts in descending order by date
 		data['posts'].sort(key=lambda post: post['date'], reverse=True)
 
-		# Write the sorted data back into the JSON file (with tab indentation)
+		# Write the sorted and standardized data back into the JSON file (with tab indentation)
 		json_file.seek(0)
 		json.dump(data, json_file, indent='\t', separators=(',', ': '))
 		json_file.truncate()
