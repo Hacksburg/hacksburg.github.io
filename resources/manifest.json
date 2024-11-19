@@ -1,0 +1,15 @@
+{
+	"name": "Hacksburg",
+	"short_name": "Hacksburg",
+	"icons": [
+		{
+			"src": "hacksignia_light.svg",
+			"sizes": "any",
+			"type": "image/svg+xml"
+		}
+	],
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#151920",
+	"theme_color": "#151920"
+}
