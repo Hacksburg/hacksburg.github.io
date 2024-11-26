@@ -1,5 +1,11 @@
 {
-	"announcements": [],
+	"announcements": [
+		{
+			"title": "No Meeting on Tuesday, November 26th",
+			"subtitle": "Happy Thanksgiving! \ud83e\udd83",
+			"description": "Hacksburg will not hold its regular weekly meeting on Tuesday, November 26th due to the Thanksgiving holiday. Weekly meetings will resume on Tuesday, December 3rd."
+		}
+	],
 	"posts": [
 		{
 			"title": "Leatherworking Basics",
