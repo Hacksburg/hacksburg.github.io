@@ -387,6 +387,10 @@ a {
 	width: 100%;
 }
 
+#donate-button-container {
+	margin-bottom:3rem;
+}
+
 #donation-jar-container {
 	display: flex;
 	justify-content: center;
