@@ -66,8 +66,8 @@ function initSnowflakes() {
 		snowflake.innerHTML = '❄️';
 		snowflake.className = 'snowflake';
 		
-		// Random size between 12px and 30px
-		const size = Math.random() * 18 + 12;
+		// Random size between 15px and 27px
+		const size = Math.random() * 12 + 15;
 		snowflake.style.fontSize = `${size}px`;
 		
 		// Random horizontal position
@@ -82,8 +82,8 @@ function initSnowflakes() {
 		const rotation = (Math.random() - 0.5) * 360;
 		snowflake.style.setProperty('--rotation', `${rotation}deg`);
 		
-		// Random duration between 26.67 and 53.33 seconds
-		const duration = (Math.random() * 20 + 20) / 0.75;
+		// Random duration between 40 and 70 seconds
+		const duration = Math.random() * 30 + 40;
 		
 		// Apply the animation
 		snowflake.style.animation = `fall ${duration}s linear`;
@@ -98,7 +98,7 @@ function initSnowflakes() {
 
 	function startSnowfall() {
 		if (!snowflakeInterval) {
-			snowflakeInterval = setInterval(createSnowflake, 800);
+			snowflakeInterval = setInterval(createSnowflake, 900);
 		}
 		// Resume any paused snowflakes
 		const snowflakes = document.querySelectorAll('.snowflake');
