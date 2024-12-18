@@ -43,6 +43,12 @@ function initSnowflakes() {
 			.rule {
 				filter: drop-shadow(1px 1px 1px var(--offblack));
 			}
+			.past-text {
+				filter: drop-shadow(1px 1px 1px var(--offblack));
+			}
+			.past-line {
+				filter: drop-shadow(1px 1px 1px var(--offblack));
+			}
 		}
 
 		@media only screen and (max-width: 35rem) {
