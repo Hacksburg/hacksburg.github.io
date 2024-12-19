@@ -32,22 +32,30 @@ function initSnowflakes() {
 
 		@media (prefers-color-scheme: dark) {
 			#nav-links > a {
-				text-shadow: 1px 1px 1px var(--offblack);
+				text-shadow: 0 0 3px var(--offblack), 0 0 5px var(--offblack);
 			}
 			#header-text h1, h3 {
-				text-shadow: 1px 1px 1px var(--offblack);
+				text-shadow: 0 0 3px var(--offblack), 0 0 5px var(--offblack);
 			}
 			.hacksignia {
-				filter: drop-shadow(1px 1px 1px var(--offblack));
+				filter: 
+					drop-shadow(0 0 3px var(--offblack))
+					drop-shadow(0 0 5px var(--offblack));
 			}
 			.rule {
-				filter: drop-shadow(1px 1px 1px var(--offblack));
+				filter: 
+					drop-shadow(0 0 3px var(--offblack))
+					drop-shadow(0 0 5px var(--offblack));
 			}
 			.past-text {
-				filter: drop-shadow(1px 1px 1px var(--offblack));
+				filter: 
+					drop-shadow(0 0 3px var(--offblack))
+					drop-shadow(0 0 5px var(--offblack));
 			}
 			.past-line {
-				filter: drop-shadow(1px 1px 1px var(--offblack));
+				filter: 
+					drop-shadow(0 0 3px var(--offblack))
+					drop-shadow(0 0 5px var(--offblack));
 			}
 		}
 
