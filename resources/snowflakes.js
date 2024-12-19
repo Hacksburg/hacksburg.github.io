@@ -136,11 +136,15 @@ function initSnowflakes() {
 		}
 	});
 
-	// Start initial snowfall
-	startSnowfall();
+	// Start initial snowfall after delay, checking visibility first
+	setTimeout(() => {
+		if (document.hidden) {
+			pauseSnowfall();
+		} else {
+			startSnowfall();
+		}
+	}, 2000);
 }
 
-// Wait for page load and then delay initialization by 2 seconds
-document.addEventListener('DOMContentLoaded', () => {
-	setTimeout(initSnowflakes, 2000);
-});
+// Initialize immediately on DOMContentLoaded
+document.addEventListener('DOMContentLoaded', initSnowflakes);
