@@ -32,22 +32,34 @@ function initSnowflakes() {
 
 		@media (prefers-color-scheme: dark) {
 			#nav-links > a {
-				text-shadow: 1px 1px 1px var(--offblack);
+				text-shadow: 0 0 1px var(--offblack), 0 0 3px var(--offblack), 0 0 5px var(--offblack);
 			}
 			#header-text h1, h3 {
-				text-shadow: 1px 1px 1px var(--offblack);
+				text-shadow: 0 0 1px var(--offblack), 0 0 3px var(--offblack), 0 0 5px var(--offblack);
 			}
 			.hacksignia {
-				filter: drop-shadow(1px 1px 1px var(--offblack));
+				filter:
+					drop-shadow(0 0 1px var(--offblack))
+					drop-shadow(0 0 3px var(--offblack))
+					drop-shadow(0 0 5px var(--offblack));
 			}
 			.rule {
-				filter: drop-shadow(1px 1px 1px var(--offblack));
+				filter:
+					drop-shadow(0 0 1px var(--offblack))
+					drop-shadow(0 0 3px var(--offblack))
+					drop-shadow(0 0 5px var(--offblack));
 			}
 			.past-text {
-				filter: drop-shadow(1px 1px 1px var(--offblack));
+				filter:
+					drop-shadow(0 0 1px var(--offblack))
+					drop-shadow(0 0 3px var(--offblack))
+					drop-shadow(0 0 5px var(--offblack));
 			}
 			.past-line {
-				filter: drop-shadow(1px 1px 1px var(--offblack));
+				filter:
+					drop-shadow(0 0 1px var(--offblack))
+					drop-shadow(0 0 3px var(--offblack))
+					drop-shadow(0 0 5px var(--offblack));
 			}
 		}
 
@@ -124,11 +136,15 @@ function initSnowflakes() {
 		}
 	});
 
-	// Start initial snowfall
-	startSnowfall();
+	// Start initial snowfall after delay, checking visibility first
+	setTimeout(() => {
+		if (document.hidden) {
+			pauseSnowfall();
+		} else {
+			startSnowfall();
+		}
+	}, 2000);
 }
 
-// Wait for page load and then delay initialization by 2 seconds
-document.addEventListener('DOMContentLoaded', () => {
-	setTimeout(initSnowflakes, 2000);
-});
+// Initialize immediately on DOMContentLoaded
+document.addEventListener('DOMContentLoaded', initSnowflakes);
