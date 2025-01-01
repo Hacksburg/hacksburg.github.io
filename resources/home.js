@@ -121,9 +121,10 @@ function splitAndSortPosts(posts, todayFormatted) {
 	let pastPosts = posts.filter(post => post.getAttribute('data-isodate') < todayFormatted);
 
 	pastPosts.forEach(post => {
+		// Find and remove the RSVP button and the "or RSVP by Email" text below it
 		let rsvpButton = post.querySelector('.rsvp-button');
 		if (rsvpButton) {
-			rsvpButton.innerText = 'View on Meetup';
+			rsvpButton.remove();
 		}
 		let belowButtonText = post.querySelector('.below-button-text');
 		if (belowButtonText) {
@@ -135,6 +136,7 @@ function splitAndSortPosts(posts, todayFormatted) {
 
 	return [futurePosts, pastPosts];
 }
+
 
 function insertSortedPosts(parent, futurePosts, pastPosts, todayFormatted) {
 	// Insert sorted posts and add a marker for past events
