@@ -6,7 +6,6 @@ Hacksburg's primary web presence. Hosted by [Github pages](https://pages.github.
 
 ## How to Update the site
 
-0. (Optional) Download events from meetup and convert to JSON using ```rss_to_json.ipynb```
 1. Modify ```posts.json``` (add a new post element or update an existing one)
 2. (Optional, suggested) Run ```build.py``` to build index.html and host the site locally to check that everything looks how you expect 
     * Use ```python -m http.server```, VSCode Live Server, or similar
@@ -21,4 +20,3 @@ Hacksburg's primary web presence. Hosted by [Github pages](https://pages.github.
 * ```build.py```: Adds contents from posts.json to static html site
 * ```index.html```: Homepage of website, framework that contains no posts by default
 * ```posts.json```: Defines homepage content (primarily classes and events)
-* ```rss_to_json.py```: Formats Meetup RSS feed to post.json expected format

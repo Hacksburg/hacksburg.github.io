@@ -75,9 +75,9 @@ if __name__ == "__main__":
                     price_text = f" ${post['member_price']} for Hacksburg members, ${post['non_member_price']} for non-members."
 
             if "<p>" not in post['description']:
-                output += "<p>"+post['description']+price_text+f" RSVP at <a href=\"{post['meetup_link']}\">"+post['meetup_link']+"</a> .</p>\n"
+                output += "<p>"+post['description']+price_text+f" RSVP at <a href=\"{post['zeffy_link']}\">"+post['zeffy_link']+"</a> .</p>\n"
             else:
-                output += post['description']+f"<p>{price_text} RSVP at <a href=\"{post['meetup_link']}\">"+post['meetup_link']+"</a> .</p>\n"
+                output += post['description']+f"<p>{price_text} RSVP at <a href=\"{post['zeffy_link']}\">"+post['zeffy_link']+"</a> .</p>\n"
 
     output += """---
 Hacksburg is a community makerspace located at 1872 Pratt Drive, Suite 1620. Come to the back of the building. Open meetings for the public are every Tuesday at 7:30PM.
