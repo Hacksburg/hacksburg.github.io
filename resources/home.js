@@ -121,14 +121,10 @@ function splitAndSortPosts(posts, todayFormatted) {
 	let pastPosts = posts.filter(post => post.getAttribute('data-isodate') < todayFormatted);
 
 	pastPosts.forEach(post => {
-		// Find and remove the RSVP button and the "or RSVP by Email" text below it
+		// Find and remove the RSVP button
 		let rsvpButton = post.querySelector('.rsvp-button');
 		if (rsvpButton) {
 			rsvpButton.remove();
-		}
-		let belowButtonText = post.querySelector('.below-button-text');
-		if (belowButtonText) {
-			belowButtonText.remove();
 		}
 	});
 

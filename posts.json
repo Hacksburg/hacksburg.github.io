@@ -12,10 +12,9 @@
 			"offered_online": false,
 			"offered_in_person": true,
 			"member_price": 5,
-			"non_member_price": 5,
+			"non_member_price": 10,
 			"image": "leatherworking.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/leatherworking-basics",
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -32,7 +31,6 @@
 			"non_member_price": 10,
 			"image": "radio.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/intro-to-electronics-with-radios",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/304162112/",
 			"cancelled": false
 		},
 		{
@@ -49,7 +47,6 @@
 			"non_member_price": 10,
 			"image": "maple_syrup.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/maple-syrup-making",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/304162109/",
 			"cancelled": false
 		},
 		{
@@ -66,7 +63,6 @@
 			"non_member_price": 5,
 			"image": "3dprinting_2.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/3d-printer-community-work-day",
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/304162120",
 			"cancelled": false
 		},
 		{
@@ -83,7 +79,6 @@
 			"non_member_price": 5,
 			"image": "kite.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/304162108/",
 			"cancelled": false
 		},
 		{
@@ -100,7 +95,6 @@
 			"non_member_price": 0,
 			"image": "2018_all_ornaments.png",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/304162104/",
 			"cancelled": false
 		},
 		{
@@ -117,7 +111,6 @@
 			"non_member_price": 5,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/304162094/",
 			"cancelled": false
 		},
 		{
@@ -134,7 +127,6 @@
 			"non_member_price": 5,
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/304162061/",
 			"cancelled": false
 		},
 		{
@@ -151,7 +143,6 @@
 			"non_member_price": 5,
 			"image": "fermentation.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/302852570/",
 			"cancelled": false
 		},
 		{
@@ -168,7 +159,6 @@
 			"non_member_price": 0,
 			"image": "2018_cidermaking.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/302852557/",
 			"cancelled": false
 		},
 		{
@@ -185,7 +175,6 @@
 			"non_member_price": 0,
 			"image": "2018_cidermaking.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/302852550/",
 			"cancelled": false
 		},
 		{
@@ -202,7 +191,6 @@
 			"non_member_price": 0,
 			"image": "maple.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/303331401/",
 			"cancelled": false
 		},
 		{
@@ -219,7 +207,6 @@
 			"non_member_price": 0,
 			"image": "laser_taco_tuesday.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/303331426/",
 			"cancelled": false
 		},
 		{
@@ -236,7 +223,6 @@
 			"non_member_price": 5,
 			"image": "kicad.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/302852534/",
 			"cancelled": false
 		},
 		{
@@ -253,7 +239,6 @@
 			"non_member_price": 0,
 			"image": "lunar_eclipse.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/303331375/",
 			"cancelled": false
 		},
 		{
@@ -270,7 +255,6 @@
 			"non_member_price": 5,
 			"image": "resin_print_3.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/302852523/",
 			"cancelled": false
 		},
 		{
@@ -287,7 +271,6 @@
 			"non_member_price": 15,
 			"image": "glow_cat.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/302852515/",
 			"cancelled": false
 		},
 		{
@@ -304,7 +287,6 @@
 			"non_member_price": 5,
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301640287/",
 			"cancelled": false
 		},
 		{
@@ -321,7 +303,6 @@
 			"non_member_price": 5,
 			"image": "canning.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301640285/",
 			"cancelled": false
 		},
 		{
@@ -338,7 +319,6 @@
 			"non_member_price": 5,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301640304/",
 			"cancelled": false
 		},
 		{
@@ -355,7 +335,6 @@
 			"non_member_price": 10,
 			"image": "embroidery.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301640951/",
 			"cancelled": false
 		},
 		{
@@ -372,7 +351,6 @@
 			"non_member_price": 10,
 			"image": "vinyl_cutter.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301640635/",
 			"cancelled": false
 		},
 		{
@@ -389,7 +367,6 @@
 			"non_member_price": 5,
 			"image": "home_assistant.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301640274/",
 			"cancelled": false
 		},
 		{
@@ -406,7 +383,6 @@
 			"non_member_price": 5,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301640259/",
 			"cancelled": false
 		},
 		{
@@ -423,7 +399,6 @@
 			"non_member_price": 15,
 			"image": "glow_cat.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301471529/",
 			"cancelled": false
 		},
 		{
@@ -440,7 +415,6 @@
 			"non_member_price": 5,
 			"image": "homebrewing.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301640249/",
 			"cancelled": false
 		},
 		{
@@ -457,7 +431,6 @@
 			"non_member_price": 0,
 			"image": "woodshop2.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301471792/",
 			"cancelled": false
 		},
 		{
@@ -474,7 +447,6 @@
 			"non_member_price": 0,
 			"image": "summer_solstice_fest2.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301471805/",
 			"cancelled": false
 		},
 		{
@@ -491,7 +463,6 @@
 			"non_member_price": 5,
 			"image": "resin_print_3.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301294492/",
 			"cancelled": false
 		},
 		{
@@ -508,7 +479,6 @@
 			"non_member_price": 35,
 			"image": "wooden_box_2.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/301294474/",
 			"cancelled": false
 		},
 		{
@@ -525,7 +495,6 @@
 			"non_member_price": 20,
 			"image": "holograms.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/300620652/",
 			"cancelled": false
 		},
 		{
@@ -542,7 +511,6 @@
 			"non_member_price": 5,
 			"image": "kicad.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/300620550/",
 			"cancelled": false
 		},
 		{
@@ -559,7 +527,6 @@
 			"non_member_price": 5,
 			"image": "kite.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/299197451/",
 			"cancelled": false
 		},
 		{
@@ -576,7 +543,6 @@
 			"non_member_price": 0,
 			"image": "shop_workday.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/299197521/",
 			"cancelled": false
 		},
 		{
@@ -593,7 +559,6 @@
 			"non_member_price": 0,
 			"image": "laser_room.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/299198664/",
 			"cancelled": false
 		},
 		{
@@ -610,7 +575,6 @@
 			"non_member_price": 0,
 			"image": "maker_faire.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/299197476/",
 			"cancelled": false
 		},
 		{
@@ -627,7 +591,6 @@
 			"non_member_price": 20,
 			"image": "seedstarting.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/299197479/",
 			"cancelled": true
 		},
 		{
@@ -644,7 +607,6 @@
 			"non_member_price": 5,
 			"image": "bicycles.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/299197487/",
 			"cancelled": true
 		},
 		{
@@ -661,7 +623,6 @@
 			"non_member_price": 5,
 			"image": "3dprinting_2.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/299197428/",
 			"cancelled": false
 		},
 		{
@@ -678,7 +639,6 @@
 			"non_member_price": 20,
 			"image": "wooden_lathe.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063962/",
 			"cancelled": false
 		},
 		{
@@ -695,7 +655,6 @@
 			"non_member_price": 5,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063947/",
 			"cancelled": false
 		},
 		{
@@ -712,7 +671,6 @@
 			"non_member_price": 15,
 			"image": "laser_3.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063931/",
 			"cancelled": false
 		},
 		{
@@ -729,7 +687,6 @@
 			"non_member_price": 35,
 			"image": "wooden_box_2.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063956/",
 			"cancelled": false
 		},
 		{
@@ -746,7 +703,6 @@
 			"non_member_price": 10,
 			"image": "radio.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063942/",
 			"cancelled": false
 		},
 		{
@@ -763,7 +719,6 @@
 			"non_member_price": 5,
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/297868632/",
 			"cancelled": false
 		},
 		{
@@ -780,7 +735,6 @@
 			"non_member_price": 5,
 			"image": "sewing.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063946/",
 			"cancelled": false
 		},
 		{
@@ -797,7 +751,6 @@
 			"non_member_price": 10,
 			"image": "maple_syrup.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/298063923/",
 			"cancelled": false
 		},
 		{
@@ -814,7 +767,6 @@
 			"non_member_price": 5,
 			"image": "HomeAlone_small.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/297039489/",
 			"cancelled": false
 		},
 		{
@@ -831,7 +783,6 @@
 			"non_member_price": 5,
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/297039481/",
 			"cancelled": false
 		},
 		{
@@ -848,7 +799,6 @@
 			"non_member_price": 0,
 			"image": "2018_all_ornaments.png",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/297039468/",
 			"cancelled": false
 		},
 		{
@@ -865,7 +815,6 @@
 			"non_member_price": 5,
 			"image": "resin_print_3.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/297039452/",
 			"cancelled": false
 		},
 		{
@@ -882,7 +831,6 @@
 			"non_member_price": 5,
 			"image": "sewing.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/297039431/",
 			"cancelled": false
 		},
 		{
@@ -899,7 +847,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -916,7 +863,6 @@
 			"non_member_price": 5,
 			"image": "apple_05.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657924/",
 			"cancelled": false
 		},
 		{
@@ -933,7 +879,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -950,7 +895,6 @@
 			"non_member_price": 0,
 			"image": "2018_cidermaking.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657883/",
 			"cancelled": false
 		},
 		{
@@ -967,7 +911,6 @@
 			"non_member_price": 0,
 			"image": "2018_cidermaking.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657877/",
 			"cancelled": false
 		},
 		{
@@ -984,7 +927,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1001,7 +943,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1018,7 +959,6 @@
 			"non_member_price": 5,
 			"image": "3dprinting_2.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657691/",
 			"cancelled": false
 		},
 		{
@@ -1035,7 +975,6 @@
 			"non_member_price": 0,
 			"image": "foam_mask.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657977/",
 			"cancelled": false
 		},
 		{
@@ -1052,7 +991,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1069,7 +1007,6 @@
 			"non_member_price": 5,
 			"image": "blender.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657658/",
 			"cancelled": false
 		},
 		{
@@ -1086,7 +1023,6 @@
 			"non_member_price": 0,
 			"image": "maple.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657828/",
 			"cancelled": false
 		},
 		{
@@ -1103,7 +1039,6 @@
 			"non_member_price": 15,
 			"image": "laser_3.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657648/",
 			"cancelled": false
 		},
 		{
@@ -1120,7 +1055,6 @@
 			"non_member_price": 10,
 			"image": "home_maintenance.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295657781/",
 			"cancelled": false
 		},
 		{
@@ -1137,7 +1071,6 @@
 			"non_member_price": 0,
 			"image": "laser_taco_tuesday.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295658678/",
 			"cancelled": false
 		},
 		{
@@ -1154,7 +1087,6 @@
 			"non_member_price": 0,
 			"image": "laser_room.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295210629/",
 			"cancelled": false
 		},
 		{
@@ -1171,7 +1103,6 @@
 			"non_member_price": 5,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114339/",
 			"cancelled": false
 		},
 		{
@@ -1188,7 +1119,6 @@
 			"non_member_price": 5,
 			"image": "canning.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114326/",
 			"cancelled": false
 		},
 		{
@@ -1205,7 +1135,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1222,7 +1151,6 @@
 			"non_member_price": 5,
 			"image": "blender.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114315/",
 			"cancelled": false
 		},
 		{
@@ -1239,7 +1167,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1256,7 +1183,6 @@
 			"non_member_price": 5,
 			"image": "python.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/295114282/",
 			"cancelled": true
 		},
 		{
@@ -1273,7 +1199,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1290,7 +1215,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1307,7 +1231,6 @@
 			"non_member_price": 5,
 			"image": "python.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227465/",
 			"cancelled": false
 		},
 		{
@@ -1324,7 +1247,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1341,7 +1263,6 @@
 			"non_member_price": 5,
 			"image": "bicycles.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227436/",
 			"cancelled": false
 		},
 		{
@@ -1358,7 +1279,6 @@
 			"non_member_price": 0,
 			"image": null,
 			"zeffy_link": null,
-			"meetup_link": null,
 			"cancelled": false
 		},
 		{
@@ -1375,7 +1295,6 @@
 			"non_member_price": 5,
 			"image": "3dprinting_2.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/294227406/",
 			"cancelled": false
 		},
 		{
@@ -1392,7 +1311,6 @@
 			"non_member_price": 5,
 			"image": "leatherworking.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/294089600/",
 			"cancelled": false
 		},
 		{
@@ -1409,7 +1327,6 @@
 			"non_member_price": 0,
 			"image": "locker_room.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997582/",
 			"cancelled": false
 		},
 		{
@@ -1426,7 +1343,6 @@
 			"non_member_price": 0,
 			"image": "summer_solstice_fest.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/293868702/",
 			"cancelled": false
 		},
 		{
@@ -1443,7 +1359,6 @@
 			"non_member_price": 0,
 			"image": "modern_kites.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380255/",
 			"cancelled": false
 		},
 		{
@@ -1460,7 +1375,6 @@
 			"non_member_price": 5,
 			"image": "modifying_cad.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997667/",
 			"cancelled": false
 		},
 		{
@@ -1477,7 +1391,6 @@
 			"non_member_price": 10,
 			"image": "radio.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292997547/",
 			"cancelled": false
 		},
 		{
@@ -1494,7 +1407,6 @@
 			"non_member_price": 5,
 			"image": "resin_print_3.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380272/",
 			"cancelled": false
 		},
 		{
@@ -1511,7 +1423,6 @@
 			"non_member_price": 0,
 			"image": "synthesizer.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380091/",
 			"cancelled": false
 		},
 		{
@@ -1528,7 +1439,6 @@
 			"non_member_price": 5,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/292380004/",
 			"cancelled": false
 		},
 		{
@@ -1545,7 +1455,6 @@
 			"non_member_price": 20,
 			"image": "seedstarting.jpg",
 			"zeffy_link": null,
-			"meetup_link": "https://www.meetup.com/hacksburgva/events/291358474/",
 			"cancelled": false
 		}
 	]
