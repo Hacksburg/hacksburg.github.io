@@ -1,6 +1,10 @@
 import json, os, shutil, urllib.parse, hashlib
 from datetime import datetime
 
+def cleanup_temp_file():
+    if os.path.exists('temp.html'):
+        os.remove('temp.html')
+
 def sort_posts():
 	print("Standardizing dates and sorting posts.json by date...")
 	with open('posts.json', 'r+') as json_file:
@@ -63,7 +67,6 @@ def build_index():
 				# Write posts to file
 				file.write(json_to_html())
 				state = "waiting" # do nothing
-				# file.write("\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</body>\n</html>")
 	
 	shutil.move('temp.html', 'index.html')
 		
@@ -78,6 +81,12 @@ def json_to_html():
 		start_time = post["start_time"]
 		end_time = post["end_time"]
 		cancelled = post["cancelled"]
+
+		# Validate member/non-member prices
+		if post["non_member_price"] < post["member_price"]:
+			print(f"Error: Non-member price (${post['non_member_price']}) is less than member price (${post['member_price']}) for class '{post['title']}'")
+			cleanup_temp_file()
+			exit(1)
 
 		# Header
 		html += f'\n\t\t\t\t\t<div class="post" data-isodate="{date}">\n'
@@ -157,14 +166,29 @@ def json_to_html():
 				html += '\t\t\t\t\t\t\t\t\t<b>URL</b>: '
 				html += '<a href="https://meet.hacksburg.org/class" target="_blank">meet.hacksburg.org/class</a><br>\n'
 
-			if post["member_price"] == 0 and post["non_member_price"] == 0:
-				html += '\t\t\t\t\t\t\t\t\t<b>Cost</b>: Free!\n'
-			elif post["member_price"] == 0:
-				html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: Free for Hacksburg members; ${post["non_member_price"]} for non-members.\n'
-			elif post["member_price"] == post["non_member_price"]:
-				html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["non_member_price"]}.\n'
+			# Cost formatting
+			html += '\t\t\t\t\t\t\t\t\t<b>Cost</b>: '
+			materials_fee = post.get('materials_fee')
+
+			if materials_fee and materials_fee > 0:
+				if post["member_price"] == 0 and post["non_member_price"] == 0:
+					html += f"This event is free, with an optional ${materials_fee} materials fee."
+				elif post["member_price"] == post["non_member_price"]:
+					html += f"This event is ${post['member_price']} for all attendees, plus an optional ${materials_fee} materials fee."
+				elif post["member_price"] == 0:
+					html += f"This event is free for Hacksburg members and ${post['non_member_price']} for non-members, plus an optional ${materials_fee} materials fee."
+				else:
+					html += f"This event is ${post['member_price']} for Hacksburg members and ${post['non_member_price']} for non-members, plus an optional ${materials_fee} materials fee."
 			else:
-				html += f'\t\t\t\t\t\t\t\t\t<b>Cost</b>: ${post["member_price"]} for Hacksburg members; ${post["non_member_price"]} for non-members.\n'
+				if post["member_price"] == 0 and post["non_member_price"] == 0:
+					html += "Free!"
+				elif post["member_price"] == 0:
+					html += f"Free for Hacksburg members; ${post['non_member_price']} for non-members."
+				elif post["member_price"] == post["non_member_price"]:
+					html += f"${post['non_member_price']}."
+				else:
+					html += f"${post['member_price']} for Hacksburg members; ${post['non_member_price']} for non-members."
+
 			html += '\t\t\t\t\t\t\t\t\t</p>\n'
 		
 		if post["zeffy_link"]:
@@ -219,5 +243,10 @@ def build_mailto(subject, body):
 	return f'mailto:rsvp@hacksburg.org?subject={subject}&body={body}'
 
 if __name__ == "__main__":
-	build_index()
-	print("Build complete!")
+	try:
+		build_index()
+		print("Build complete!")
+	except Exception as e:
+		cleanup_temp_file()
+		print(f"Error: {str(e)}")
+		exit(1)
