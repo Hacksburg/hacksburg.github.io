@@ -2,6 +2,142 @@
 	"announcements": [],
 	"posts": [
 		{
+			"title": "Retro Systems Workday",
+			"subtitle": "They aren't old... they're \"vintage\"",
+			"description": "<p>Step back in time for a journey through computing history! In this hands on event, we'll work together to restore an IBM PS/2 Model 25 and experience classic computing firsthand on a fully functional Macintosh Plus from 1986. Whether you're a seasoned tech enthusiast or just curious about these pioneering machines, there's something here for everyone \u2013 create a MacPaint masterpiece, surf the World Wide Web, or try your hand at The Oregon Trail (dysentery not guaranteed, but highly likely).</p><p>Have a vintage computer of your own? Feel free to bring it along for troubleshooting help or just to show it off!</p>",
+			"date": "2025-03-23",
+			"start_time": "1:00pm",
+			"end_time": "4:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": null,
+			"image": "oregon_trail.jpg",
+			"zeffy_link": "https://www.zeffy.com/ticketing/retro-systems-workday",
+			"cancelled": false
+		},
+		{
+			"title": "Seed Starting and Gardening Basics",
+			"subtitle": "Grow your own food at home",
+			"description": "<p>Get ready for garden season by learning how to start your own plants from seed. Starting from seed saves money and increases the variety of plants you can grow! This class will also cover basic garden prep information such as mixing soil and making planters.</p><p>The optional materials fee includes a starting kit and seeds. Feel free to bring your own seeds as well!</p>",
+			"date": "2025-03-16",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": 15,
+			"image": "seedstarting.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/seed-starting-and-gardening-basics",
+			"cancelled": false
+		},
+		{
+			"title": "Metal Casting",
+			"subtitle": "Pour molten aluminum",
+			"description": "<p>Make your own sand cast aluminum object at our casting class! Sand casting is an exciting process that's very accessible to the hobbyist. Ages 16 and up; wear all cotton clothes and long pants.</p><p>If you have something wood or 3D printed that you'd like to cast, bring it along! If it's a complicated shape, you may want to talk to us first. Feel free to email <a href=\"mailto:board@hacksburg.org\">board@hacksburg.org</a> with questions.</p>",
+			"date": "2025-03-09",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": 5,
+			"image": "casting_cropped_600px.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/metal-casting",
+			"cancelled": false
+		},
+		{
+			"title": "Intro to Woodturning on the Lathe",
+			"subtitle": "",
+			"description": "<p>Learn the basics of woodturning! This class will cover the tools and techniques of using a wood lathe. Optional materials fee includes wood to make a small project.</p><p>Ages 16+. Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"date": "2025-03-02",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": 15,
+			"image": "wooden_lathe.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/intro-to-woodturning-on-the-lathe",
+			"cancelled": false
+		},
+		{
+			"title": "Silicone Mold Making and Casting",
+			"subtitle": "",
+			"description": "<p>This class will showcase some of the knowledge we gained during the initial COVID-19 pandemic response to make PPE for local groups. We will discuss how to make low-cost silicone molds for cosplay, rapid prototyping, and other applications. Attendees will be able to make a silicone mold and produce a wax replica. Ages 14+.",
+			"date": "2025-02-23",
+			"start_time": "1:00pm",
+			"end_time": "4:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": null,
+			"image": "silicone.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/silicone-mold-making-and-casting",
+			"cancelled": false
+		},
+		{
+			"title": "Woodworking 101",
+			"subtitle": "Make sawdust (and a wooden box) in Hacksburg's woodshop",
+			"description": "<p>Attendees will have the opportunity to make a simple wooden box with handles and a lid. This project is designed to utilize almost all of the woodworking tools Hacksburg offers and provide a great introduction to woodworking.</p><p>To cover the cost of wood, this class will include a $30 materials fee.</p><p>Ages 16+. Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"date": "2025-02-16",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": 30,
+			"image": "wooden_box_2.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/woodworking--101",
+			"cancelled": false
+		},
+		{
+			"title": "Laser Cutter 101: Make a DIY Valentines Day Gift",
+			"subtitle": "Learn to use Hacksburg's laser cutter",
+			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive an LED base with the optional materials fee.</p>",
+			"date": "2025-02-09",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": 10,
+			"image": "glow_cat.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/laser-cutter-101-make-a-diy-valentines-day-gift",
+			"cancelled": false
+		},
+		{
+			"title": "Intro to CNC Machining",
+			"subtitle": "Learn to use Hacksburg's CNC gantry router",
+			"description": "<p>Attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of the Hacksburg CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will show the machining of a demo part.</p><p>If you would like to become CNC trained as a Hacksburg member, we will schedule a second session to cover CNC programming on the computer.</p><p>Ages 14+. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
+			"date": "2025-02-02",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": null,
+			"image": "cnc.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/2025-fundraising-gala-84",
+			"cancelled": false
+		},
+		{
 			"title": "Leatherworking Basics",
 			"subtitle": "Learn how to make long-lasting leather goods",
 			"description": "<p>Discover the art of leatherworking and create your own long-lasting leather goods! This comprehensive class will cover the entire leatherworking process, from selecting the right leather and planning your project to cutting, sewing, molding, decorating, and finishing your piece. Attendees will make at least one project (either a cell phone holster or a decorative drink coaster) and may have the opportunity to complete both if time permits.</p><p>Ages 16+. Attendees under 18 must be accompanied by a parent/guardian at all times and parent/guardian must approve all shop tool use.</p>",
@@ -140,7 +276,7 @@
 		{
 			"title": "Fermentation: Hard Cider & Homebrewing Basics",
 			"subtitle": "Intro to Homebrewing",
-			"description": "<p>We will cover the basics of turning apple cider (and other fruit juices) into an alcoholic drink. Works great with fresh cider from the Tenth Annual Hacksburg Cider Making!</p> <p>This class is for attendees age 21 and up. No underage class attendees permitted.</p>",
+			"description": "<p>We will cover the basics of turning apple cider (and other fruit juices) into an alcoholic drink. Works great with fresh cider from the Tenth Annual Hacksburg Cider Making!</p><p>This class is for attendees age 21 and up. No underage class attendees permitted.</p>",
 			"date": "2024-10-27",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -157,7 +293,7 @@
 		{
 			"title": "Tenth Annual Hacksburg Cider Making",
 			"subtitle": "Fresh, all-natural, and delicious!",
-			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety, only using one type typically results in extremely sweet or tart cider. Ten pounds of apples makes three quarts of cider. Free to anyone in the community, no RSVP required.</p> <p>Want more information? We go into the cidermaking process in detail here: <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">https://hb.gy/0nAyF</a>.</p> <p>Cider making is for attendees of all ages. If you are bringing an attendee under 18, you (the parent/guardian) must stay the whole time your child/dependent is there.</p>",
+			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety, only using one type typically results in extremely sweet or tart cider. Ten pounds of apples makes three quarts of cider. Free to anyone in the community, no RSVP required.</p><p>Want more information? We go into the cidermaking process in detail here: <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">https://hb.gy/0nAyF</a>.</p><p>Cider making is for attendees of all ages. If you are bringing an attendee under 18, you (the parent/guardian) must stay the whole time your child/dependent is there.</p>",
 			"date": "2024-10-20",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -174,7 +310,7 @@
 		{
 			"title": "Tenth Annual Hacksburg Cider Making",
 			"subtitle": "Fresh, all-natural, and delicious!",
-			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety, only using one type typically results in extremely sweet or tart cider. Ten pounds of apples makes three quarts of cider. Free to anyone in the community, no RSVP required.</p> <p>Want more information? We go into the cidermaking process in detail here: <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">https://hb.gy/0nAyF</a>.</p> <p>Cider making is for attendees of all ages. If you are bringing an attendee under 18, you (the parent/guardian) must stay the whole time your child/dependent is there.</p>",
+			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety, only using one type typically results in extremely sweet or tart cider. Ten pounds of apples makes three quarts of cider. Free to anyone in the community, no RSVP required.</p><p>Want more information? We go into the cidermaking process in detail here: <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">https://hb.gy/0nAyF</a>.</p><p>Cider making is for attendees of all ages. If you are bringing an attendee under 18, you (the parent/guardian) must stay the whole time your child/dependent is there.</p>",
 			"date": "2024-10-13",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -225,7 +361,7 @@
 		{
 			"title": "Designing Circuit Boards in KiCad",
 			"subtitle": "Open source software for PCB design",
-			"description": "<p>Learn how to design your own circuit boards using KiCad, a free software suite for electronic design automation. We will cover the use of the software to design a custom circuit and how to have it manufactured.</p> <p>Please bring a computer for the hands-on portion of the class!</p> <p>Free for members and $5 for non-members.</p> <p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
+			"description": "<p>Learn how to design your own circuit boards using KiCad, a free software suite for electronic design automation. We will cover the use of the software to design a custom circuit and how to have it manufactured.</p><p>Please bring a computer for the hands-on portion of the class!</p><p>Free for members and $5 for non-members.</p><p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2024-09-22",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -259,7 +395,7 @@
 		{
 			"title": "Resin Printer Basics",
 			"subtitle": "Learn to use Hacksburg's 8K SLA resin printer",
-			"description": "<p>Normal filament-based 3D printers are capable of making an incredible array of parts, but for high-detail miniatures our new resin printer is capable of over 10x the resolution. Learn how to use the Hacksburg resin printer, what parts work best, and how these machines differ from filament-based printers. The class is free for Hacksburg members and $5 for non-members.</p> <p>This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all equipment use.</p>",
+			"description": "<p>Normal filament-based 3D printers are capable of making an incredible array of parts, but for high-detail miniatures our new resin printer is capable of over 10x the resolution. Learn how to use the Hacksburg resin printer, what parts work best, and how these machines differ from filament-based printers. The class is free for Hacksburg members and $5 for non-members.</p><p>This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all equipment use.</p>",
 			"date": "2024-09-15",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -276,7 +412,7 @@
 		{
 			"title": "Laser Cutter 101",
 			"subtitle": "Make your own edge-lit acrylic sign",
-			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive an LED base with the optional materials fee.</p> <p>This class is free for members and $5 for non-members, plus an optional $10 materials fee.</p>",
+			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive an LED base with the optional materials fee.</p><p>This class is free for members and $5 for non-members, plus an optional $10 materials fee.</p>",
 			"date": "2024-09-08",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -293,7 +429,7 @@
 		{
 			"title": "Metal Casting",
 			"subtitle": "Pour molten aluminum",
-			"description": "<p>Make your own sand cast aluminum object at our casting class! Sand casting is an exciting process that's very accessible to the hobbyist. Ages 16 and up; wear all cotton clothes and long pants.</p> <p>If you have something wood or 3D printed that you'd like to cast, bring it along! If it's a complicated shape, you may want to talk to us first. Feel free to email board@hacksburg.org with questions.</p>",
+			"description": "<p>Make your own sand cast aluminum object at our casting class! Sand casting is an exciting process that's very accessible to the hobbyist. Ages 16 and up; wear all cotton clothes and long pants.</p><p>If you have something wood or 3D printed that you'd like to cast, bring it along! If it's a complicated shape, you may want to talk to us first. Feel free to email board@hacksburg.org with questions.</p>",
 			"date": "2024-08-25",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -310,7 +446,7 @@
 		{
 			"title": "Canning Basics",
 			"subtitle": "You <i>can</i> do it!",
-			"description": "<p>Canning is a method of preserving food that can extend the shelf life of a variety of foods, even vegetables from your own garden. This class covers canning for beginners. Discussion time will be included for your own specific canning questions and to learn what others are canning.</p> <p>This class is for attendees age 12 and up. The class is free for Hacksburg members and $5 for non-members. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class.</p>",
+			"description": "<p>Canning is a method of preserving food that can extend the shelf life of a variety of foods, even vegetables from your own garden. This class covers canning for beginners. Discussion time will be included for your own specific canning questions and to learn what others are canning.</p><p>This class is for attendees age 12 and up. The class is free for Hacksburg members and $5 for non-members. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class.</p>",
 			"date": "2024-08-18",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -327,7 +463,7 @@
 		{
 			"title": "CNC Machining - Part 2",
 			"subtitle": "CAM and G-code generation",
-			"description": "<p>Attendees will learn CAM programming, which converts a 3d model into machine commands. Attendees will receive remote access to our CAM computer and a homework assignment, in the form of a STEP file that you will generate a machining plan and gcode for. You will then execute the plan, with me or another Hacksburg member, to confirm your ability to do CAM programming and CNC machining.</p> <p>The class is free for Hacksburg members and $5 for non-members. This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all shop tool use.</p>",
+			"description": "<p>Attendees will learn CAM programming, which converts a 3d model into machine commands. Attendees will receive remote access to our CAM computer and a homework assignment, in the form of a STEP file that you will generate a machining plan and gcode for. You will then execute the plan, with me or another Hacksburg member, to confirm your ability to do CAM programming and CNC machining.</p><p>The class is free for Hacksburg members and $5 for non-members. This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all shop tool use.</p>",
 			"date": "2024-08-11",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -344,7 +480,7 @@
 		{
 			"title": "Embroidery 101",
 			"subtitle": "Custom garments with robotic sewing machines",
-			"description": "<p>Learn how to use a CNC embroidery machine to add custom shapes, logos, and text to items! This class will cover how to program designs using open source software.</p> <p>Free for members and $5 for non-members, plus $5 optional materials fee. Bring your own shirt!</p> <p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>Learn how to use a CNC embroidery machine to add custom shapes, logos, and text to items! This class will cover how to program designs using open source software.</p><p>Free for members and $5 for non-members, plus $5 optional materials fee. Bring your own shirt!</p><p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-08-04",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -361,7 +497,7 @@
 		{
 			"title": "Vinyl Cutting",
 			"subtitle": "Stickers, labels, clothing, and more",
-			"description": "<p>This workshop covers the Hacksburg vinyl cutter. Basic safety, design guidelines, and examples will be presented. Attendees will learn how to make their own vinyl sticker or shirt with the optional materials fee.</p> <p>Free for members and $5 for non-members, plus $5 optional materials fee. Bring your own 100% cotton t-shirt if you want to make a custom shirt!</p> <p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>This workshop covers the Hacksburg vinyl cutter. Basic safety, design guidelines, and examples will be presented. Attendees will learn how to make their own vinyl sticker or shirt with the optional materials fee.</p><p>Free for members and $5 for non-members, plus $5 optional materials fee. Bring your own 100% cotton t-shirt if you want to make a custom shirt!</p><p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-07-28",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -378,7 +514,7 @@
 		{
 			"title": "Smart Home with Home Assistant",
 			"subtitle": "Open the pod bay doors, HA",
-			"description": "<p>Smart outlets and home automation are becoming more popular every year, but these devices are often lacking some advanced features and have undesirable connections to the Internet. In this class we'll show you how to take control of your own smart outlets using software like ESPHome and Home Assistant. Bring your own Raspberry Pi or use one of our demo setups.</p> <p>Old laptops work really well for Home Assistant too! Make sure it has an Ethernet port.</p> <p>Event fee of $5 for non-members and free for Hacksburg members.</p>",
+			"description": "<p>Smart outlets and home automation are becoming more popular every year, but these devices are often lacking some advanced features and have undesirable connections to the Internet. In this class we'll show you how to take control of your own smart outlets using software like ESPHome and Home Assistant. Bring your own Raspberry Pi or use one of our demo setups.</p><p>Old laptops work really well for Home Assistant too! Make sure it has an Ethernet port.</p><p>Event fee of $5 for non-members and free for Hacksburg members.</p>",
 			"date": "2024-07-21",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -395,7 +531,7 @@
 		{
 			"title": "CNC Machining - Part 1",
 			"subtitle": "Learn to use Hacksburg's CNC gantry router",
-			"description": "<p>Attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of the Hacksburg CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will show the machining of a demo part. Feel free to attend only this first part.</p> <p>If you intend on getting CNC trained as a Hacksburg member, we will schedule a time to hold Part 2, where I will teach the CAM programming on the computer and give you remote access to our CAM computer. You will then receive a homework assignment, in the form of a STEP file that you will generate a machining plan and gcode for. You will then execute the plan, with me or another Hacksburg member, to confirm your ability to do CAM programming and CNC machining.</p> <p>The class is free for Hacksburg members and $5 for non-members. This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all shop tool use.</p>",
+			"description": "<p>Attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of the Hacksburg CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will show the machining of a demo part. Feel free to attend only this first part.</p><p>If you intend on getting CNC trained as a Hacksburg member, we will schedule a time to hold Part 2, where I will teach the CAM programming on the computer and give you remote access to our CAM computer. You will then receive a homework assignment, in the form of a STEP file that you will generate a machining plan and gcode for. You will then execute the plan, with me or another Hacksburg member, to confirm your ability to do CAM programming and CNC machining.</p><p>The class is free for Hacksburg members and $5 for non-members. This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all shop tool use.</p>",
 			"date": "2024-07-14",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -412,7 +548,7 @@
 		{
 			"title": "Laser Cutter 101",
 			"subtitle": "Make your own edge-lit acrylic sign",
-			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive an LED base with the optional materials fee.</p> <p>This class is free for members and $5 for non-members, plus an optional $10 materials fee.</p>",
+			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive an LED base with the optional materials fee.</p><p>This class is free for members and $5 for non-members, plus an optional $10 materials fee.</p>",
 			"date": "2024-06-30",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -429,7 +565,7 @@
 		{
 			"title": "Homebrewing 101",
 			"subtitle": "Brew your own beer",
-			"description": "<p>We will cover the basics of homebrewing, including equipment, supplies, and techniques. We will demonstrate the extract brewing process and discuss the all-grain/mash process. The class will also touch on wine/cider/mead making techniques.</p> <p>This class is for attendees age 21 and up. The class is free for Hacksburg members and $5 for non-members. No underage class attendees permitted.</p>",
+			"description": "<p>We will cover the basics of homebrewing, including equipment, supplies, and techniques. We will demonstrate the extract brewing process and discuss the all-grain/mash process. The class will also touch on wine/cider/mead making techniques.</p><p>This class is for attendees age 21 and up. The class is free for Hacksburg members and $5 for non-members. No underage class attendees permitted.</p>",
 			"date": "2024-06-23",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -480,7 +616,7 @@
 		{
 			"title": "Resin Printer Basics",
 			"subtitle": "Learn to use Hacksburg's 8K SLA resin printer",
-			"description": "<p>Normal filament-based 3D printers are capable of making an incredible array of parts, but for high-detail miniatures our new resin printer is capable of over 10x the resolution. Learn how to use the Hacksburg resin printer, what parts work best, and how these machines differ from filament-based printers. The class is free for Hacksburg members and $5 for non-members.</p> <p>This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all equipment use.</p>",
+			"description": "<p>Normal filament-based 3D printers are capable of making an incredible array of parts, but for high-detail miniatures our new resin printer is capable of over 10x the resolution. Learn how to use the Hacksburg resin printer, what parts work best, and how these machines differ from filament-based printers. The class is free for Hacksburg members and $5 for non-members.</p><p>This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all equipment use.</p>",
 			"date": "2024-06-09",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -497,7 +633,7 @@
 		{
 			"title": "Woodworking 101",
 			"subtitle": "Introduction to wood tools",
-			"description": "<p>Attendees will have the opportunity to make a simple wooden box. The project is designed to utilize almost all of the woodworking tools Hacksburg offers and provide a great introduction to woodworking.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>Attendees will have the opportunity to make a simple wooden box. The project is designed to utilize almost all of the woodworking tools Hacksburg offers and provide a great introduction to woodworking.</p><p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-06-02",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -514,7 +650,7 @@
 		{
 			"title": "Introduction to Holograms",
 			"subtitle": "Make your own 3D image",
-			"description": "<p>Learn about lasers and how a hologram captures details of light to make your own hologram. Bring a small object or scene about the size of a business card. Shiny finishes should be avoided where possible. White or grey objects work well, but you can also do colored objects like M&amp;M's.</p> <p>Visit <a href=\"https://www.litiholo.com/hologram-gallery.html\" target=\"_blank\">litiholo.com</a> to view examples.</p><p>$15 for members and $20 for non-members to cover hologram materials.</p><p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
+			"description": "<p>Learn about lasers and how a hologram captures details of light to make your own hologram. Bring a small object or scene about the size of a business card. Shiny finishes should be avoided where possible. White or grey objects work well, but you can also do colored objects like M&amp;M's.</p><p>Visit <a href=\"https://www.litiholo.com/hologram-gallery.html\" target=\"_blank\">litiholo.com</a> to view examples.</p><p>$15 for members and $20 for non-members to cover hologram materials.</p><p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2024-05-19",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -531,7 +667,7 @@
 		{
 			"title": "Designing Circuit Boards in KiCad",
 			"subtitle": "Open source software for PCB design",
-			"description": "<p>Learn how to design your own circuit boards using KiCad, a free software suite for electronic design automation. We will cover the use of the software to design a custom circuit and how to have it manufactured.</p> <p>Please bring a computer for the hands-on portion of the class!</p> <p>Free for members and $5 for non-members.</p> <p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
+			"description": "<p>Learn how to design your own circuit boards using KiCad, a free software suite for electronic design automation. We will cover the use of the software to design a custom circuit and how to have it manufactured.</p><p>Please bring a computer for the hands-on portion of the class!</p><p>Free for members and $5 for non-members.</p><p>Ages 16+. Attendees under the age of 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2024-05-12",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -548,7 +684,7 @@
 		{
 			"title": "Modern Kites",
 			"subtitle": "Kites aren't just for the beach",
-			"description": "<p>Learn how modern kites are designed and constructed using advanced materials. Stunt kites, kiteboarding, and even kite photography will be discussed.</p> <p>All ages. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
+			"description": "<p>Learn how modern kites are designed and constructed using advanced materials. Stunt kites, kiteboarding, and even kite photography will be discussed.</p><p>All ages. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2024-04-21",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -565,7 +701,7 @@
 		{
 			"title": "Hacksburg 10th Anniversary Open House",
 			"subtitle": "A Decade of Community Making",
-			"description": "<p>Hacksburg's workshop opened for the first time on March 30, 2014. Since then we've enabled hundred of makers, artists, and entrepreneurs in the New River Valley to complete projects that would otherwise be out of reach.</p> <p>We will be celebrating the anniversary with tours of our workshop and hands on projects to commemorate the event!</p> <p>Hacksburg members must be 18+, but all ages are welcome at this open house. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
+			"description": "<p>Hacksburg's workshop opened for the first time on March 30, 2014. Since then we've enabled hundred of makers, artists, and entrepreneurs in the New River Valley to complete projects that would otherwise be out of reach.</p><p>We will be celebrating the anniversary with tours of our workshop and hands on projects to commemorate the event!</p><p>Hacksburg members must be 18+, but all ages are welcome at this open house. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2024-03-30",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -599,7 +735,7 @@
 		{
 			"title": "Hacksburg at Maker Faire Lynchburg",
 			"subtitle": "Making is better together",
-			"description": "<p>Hacksburg will be exhibiting at Maker Faire Lynchburg. Come out and enjoy hands-on activities, amazing exhibits, locally made products for sale, food trucks, a group build project and more!</p><p>This event is free and family-friendly. There will be activities for kids as young as 4, plus fun for grown-up makers too.</p> <p>More info at <a href=https://lynchburg.makerfaire.com target=_blank>Maker Faire Lynchburg</a>.</p>",
+			"description": "<p>Hacksburg will be exhibiting at Maker Faire Lynchburg. Come out and enjoy hands-on activities, amazing exhibits, locally made products for sale, food trucks, a group build project and more!</p><p>This event is free and family-friendly. There will be activities for kids as young as 4, plus fun for grown-up makers too.</p><p>More info at <a href=https://lynchburg.makerfaire.com target=_blank>Maker Faire Lynchburg</a>.</p>",
 			"date": "2024-03-24",
 			"start_time": "11:00am",
 			"end_time": "02:00pm",
@@ -616,7 +752,7 @@
 		{
 			"title": "Seed Starting and Gardening Basics",
 			"subtitle": "Colorless green ideas sleep furiously",
-			"description": "<p>Get ready for garden season by learning how to start your own plants from seed. Starting from seed saves money and increases the variety of plants you can grow! This class will also cover basic garden prep information such as mixing soil and making planters.</p> <p>The class fee includes a starting kit and seeds. Feel free to bring your own seeds as well!</p>",
+			"description": "<p>Get ready for garden season by learning how to start your own plants from seed. Starting from seed saves money and increases the variety of plants you can grow! This class will also cover basic garden prep information such as mixing soil and making planters.</p><p>The class fee includes a starting kit and seeds. Feel free to bring your own seeds as well!</p>",
 			"date": "2024-03-17",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -633,7 +769,7 @@
 		{
 			"title": "Bicycle Repair Day",
 			"subtitle": "Get your bike ready for spring!",
-			"description": "<p>Hacksburg will host a work session to provide help with basic bicycle repair and maintenance. Hacksburg will supply space, tools, cleaners and lubricants; attendees will provide bicycles.</p> <p>Ages 14+. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
+			"description": "<p>Hacksburg will host a work session to provide help with basic bicycle repair and maintenance. Hacksburg will supply space, tools, cleaners and lubricants; attendees will provide bicycles.</p><p>Ages 14+. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2024-03-10",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -650,7 +786,7 @@
 		{
 			"title": "3D Printer Community Work Day",
 			"subtitle": "Make your printer harder, better, faster, stronger!",
-			"description": "<p>Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer!</p> <p>Instructions on how to customize and compile firmware for your 3D printer will also be presented.</p> <p>This class is for attendees age 16 and up. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
+			"description": "<p>Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer!</p><p>Instructions on how to customize and compile firmware for your 3D printer will also be presented.</p><p>This class is for attendees age 16 and up. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2024-03-03",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -667,7 +803,7 @@
 		{
 			"title": "Intro to Woodturning on the Lathe",
 			"subtitle": "",
-			"description": "<p>Learn the basics of woodturning! This class will cover the tools and techniques of using a wood lathe.</p> <p>Free for members and $5 for non-members, plus $15 optional materials fee.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>Learn the basics of woodturning! This class will cover the tools and techniques of using a wood lathe.</p><p>Free for members and $5 for non-members, plus $15 optional materials fee.</p><p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-02-25",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -684,7 +820,7 @@
 		{
 			"title": "CNC Machining",
 			"subtitle": "",
-			"description": "<p>Attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of the Hacksburg CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will show the machining of a demo part. Feel free to attend only this first part.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>Attendees will learn how to do basic CNC operations and think like a machinist. Details will be given for the operation of the Hacksburg CNC gantry router, generously donated by Onefinity and Torc Robotics, and we will show the machining of a demo part. Feel free to attend only this first part.</p><p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-02-18",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -701,7 +837,7 @@
 		{
 			"title": "Laser Cutter 101: Make a DIY Valentines Day Gift",
 			"subtitle": "Learn to use Hacksburg's laser cutter",
-			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive the LED base with the optional materials fee.</p> <p>Free for members and $5 for non-members, plus $10 optional materials fee.</p>",
+			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive the LED base with the optional materials fee.</p><p>Free for members and $5 for non-members, plus $10 optional materials fee.</p>",
 			"date": "2024-02-11",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -718,7 +854,7 @@
 		{
 			"title": "Woodworking 101",
 			"subtitle": "Introduction to wood tools",
-			"description": "<p>Attendees will have the opportunity to make a simple wooden box. The project is designed to utilize almost all of the woodworking tools Hacksburg offers and provide a great introduction to woodworking.</p> <p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>Attendees will have the opportunity to make a simple wooden box. The project is designed to utilize almost all of the woodworking tools Hacksburg offers and provide a great introduction to woodworking.</p><p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-02-04",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -752,7 +888,7 @@
 		{
 			"title": "Metal Casting",
 			"subtitle": "Pour molten aluminum",
-			"description": "<p>Make your own sand cast Aluminum object at our casting class! Sand casting is an exciting process that's very accessible to the hobbyist. Ages 16 and up; wear all cotton clothes and long pants.</p> <p>If you have something wood or 3D printed that you'd like to cast, bring it along! If it's a complicated shape, you may want to talk to us first. Feel free to email board@hacksburg.org with questions.</p>",
+			"description": "<p>Make your own sand cast Aluminum object at our casting class! Sand casting is an exciting process that's very accessible to the hobbyist. Ages 16 and up; wear all cotton clothes and long pants.</p><p>If you have something wood or 3D printed that you'd like to cast, bring it along! If it's a complicated shape, you may want to talk to us first. Feel free to email board@hacksburg.org with questions.</p>",
 			"date": "2024-01-21",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -769,7 +905,7 @@
 		{
 			"title": "Sewing 101",
 			"subtitle": "A stitch in time saves nine",
-			"description": "<p>Learn the basics of sewing using the sewing machines at Hacksburg. Attendees will make a basic project (likely a pillow case).</p> <p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"description": "<p>Learn the basics of sewing using the sewing machines at Hacksburg. Attendees will make a basic project (likely a pillow case).</p><p>Ages 14+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
 			"date": "2024-01-14",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -786,7 +922,7 @@
 		{
 			"title": "Maple Syrup Making",
 			"subtitle": "How sweet it is",
-			"description": "<p>Learn about maple syrup production and everything you need to know to turn sap into a syrup at home! We will learn about how to identify and tap trees, different kinds of equipment and techniques for boiling and finishing into syrup. We'll also talk about the history of maple syrup and maple sugar, syrups from other trees, and how syrup is not just good on pancakes!</p> <p>Class fee includes demonstrations, a sampling of local syrup, and supplies to get you started at home!</p>",
+			"description": "<p>Learn about maple syrup production and everything you need to know to turn sap into a syrup at home! We will learn about how to identify and tap trees, different kinds of equipment and techniques for boiling and finishing into syrup. We'll also talk about the history of maple syrup and maple sugar, syrups from other trees, and how syrup is not just good on pancakes!</p><p>Class fee includes demonstrations, a sampling of local syrup, and supplies to get you started at home!</p>",
 			"date": "2024-01-07",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -803,7 +939,7 @@
 		{
 			"title": "Smart Home Alone!",
 			"subtitle": "",
-			"description": "<p>Smart outlets and home automation are becoming more popular every year, but these devices are often lacking some advanced features and have undesirable connections to the Internet. In this class we'll show you how to take control of your own smart outlets using software like ESPHome and Home Assistant. Bring your own Raspberry Pi or use one of our demo setups.</p> <p>Old laptops work really well for Home Assistant too! Make sure it has an Ethernet port.</p> <p>Event fee of $5 for non-members and free for Hacksburg members.</p>",
+			"description": "<p>Smart outlets and home automation are becoming more popular every year, but these devices are often lacking some advanced features and have undesirable connections to the Internet. In this class we'll show you how to take control of your own smart outlets using software like ESPHome and Home Assistant. Bring your own Raspberry Pi or use one of our demo setups.</p><p>Old laptops work really well for Home Assistant too! Make sure it has an Ethernet port.</p><p>Event fee of $5 for non-members and free for Hacksburg members.</p>",
 			"date": "2023-12-17",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -820,7 +956,7 @@
 		{
 			"title": "Metal Casting",
 			"subtitle": "Pour molten aluminum",
-			"description": "<p>Make your own sand cast Aluminum object at our casting class! Sand casting is an exciting process that's very accessible to the hobbyist. Ages 16 and up; wear all cotton clothes and long pants.</p> <p>If you have something wood or 3D printed that you'd like to cast, bring it along! If it's a complicated shape, you may want to talk to us first. Feel free to email board@hacksburg.org with questions.</p>",
+			"description": "<p>Make your own sand cast Aluminum object at our casting class! Sand casting is an exciting process that's very accessible to the hobbyist. Ages 16 and up; wear all cotton clothes and long pants.</p><p>If you have something wood or 3D printed that you'd like to cast, bring it along! If it's a complicated shape, you may want to talk to us first. Feel free to email board@hacksburg.org with questions.</p>",
 			"date": "2023-12-10",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -837,7 +973,7 @@
 		{
 			"title": "Fifth Annual Holiday Ornaments",
 			"subtitle": "Happy Holidays to all the Makers",
-			"description": "<p>Join Hacksburg for a festive and family-friendly DIY workshop session where makers of all ages can make their own personalized gifts including laser cut felt Christmas ornaments, custom laser cut wooden displays and cards, and hand polished metal wind chimes.</p> <p>The event is free, but donations to cover material costs are greatly appreciated!</p>",
+			"description": "<p>Join Hacksburg for a festive and family-friendly DIY workshop session where makers of all ages can make their own personalized gifts including laser cut felt Christmas ornaments, custom laser cut wooden displays and cards, and hand polished metal wind chimes.</p><p>The event is free, but donations to cover material costs are greatly appreciated!</p>",
 			"date": "2023-12-03",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -854,7 +990,7 @@
 		{
 			"title": "Resin Printer Basics",
 			"subtitle": "Learn to use Hacksburg's 8K SLA resin printer",
-			"description": "<p>Normal filament-based 3D printers are capable of making an incredible array of parts, but for high-detail miniatures our new resin printer is capable of over 10x the resolution. Learn how to use the Hacksburg resin printer, what parts work best, and how these machines differ from filament-based printers. The class is free for Hacksburg members and $5 for non-members.</p> <p>This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all equipment use.</p>",
+			"description": "<p>Normal filament-based 3D printers are capable of making an incredible array of parts, but for high-detail miniatures our new resin printer is capable of over 10x the resolution. Learn how to use the Hacksburg resin printer, what parts work best, and how these machines differ from filament-based printers. The class is free for Hacksburg members and $5 for non-members.</p><p>This class is for attendees age 16 and up. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class and approve all equipment use.</p>",
 			"date": "2023-11-12",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
@@ -905,7 +1041,7 @@
 		{
 			"title": "Fermentation and Hard Cider Basics",
 			"subtitle": "Intro to Homebrewing",
-			"description": "<p>We will cover the basics of turning apple cider (and other fruit juices) into an alcoholic drink. Works great with fresh cider from the Ninth Annual Hacksburg Cider Making!</p> <p>This class is for attendees age 21 and up. No underage class attendees permitted.</p>",
+			"description": "<p>We will cover the basics of turning apple cider (and other fruit juices) into an alcoholic drink. Works great with fresh cider from the Ninth Annual Hacksburg Cider Making!</p><p>This class is for attendees age 21 and up. No underage class attendees permitted.</p>",
 			"date": "2023-10-29",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -939,7 +1075,7 @@
 		{
 			"title": "Ninth Annual Hacksburg Cider Making",
 			"subtitle": "Fresh, all-natural, and delicious!",
-			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety, only using one type typically results in extremely sweet or tart cider. Ten pounds of apples makes three quarts of cider. Free to anyone in the community, no RSVP required.</p> <p>Want more information? We go into the cidermaking process in detail here: <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">https://hb.gy/0nAyF</a>.</p> <p>Cider making is for attendees of all ages. If you are bringing an attendee under 18, you (the parent/guardian) must stay the whole time your child/dependent is there.</p>",
+			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety, only using one type typically results in extremely sweet or tart cider. Ten pounds of apples makes three quarts of cider. Free to anyone in the community, no RSVP required.</p><p>Want more information? We go into the cidermaking process in detail here: <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">https://hb.gy/0nAyF</a>.</p><p>Cider making is for attendees of all ages. If you are bringing an attendee under 18, you (the parent/guardian) must stay the whole time your child/dependent is there.</p>",
 			"date": "2023-10-22",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -956,7 +1092,7 @@
 		{
 			"title": "Ninth Annual Hacksburg Cider Making",
 			"subtitle": "Fresh, all-natural, and delicious!",
-			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety, only using one type typically results in extremely sweet or tart cider. Ten pounds of apples makes three quarts of cider. Free to anyone in the community, no RSVP required.</p> <p>Want more information? We go into the cidermaking process in detail here: <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">https://hb.gy/0nAyF</a>.</p> <p>Cider making is for attendees of all ages. If you are bringing an attendee under 18, you (the parent/guardian) must stay the whole time your child/dependent is there.</p>",
+			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety, only using one type typically results in extremely sweet or tart cider. Ten pounds of apples makes three quarts of cider. Free to anyone in the community, no RSVP required.</p><p>Want more information? We go into the cidermaking process in detail here: <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">https://hb.gy/0nAyF</a>.</p><p>Cider making is for attendees of all ages. If you are bringing an attendee under 18, you (the parent/guardian) must stay the whole time your child/dependent is there.</p>",
 			"date": "2023-10-15",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1007,7 +1143,7 @@
 		{
 			"title": "3D Printer Community Work Day",
 			"subtitle": "Make your printer harder, better, faster, stronger!",
-			"description": "<p>Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer!</p> <p>Instructions on how to customize and compile firmware for your 3D printer will also be presented.</p> <p>This class is for attendees age 16 and up. <strong>If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class.</strong></p>",
+			"description": "<p>Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer!</p><p>Instructions on how to customize and compile firmware for your 3D printer will also be presented.</p><p>This class is for attendees age 16 and up. <strong>If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class.</strong></p>",
 			"date": "2023-10-01",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1024,7 +1160,7 @@
 		{
 			"title": "Costume and Cosplay Tips and Tricks",
 			"subtitle": "Prep for spook season \ud83c\udf83",
-			"description": "<p>Ask questions and get advice on your costumes from Hacksburg's award winning instructor. This is a casual, unstructured discussion, so please bring your costumes and questions!</p> <p>Event takes place online only.</p> <p>Open for ages 12+. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class.</p>",
+			"description": "<p>Ask questions and get advice on your costumes from Hacksburg's award winning instructor. This is a casual, unstructured discussion, so please bring your costumes and questions!</p><p>Event takes place online only.</p><p>Open for ages 12+. If you are bringing an attendee under 18, you (the parent/guardian) must stay for the entire duration of the class.</p>",
 			"date": "2023-09-30",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1058,7 +1194,7 @@
 		{
 			"title": "Animation in Blender",
 			"subtitle": "Pixels, Shapes, and Motion",
-			"description": "<p>Learn the basics of the award-winning open source 3D design and animation software Blender. Attendees will learn how to compose scenes, animate objects, create materials and textures, and render a final scene. This class will focus on learning the software, as opposed to the artistic aspect of 3D animation.</p> <p>Ages 14+. Minors will need to have parent/guardian supervision for the entire duration of the class.</p>",
+			"description": "<p>Learn the basics of the award-winning open source 3D design and animation software Blender. Attendees will learn how to compose scenes, animate objects, create materials and textures, and render a final scene. This class will focus on learning the software, as opposed to the artistic aspect of 3D animation.</p><p>Ages 14+. Minors will need to have parent/guardian supervision for the entire duration of the class.</p>",
 			"date": "2023-09-24",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1092,7 +1228,7 @@
 		{
 			"title": "Laser Cutter 101",
 			"subtitle": "Make Your Own Edge-Lit Acrylic Sign",
-			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive the LED base with the optional materials fee.</p> <p>Free for members and $5 for non-members, plus $10 optional materials fee.</p><p><b>This event has been rescheduled</b>.</p>",
+			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive the LED base with the optional materials fee.</p><p>Free for members and $5 for non-members, plus $10 optional materials fee.</p><p><b>This event has been rescheduled</b>.</p>",
 			"date": "2023-09-23",
 			"start_time": "2:00pm",
 			"end_time": "4:00pm",
@@ -1109,7 +1245,7 @@
 		{
 			"title": "DIY Home Maintenance",
 			"subtitle": "Was that hole always there?",
-			"description": "<p>Learn how to perform basic home repairs and maintenance. Will cover preventative items as well as repairs including: minor drywall patching, unclogging a drain, fixing a leaking faucet or toilet and more.</p> <p>If there is a specific repair or maintenance item you would like to see, please let us know!</p> <p>$5 for members and $10 for non-members.</p>",
+			"description": "<p>Learn how to perform basic home repairs and maintenance. Will cover preventative items as well as repairs including: minor drywall patching, unclogging a drain, fixing a leaking faucet or toilet and more.</p><p>If there is a specific repair or maintenance item you would like to see, please let us know!</p><p>$5 for members and $10 for non-members.</p>",
 			"date": "2023-09-17",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1126,7 +1262,7 @@
 		{
 			"title": "Laser Taco Tuesday",
 			"subtitle": "It's a fiery fiesta",
-			"description": "<p>Customize your Taco Tuesday experience by laser engraving your tortilla on Hacksburg's 80W CO2 laser cutter! Tortillas and fillings will be provided, bring your own tortilla design ideas.</p> <p>This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.</p> <p>This event is free, but donations to cover ingredients are appreciated!</p>",
+			"description": "<p>Customize your Taco Tuesday experience by laser engraving your tortilla on Hacksburg's 80W CO2 laser cutter! Tortillas and fillings will be provided, bring your own tortilla design ideas.</p><p>This class is for ages 16 and up. Attendees under 18 must be accompanied by a parent/guardian for the full duration of the class, and parent/guardian must approve all equipment use.</p><p>This event is free, but donations to cover ingredients are appreciated!</p>",
 			"date": "2023-09-12",
 			"start_time": "8:30pm",
 			"end_time": "11:30pm",
@@ -1143,7 +1279,7 @@
 		{
 			"title": "Hacksburg Open House",
 			"subtitle": "Part of Game Changer Week",
-			"description": "<p>Hacksburg is a non-profit Makerspace located in Blacksburg, VA. Started in 2014, we're a community workshop focused on enabling creatives and entrepreneurs in the New River Valley to complete projects that would otherwise be out of reach. Whether you need equipment, mentorship, or just some space to work, Hacksburg is meant to be an accessible, collaborative, and affordable resource for building anything from rockets to robots to rocking chairs.</p> <p>Hacksburg members must be 18+, but all ages are welcome at this open house. If you are bringing attendees under 18, you (parent/guardian) must stay for the duration of the class.</p>",
+			"description": "<p>Hacksburg is a non-profit Makerspace located in Blacksburg, VA. Started in 2014, we're a community workshop focused on enabling creatives and entrepreneurs in the New River Valley to complete projects that would otherwise be out of reach. Whether you need equipment, mentorship, or just some space to work, Hacksburg is meant to be an accessible, collaborative, and affordable resource for building anything from rockets to robots to rocking chairs.</p><p>Hacksburg members must be 18+, but all ages are welcome at this open house. If you are bringing attendees under 18, you (parent/guardian) must stay for the duration of the class.</p>",
 			"date": "2023-09-06",
 			"start_time": "3:00pm",
 			"end_time": "6:00pm",
@@ -1296,7 +1432,7 @@
 		{
 			"title": "Intro to Programming with Python",
 			"subtitle": "Learn the basics of the Python programming language",
-			"description": "<p>Attendees will learn the basics of the Python programming language. Python is an exciting programming language which enables you to program anything from smart light bulbs to the world's largest supercomputers.</p> <p>Laptop required. Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b></p>",
+			"description": "<p>Attendees will learn the basics of the Python programming language. Python is an exciting programming language which enables you to program anything from smart light bulbs to the world's largest supercomputers.</p><p>Laptop required. Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b></p>",
 			"date": "2023-07-23",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1330,7 +1466,7 @@
 		{
 			"title": "Bicycle Repair Day",
 			"subtitle": "Two wheels good!",
-			"description": "<p>Have a bike that needs work? Hacksburg will host a work session to provide help with basic bicycle repair and maintenance. Hacksburg will supply space, tools, cleaners and lubricants; attendees will provide bicycles and spare parts.</p> <p>Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class and approve all shop tool use.</b></p>",
+			"description": "<p>Have a bike that needs work? Hacksburg will host a work session to provide help with basic bicycle repair and maintenance. Hacksburg will supply space, tools, cleaners and lubricants; attendees will provide bicycles and spare parts.</p><p>Ages 14+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class and approve all shop tool use.</b></p>",
 			"date": "2023-07-16",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1364,7 +1500,7 @@
 		{
 			"title": "3D Printer Community Work Day",
 			"subtitle": "Make your printer harder, better, faster, stronger!",
-			"description": "<p>Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer!</p> <p>Ages 16+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b></p>",
+			"description": "<p>Got a 3D printer and have questions? Something doesn't work? Want to make your printer harder, better, faster or stronger? This event offers a shared work day for community members to work on and improve our 3D printers. All knowledge levels welcome. Bring your printer!</p><p>Ages 16+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class.</b></p>",
 			"date": "2023-07-09",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1381,7 +1517,7 @@
 		{
 			"title": "Leatherworking Basics",
 			"subtitle": "Learn how to make long-lasting leather goods",
-			"description": "<p>Today, most leather hides are discarded and completely wasted, but you can still make many useful things, like shoes, belts, bags, and clothing from leather. This class will cover selecting leather, project planning, cutting, sewing, molding, decoration, and finishing. Attendees can make a cell phone holster or/and a decorative drink coaster, as time permits.</p> <p>Ages 16+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class and approve all shop tool use.</b></p>",
+			"description": "<p>Today, most leather hides are discarded and completely wasted, but you can still make many useful things, like shoes, belts, bags, and clothing from leather. This class will cover selecting leather, project planning, cutting, sewing, molding, decoration, and finishing. Attendees can make a cell phone holster or/and a decorative drink coaster, as time permits.</p><p>Ages 16+, <b>If you are bringing an attendee under 18, the parent/guardian must stay for the entire duration of the class and approve all shop tool use.</b></p>",
 			"date": "2023-06-25",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1398,7 +1534,7 @@
 		{
 			"title": "Hacksburg Open House",
 			"subtitle": "Tour our Community Workshop",
-			"description": "<p>Hacksburg is a non-profit Makerspace located in Blacksburg, VA. Started in 2014, we're a community workshop focused on helping creatives and entrepreneurs in the New River Valley complete projects that would otherwise be out of reach. Whether you need equipment, mentorship, or just a place to work, Hacksburg is an accessible, collaborative, and affordable resource where you can build anything from rockets to robots to rocking chairs.</p> <p>Hacksburg members must be 18+, but all ages are welcome at this open house. Attendees under 18 must be accompanied by a parent/guardian for the full duration of their visit.</p>",
+			"description": "<p>Hacksburg is a non-profit Makerspace located in Blacksburg, VA. Started in 2014, we're a community workshop focused on helping creatives and entrepreneurs in the New River Valley complete projects that would otherwise be out of reach. Whether you need equipment, mentorship, or just a place to work, Hacksburg is an accessible, collaborative, and affordable resource where you can build anything from rockets to robots to rocking chairs.</p><p>Hacksburg members must be 18+, but all ages are welcome at this open house. Attendees under 18 must be accompanied by a parent/guardian for the full duration of their visit.</p>",
 			"date": "2023-06-18",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -1532,7 +1668,7 @@
 			"cancelled": false
 		},
 		{
-			"title": "Seedstarting and Gardening Basics",
+			"title": "Seed Starting and Gardening Basics",
 			"subtitle": "Learn how to grow your own food",
 			"description": "<p>Get ready for garden season by learning how to start your own plants from seed. Starting from seed saves money and increases the variety of plants you can grow! This class will also cover basic garden prep information such as mixing soil and making planters. The class fee covers a seed-starting kit and seeds. Feel free to bring your own seeds as well!</p>",
 			"date": "2023-03-19",
