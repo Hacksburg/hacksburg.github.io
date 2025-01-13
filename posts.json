@@ -13,6 +13,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "leatherworking.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/leatherworking-basics",
 			"cancelled": false
@@ -29,6 +30,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "radio.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/intro-to-electronics-with-radios",
 			"cancelled": false
@@ -45,6 +47,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "maple_syrup.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/maple-syrup-making",
 			"cancelled": false
@@ -61,6 +64,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "3dprinting_2.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/3d-printer-community-work-day",
 			"cancelled": false
@@ -77,6 +81,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "kite.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -93,6 +98,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "2018_all_ornaments.png",
 			"zeffy_link": null,
 			"cancelled": false
@@ -109,6 +115,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -125,6 +132,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -141,6 +149,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "fermentation.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -157,6 +166,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "2018_cidermaking.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -173,6 +183,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "2018_cidermaking.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -189,6 +200,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "maple.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -205,6 +217,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "laser_taco_tuesday.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -221,6 +234,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "kicad.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -237,6 +251,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "lunar_eclipse.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -253,6 +268,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "resin_print_3.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -269,6 +285,7 @@
 			"offered_in_person": true,
 			"member_price": 10,
 			"non_member_price": 15,
+			"materials_fee": null,
 			"image": "glow_cat.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -285,6 +302,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -301,6 +319,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "canning.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -317,6 +336,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -333,6 +353,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "embroidery.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -349,6 +370,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "vinyl_cutter.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -365,6 +387,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "home_assistant.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -381,6 +404,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -397,6 +421,7 @@
 			"offered_in_person": true,
 			"member_price": 10,
 			"non_member_price": 15,
+			"materials_fee": null,
 			"image": "glow_cat.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -413,6 +438,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "homebrewing.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -429,6 +455,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "woodshop2.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -445,6 +472,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "summer_solstice_fest2.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -461,6 +489,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "resin_print_3.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -477,6 +506,7 @@
 			"offered_in_person": true,
 			"member_price": 30,
 			"non_member_price": 35,
+			"materials_fee": null,
 			"image": "wooden_box_2.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -493,6 +523,7 @@
 			"offered_in_person": true,
 			"member_price": 15,
 			"non_member_price": 20,
+			"materials_fee": null,
 			"image": "holograms.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -509,6 +540,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "kicad.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -525,6 +557,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "kite.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -541,6 +574,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "shop_workday.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -557,6 +591,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "laser_room.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -573,6 +608,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "maker_faire.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -589,6 +625,7 @@
 			"offered_in_person": true,
 			"member_price": 15,
 			"non_member_price": 20,
+			"materials_fee": null,
 			"image": "seedstarting.jpg",
 			"zeffy_link": null,
 			"cancelled": true
@@ -605,6 +642,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "bicycles.jpg",
 			"zeffy_link": null,
 			"cancelled": true
@@ -621,6 +659,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "3dprinting_2.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -637,6 +676,7 @@
 			"offered_in_person": true,
 			"member_price": 15,
 			"non_member_price": 20,
+			"materials_fee": null,
 			"image": "wooden_lathe.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -653,6 +693,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -669,6 +710,7 @@
 			"offered_in_person": true,
 			"member_price": 10,
 			"non_member_price": 15,
+			"materials_fee": null,
 			"image": "laser_3.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -685,6 +727,7 @@
 			"offered_in_person": true,
 			"member_price": 30,
 			"non_member_price": 35,
+			"materials_fee": null,
 			"image": "wooden_box_2.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -701,6 +744,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "radio.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -717,6 +761,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -733,6 +778,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "sewing.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -749,6 +795,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "maple_syrup.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -765,6 +812,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "HomeAlone_small.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -781,6 +829,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -797,6 +846,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "2018_all_ornaments.png",
 			"zeffy_link": null,
 			"cancelled": false
@@ -813,6 +863,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "resin_print_3.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -829,6 +880,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "sewing.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -845,6 +897,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -861,6 +914,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "apple_05.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -877,6 +931,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -893,6 +948,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "2018_cidermaking.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -909,6 +965,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "2018_cidermaking.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -925,6 +982,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -941,6 +999,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -957,6 +1016,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "3dprinting_2.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -973,6 +1033,7 @@
 			"offered_in_person": false,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "foam_mask.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -989,6 +1050,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -1005,6 +1067,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "blender.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1021,6 +1084,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "maple.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1037,6 +1101,7 @@
 			"offered_in_person": true,
 			"member_price": 10,
 			"non_member_price": 15,
+			"materials_fee": null,
 			"image": "laser_3.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1053,6 +1118,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "home_maintenance.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1069,6 +1135,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "laser_taco_tuesday.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1085,6 +1152,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "laser_room.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1101,6 +1169,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1117,6 +1186,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "canning.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1133,6 +1203,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -1149,6 +1220,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "blender.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1165,6 +1237,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -1181,6 +1254,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "python.jpg",
 			"zeffy_link": null,
 			"cancelled": true
@@ -1197,6 +1271,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -1213,6 +1288,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -1229,6 +1305,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "python.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1245,6 +1322,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -1261,6 +1339,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "bicycles.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1277,6 +1356,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": null,
 			"zeffy_link": null,
 			"cancelled": false
@@ -1293,6 +1373,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "3dprinting_2.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1309,6 +1390,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "leatherworking.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1325,6 +1407,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "locker_room.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1341,6 +1424,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "summer_solstice_fest.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1357,6 +1441,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "modern_kites.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1373,6 +1458,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "modifying_cad.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1389,6 +1475,7 @@
 			"offered_in_person": true,
 			"member_price": 5,
 			"non_member_price": 10,
+			"materials_fee": null,
 			"image": "radio.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1405,6 +1492,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "resin_print_3.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1421,6 +1509,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 0,
+			"materials_fee": null,
 			"image": "synthesizer.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1437,6 +1526,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
+			"materials_fee": null,
 			"image": "cnc.jpg",
 			"zeffy_link": null,
 			"cancelled": false
@@ -1453,6 +1543,7 @@
 			"offered_in_person": true,
 			"member_price": 15,
 			"non_member_price": 20,
+			"materials_fee": null,
 			"image": "seedstarting.jpg",
 			"zeffy_link": null,
 			"cancelled": false
