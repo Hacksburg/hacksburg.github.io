@@ -152,7 +152,7 @@
 			"materials_fee": null,
 			"image": "leatherworking.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/leatherworking-basics",
-			"cancelled": false
+			"cancelled": true
 		},
 		{
 			"title": "Intro to Electronics: Build your own Radio",
