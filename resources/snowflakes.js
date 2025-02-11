@@ -1,9 +1,9 @@
 function initSnowflakes() {
 	// Check if current month is December (month is 0-based, so December is 11)
 	const currentMonth = new Date().getMonth();
-	if (currentMonth !== 11) {
-		return; // Exit if not December
-	}
+	// if (currentMonth !== 11) {
+	// 	return; // Exit if not December
+	// }
 
 	// Create and inject the CSS
 	const styleSheet = document.createElement('style');
