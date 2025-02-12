@@ -1,11 +1,5 @@
 {
-	"announcements": [
-		{
-			"title": "February 11th Meeting is Online Only",
-			"subtitle": "",
-			"description": "Due to inclement weather, this week's regular meeting will be online only.<br>Join us today, February 11th, at 7:30pm using <a href=\"https://meet.hacksburg.org/OpenGroupMeeting\">this link</a>."
-		}
-	],
+	"announcements": [],
 	"posts": [
 		{
 			"title": "Retro Systems Workday",
