@@ -81,7 +81,7 @@ def json_to_html():
 		start_time = post["start_time"]
 		end_time = post["end_time"]
 		cancelled = post["cancelled"]
-		sold_out = post.get("sold_out", False)  # Default to False if field doesn't exist
+		sold_out = post["sold_out"]
 
 		# Validate member/non-member prices
 		if post["non_member_price"] < post["member_price"]:
