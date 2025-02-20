@@ -116,6 +116,8 @@ def json_to_html():
 		html += f'\t\t\t\t\t\t\t\t\t<div class="title">'
 		if cancelled:
 			html += '(Cancelled) '
+		elif sold_out:
+			html += '(Sold out) '
 		html += f'{post["title"]}</div>\n'
 		html += f'\t\t\t\t\t\t\t\t\t<div class="subtitle">{post["subtitle"]}</div>\n'
 		html += '\t\t\t\t\t\t\t\t</div>\n'
