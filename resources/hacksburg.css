@@ -492,6 +492,7 @@ a {
 	color: var(--lighter-green);
 	background-color: var(--white);
 	border: 1px solid var(--lighter-green);
+	cursor: auto;
 }
 
 .button.unsubscribe {
