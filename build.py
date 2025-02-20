@@ -2,8 +2,8 @@ import json, os, shutil, urllib.parse, hashlib
 from datetime import datetime
 
 def cleanup_temp_file():
-    if os.path.exists('temp.html'):
-        os.remove('temp.html')
+	if os.path.exists('temp.html'):
+		os.remove('temp.html')
 
 def sort_posts():
 	print("Standardizing dates and sorting posts.json by date...")
@@ -81,6 +81,7 @@ def json_to_html():
 		start_time = post["start_time"]
 		end_time = post["end_time"]
 		cancelled = post["cancelled"]
+		sold_out = post.get("sold_out", False)  # Default to False if field doesn't exist
 
 		# Validate member/non-member prices
 		if post["non_member_price"] < post["member_price"]:
@@ -193,7 +194,10 @@ def json_to_html():
 		
 		if post["zeffy_link"]:
 			if not cancelled:
-				html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp-button" href="{post["zeffy_link"]}" target="_blank">RSVP on Zeffy</a>\n'
+				if sold_out:
+					html += f'\t\t\t\t\t\t\t\t\t<div class="button rsvp-button disabled">Sold out!</div>\n'
+				else:
+					html += f'\t\t\t\t\t\t\t\t\t<a class="button rsvp-button" href="{post["zeffy_link"]}" target="_blank">RSVP on Zeffy</a>\n'
 		
 		html += '\t\t\t\t\t\t\t\t</div>\n'
 		html += '\t\t\t\t\t\t\t</div>\n'
