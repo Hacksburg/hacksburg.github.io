@@ -53,7 +53,7 @@
 			"image": "casting_cropped_600px.jpg",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/metal-casting",
 			"cancelled": false,
-			"sold_out": false
+			"sold_out": true
 		},
 		{
 			"title": "Intro to Woodturning on the Lathe",
