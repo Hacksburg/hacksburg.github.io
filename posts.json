@@ -35,7 +35,7 @@
 			"image": "seedstarting.jpg",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/seed-starting-and-gardening-basics",
 			"cancelled": false,
-			"sold_out": false
+			"sold_out": true
 		},
 		{
 			"title": "Metal Casting",
