@@ -95,6 +95,14 @@ function sortAndDisplayPosts() {
 	let todayFormatted = getFormattedCurrentDateTime();
 	let [futurePosts, pastPosts] = splitAndSortPosts(posts, todayFormatted);
 
+	// Process past posts to remove "(Sold out) " prefix
+	pastPosts.forEach(post => {
+		const titleElement = post.querySelector('.title');
+		if (titleElement && titleElement.textContent.startsWith("(Sold out) ")) {
+			titleElement.textContent = titleElement.textContent.substring(11);
+		}
+	});
+
 	// Remove existing posts and reinsert them in sorted order
 	let parent = posts[0].parentNode;
 	posts.forEach(post => parent.removeChild(post));
