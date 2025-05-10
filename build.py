@@ -141,16 +141,16 @@ def json_to_html():
 		# Description
 		if cancelled:
 			html += f'<s>{post["description"]}</s>\n'
-			html += '\t\t\t\t\t\t\t\t\t<br><p><b>This event has been cancelled.</b></p>\n'
+			html += '\t\t\t\t\t\t\t\t\t\t<br><p><b>This event has been cancelled.</b></p>\n'
 		else:
-			html += f'{post["description"]}\n'
+			html += f'\n\t\t\t\t\t\t\t\t\t{post["description"]}\n'
 		
 		# Event details (time, location, cost)
 		if not cancelled:
 			html += '\t\t\t\t\t\t\t\t\t<p>\n'
 			if date and start_time and end_time:
 				formatted_date_str = f"{date.strftime('%A')}, {date.strftime('%B')} {date.day}{date_suffix(date.day)}"
-				html += f'\t\t\t\t\t\t\t\t\t<b>Time</b>: {formatted_date_str} from {time_string}<br>\n'
+				html += f'\t\t\t\t\t\t\t\t\t\t<b>Time</b>: {formatted_date_str} from {time_string}<br>\n'
 			
 			location_str = ""
 			if post["offsite_location"]:
@@ -163,14 +163,14 @@ def json_to_html():
 				location_str = 'Online only.'
 			
 			if location_str:
-				html += f'\t\t\t\t\t\t\t\t\t<b>Place</b>: {location_str}<br>\n'
+				html += f'\t\t\t\t\t\t\t\t\t\t<b>Place</b>: {location_str}<br>\n'
 		
 			if post["offered_online"]:
-				html += '\t\t\t\t\t\t\t\t\t<b>URL</b>: '
+				html += '\t\t\t\t\t\t\t\t\t\t<b>URL</b>: '
 				html += '<a href="https://meet.hacksburg.org/class" target="_blank">meet.hacksburg.org/class</a><br>\n'
 
 			# Cost formatting
-			html += '\t\t\t\t\t\t\t\t\t<b>Cost</b>: '
+			html += '\t\t\t\t\t\t\t\t\t\t<b>Cost</b>: '
 			materials_fee = post.get('materials_fee')
 
 			if materials_fee and materials_fee > 0:
@@ -192,7 +192,7 @@ def json_to_html():
 				else:
 					html += f"${post['member_price']} for Hacksburg members; ${post['non_member_price']} for non-members."
 
-			html += '\t\t\t\t\t\t\t\t\t</p>\n'
+			html += '\n\t\t\t\t\t\t\t\t\t</p>\n'
 		
 		if post["zeffy_link"]:
 			if not cancelled:
