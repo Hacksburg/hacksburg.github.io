@@ -16,7 +16,7 @@
 			"materials_fee": null,
 			"image": "podcast.jpg",
 			"zeffy_link": "https://www.zeffy.com/ticketing/podcasting-101-find-your-voice-and-share-it-with-the-world",
-			"cancelled": false,
+			"cancelled": true,
 			"sold_out": false
 		},
 		{
