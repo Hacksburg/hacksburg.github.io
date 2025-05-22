@@ -90,7 +90,7 @@ def json_to_html():
 			exit(1)
 
 		# Header
-		html += f'\n\t\t\t\t\t<div class="post" data-isodate="{date}">\n'
+		html += f'\n\t\t\t\t\t<div class="post" data-isodate="{date}" id="{post['date']}">\n'
 		html += '\t\t\t\t\t\t<div class="post-header">\n'
 		
 		if date and start_time and end_time:
