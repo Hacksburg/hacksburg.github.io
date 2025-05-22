@@ -40,7 +40,7 @@
 		{
 			"title": "Model Airplane Day",
 			"subtitle": "Trace the history of handmade aviation",
-			"description": "<p>Learn about aerodynamics, construction techniques, and flight adjustments as you build and launch your own miniature flying machine. A rubber band-powered, propeller-driven kit is provided with the optional materials fee, but we'll also fire up Hacksburg's laser cutter to craft ultra-precise paper airplanes (inspired by award-winning designs from <a href='https://archive.org/details/greatinternation00mandrich/'>The Great International Paper Airplane Book</a>) and demonstrate 3D printed pull copters and friction flyers!</p><p>Whether you're reliving childhood memories or experiencing the joy of handmade flight for the first time, this workshop promises hours of engineering fun culminating in a friendly flying competition.</p>",
+			"description": "<p>Learn about aerodynamics, construction techniques, and flight adjustments as you build and launch your own miniature flying machine. A rubber band-powered, propeller-driven kit is provided with the optional materials fee, but we'll also fire up Hacksburg's laser cutter to craft ultra-precise paper airplanes (inspired by <a href='https://archive.org/details/greatinternation00mandrich/'>The Great International Paper Airplane Book</a>) and demonstrate 3D printed, hand-powered helicopters and pull copters!</p><p>Whether you're reliving childhood memories or experiencing the joy of handmade flight for the first time, this workshop promises hours of engineering fun culminating in a friendly flying competition.</p>",
 			"date": "2025-08-10",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
@@ -76,7 +76,7 @@
 		{
 			"title": "Building Personal Websites",
 			"subtitle": "Rediscover the freedom and creativity of hand-crafted web development",
-			"description": "<p>Carve out your own corner of the Internet by building your own personal website from scratch! This back-to-basics workshop celebrates the DIY spirit of the early web, with a focus on the fundamental building blocks of HTML and CSS.</p><p>You'll learn how to write your first lines of code and publish your site on the World Wide Web, with plenty of guidance and inspiration along the way. Build a blog, photo gallery, interactive art piece, band page, or a delightfully weird personal site that's uniquely you.</p><p>No coding experience necessary. Bring a laptop!</p>",
+			"description": "<p>Carve out your own corner of the Internet by building a personal website from scratch! This back-to-basics workshop celebrates the DIY spirit of the early web, with a focus on the fundamental building blocks of HTML and CSS.</p><p>You'll learn how to write your first lines of code and publish your site on the World Wide Web, with plenty of guidance and inspiration along the way. Build a blog, photo gallery, interactive art piece, band page, or a delightfully weird personal site that's uniquely you.</p><p>No coding experience necessary. Bring a laptop and sign up for a <a href='https://github.com/signup'>GitHub account</a> before class.</p>",
 			"date": "2025-07-20",
 			"start_time": "1:00pm",
 			"end_time": "4:00pm",
