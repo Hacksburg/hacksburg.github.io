@@ -57,7 +57,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	color: var(--black)
+	color: var(--black);
+	user-select: none;
 }
 
 #header-text > h1 {
@@ -81,10 +82,6 @@ body {
 	transition: color ease-in-out .15s;
 }
 
-.noselect {
-	user-select: none;
-}
-
 .center {
 	display: block;
 	margin: 0 auto;
@@ -104,6 +101,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: .9rem;
+	user-select: none;
 }
 
 #nav-break {
@@ -164,6 +162,7 @@ body {
 	flex-direction: row;
 	height: fit-content;
 	transition: background-color .15s ease-in-out;
+	user-select: none;
 }
 
 .circled-date {
@@ -193,12 +192,46 @@ body {
 	display: flex;
 	flex-direction: column;
 	color: var(--white);
+	user-select: none;
+}
+
+.copy-feedback {
+	position: fixed;
+	bottom: 2rem;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: var(--black);
+	color: var(--white);
+	border: 1px solid var(--darker-green);
+	padding: 0.45rem 0.9rem;
+	border-radius: 50rem;
+	font-size: 1.2rem;
+	text-align: center;
+	white-space: nowrap;
+	user-select: none;
+	width: fit-content;
+	height: fit-content;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 1000;
+}
+
+.copy-feedback.show {
+	opacity: 1;
+	transition: none;
+}
+
+.copy-feedback.fade-out {
+	opacity: 0;
+	filter: blur(4px);
+	transition: opacity 1.5s ease-out, filter 1.5s ease-out;
 }
 
 .title-and-subtitle-wrapper {
 	display: flex;
 	align-items: center;
 	flex-grow: 1;
+	position: relative;
 }
 
 .title {
@@ -525,6 +558,7 @@ a {
 	font-family: "Electrolize";
 	height: fit-content;
 	font-size: 1.6rem;
+	user-select: none;
 }
 
 .past-line {
