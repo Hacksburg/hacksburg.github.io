@@ -95,7 +95,7 @@ def json_to_html():
 		html += '\t\t\t\t\t\t<div class="post-header">\n'
 		
 		if date and start_time and end_time:
-			html += f'\t\t\t\t\t\t\t<div class="calendar-link noselect">\n'
+			html += f'\t\t\t\t\t\t\t<div class="calendar-link">\n'
 			html += f'\t\t\t\t\t\t\t\t<div class="circled-date">{date.day}</div>\n'
 
 			month = date.strftime('%B')
