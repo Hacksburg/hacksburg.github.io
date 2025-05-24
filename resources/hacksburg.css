@@ -557,7 +557,7 @@ a {
 .past-text {
 	font-family: "Electrolize";
 	height: fit-content;
-	font-size: 1.6rem;
+	font-size: 1.9rem;
 	user-select: none;
 }
 
@@ -726,9 +726,6 @@ a {
 		padding-top: 1rem;
 		padding-bottom: 2.5rem;
 	}
-	.past-events-marker {
-		margin-bottom: 4rem;
-	}
 	.post-image {
 		max-height: 40rem;
 	}
@@ -759,8 +756,9 @@ a {
 		display: none;
 	}
 	.past-events-marker {
-		margin-left: .75rem;
-		margin-right: .75rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		margin-bottom: 4rem;
 	}
 	#bulletin-board .post:last-child {
 		margin-bottom: 0;
