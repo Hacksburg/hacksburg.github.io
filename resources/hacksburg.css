@@ -552,6 +552,7 @@ a {
 	align-items: center;
 	flex-shrink: 0;
 	margin-bottom: 6rem;
+	filter: drop-shadow(0 0 0.1rem rgb(0, 0, 0));
 }
 
 .past-text {
