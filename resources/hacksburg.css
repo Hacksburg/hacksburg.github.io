@@ -759,8 +759,8 @@ a {
 		display: none;
 	}
 	.past-events-marker {
-		margin-left: .75rem;
-		margin-right: .75rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 	#bulletin-board .post:last-child {
 		margin-bottom: 0;
