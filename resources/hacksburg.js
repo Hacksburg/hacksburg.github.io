@@ -12,6 +12,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			navLinks[i].onmouseover = dimCurrentPage;
 		}
 	}
+	
+	// Set initial theme color
+	updateThemeColor();
+	
+	// Listen for theme changes
+	window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateThemeColor);
 });
 
 function dimCurrentPage() {
@@ -20,6 +26,12 @@ function dimCurrentPage() {
 
 function undimCurrentPage() {
 	currentPage.style.cssText = "color: var(--darker-green)";
+}
+
+function updateThemeColor() {
+	const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+	const backgroundColor = isDark ? '#151920' : '#ffffff';
+	document.getElementById('pwaThemeColor').setAttribute('content', backgroundColor);
 }
 
 function togglePostOpened(xBox)
