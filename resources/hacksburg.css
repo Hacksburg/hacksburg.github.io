@@ -831,7 +831,7 @@ a {
 		box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.47);
 	}
 	.post-map {
-		filter: invert(100%) hue-rotate(270deg);
+		filter: invert(92%) hue-rotate(180deg) brightness(85%) contrast(110%) saturate(110%);
 	}
 	.button {
 		--darker-green: #00a000;
