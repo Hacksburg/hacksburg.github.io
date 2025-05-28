@@ -148,7 +148,7 @@
 		{
 			"title": "Hacksburg at Summer Solstice Fest",
 			"subtitle": "The summer festival for locals",
-			"description": "<p>Hacksburg will be exhibiting at the Downtown Blacksburg Summer Solstice Fest. Come out and enjoy hands-on activities, locally made products for sale, food trucks, live music, and more! This event is free and family friendly. Learn more at <a href='https://downtownblacksburg.com/index.php/events/summer-solstice-fest'>downtownblacksburg.com</a>.</p>",
+			"description": "<p>Hacksburg will be exhibiting at the Downtown Blacksburg Summer Solstice Fest.</p><p>Come out and enjoy hands-on activities, locally made products for sale, food trucks, live music, and more!</p><p>This event is free and family friendly. Learn more at <a href='https://downtownblacksburg.com/index.php/events/summer-solstice-fest'>downtownblacksburg.com</a>.</p>",
 			"date": "2025-06-21",
 			"start_time": "11:00am",
 			"end_time": "11:00pm",
@@ -159,7 +159,7 @@
 			"non_member_price": 0,
 			"materials_fee": null,
 			"image": "summer_solstice_fest2.jpg",
-			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/hacksburg-at-summer-solstice-fest",
+			"zeffy_link": "",
 			"cancelled": false,
 			"sold_out": false
 		},
