@@ -103,7 +103,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
-			"materials_fee": 5,
+			"materials_fee": 0,
 			"image": "embroidery.jpg",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/embroidery--101",
 			"cancelled": false,
