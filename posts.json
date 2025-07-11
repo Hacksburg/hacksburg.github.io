@@ -107,7 +107,7 @@
 			"image": "embroidery.jpg",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/embroidery--101",
 			"cancelled": false,
-			"sold_out": false
+			"sold_out": true
 		},
 		{
 			"title": "Foam Smithing - Cosplay 101",
