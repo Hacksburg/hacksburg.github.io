@@ -59,21 +59,25 @@ body {
 	justify-content: center;
 	color: var(--black);
 	user-select: none;
+	padding-bottom:.5rem;
 }
 
 #header-text > h1 {
 	margin:0;
 	padding:0;
-	font-size: 2rem;
+	font-size: 2.1rem;
 	font-weight: normal;
 }
 
 #header-text > h3 {
 	margin:0;
 	padding:0;
-	padding-left:.1rem;
+	padding-left:.15rem;
+	padding-top:.2rem;
 	font-weight: normal;
 	width: min-content;
+	font-size: 1rem;
+	line-height: 1.3rem;
 }
 
 .nodecor {
