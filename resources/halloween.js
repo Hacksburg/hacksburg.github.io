@@ -60,6 +60,11 @@ function initHalloween() {
 			--lighter-green: var(--halloween-orange);
 		}
 
+		.button.unsubscribe {
+			--tomato: #6b2a8f;
+			--tomato-soup: #8b3ab8;
+		}
+
 		/* Force dark mode styling for Halloween */
 		:root {
 			--darker-green: var(--halloween-orange);
@@ -89,7 +94,7 @@ function initHalloween() {
 
 		#nav-links > a {
 			color: var(--offwhite) !important;
-			text-shadow: 0 0 1px var(--black), 0 0 4px rgba(21, 21, 21, 0.6);
+			text-shadow: 0 0 2px var(--black), 0 0 6px rgba(21, 21, 21, 0.9), 0 0 12px rgba(21, 21, 21, 0.7);
 		}
 
 		#nav-links > a:hover {
@@ -308,7 +313,7 @@ function initHalloween() {
 		const wetGain = audioContext.createGain();
 
 		// Set volume levels
-		gainNode.gain.value = 0.5;
+		gainNode.gain.value = 0.2;
 		dryGain.gain.value = 0.4; // Dry signal (original)
 		wetGain.gain.value = 0.6; // Wet signal (reverb)
 
@@ -337,7 +342,7 @@ function initHalloween() {
 	}
 
 	function createGhost() {
-		if (ghostCount >= MAX_GHOSTS) return;
+		if (ghostCount >= MAX_GHOSTS || isResizing) return;
 
 		const ghost = document.createElement('div');
 		ghost.className = 'halloween-ghost';
