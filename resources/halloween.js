@@ -1,0 +1,337 @@
+function initHalloween() {
+	// Check if current month is October (month is 0-based, so October is 9)
+	const currentMonth = new Date().getMonth();
+	if (currentMonth !== 9) {
+		return; // Exit if not October
+	}
+
+	// Create and inject the CSS
+	const styleSheet = document.createElement('style');
+	styleSheet.textContent = `
+		/* Halloween Theme CSS */
+		:root {
+			--halloween-offwhite: #ebe8e2;
+			--halloween-orange: #ff5705;
+			--halloween-darker-orange: #ff4c05;
+			--halloween-grey: #151515;
+			--darker-green: var(--halloween-orange);
+			--lighter-green: var(--halloween-orange);
+		}
+
+		#halloween-spiderweb {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 200px;
+			height: 200px;
+			background-image: url('/resources/images/spiderweb.png');
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: top right;
+			z-index: 9999;
+			pointer-events: none;
+		}
+
+		.halloween-ghost {
+			position: fixed;
+			background-image: url('/resources/images/ghost.gif');
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			z-index: -10;
+			pointer-events: none;
+			opacity: 0;
+			transition: opacity 2s ease-in-out;
+		}
+
+		.button {
+			--darker-green: var(--halloween-darker-orange);
+			--lighter-green: var(--halloween-orange);
+		}
+
+		/* Force dark mode styling for Halloween */
+		:root {
+			--darker-green: var(--halloween-orange);
+			--offblack: var(--halloween-grey);
+		}
+
+		#hacksignia-light {
+			display: none !important;
+		}
+
+		#hacksignia-dark {
+			display: inline-block !important;
+			content: url('/resources/hacksignia_dark_halloween.svg');
+		}
+
+		html {
+			overscroll-behavior: none;
+		}
+
+		body {
+			background: linear-gradient(to top, var(--black), var(--offblack)) !important;
+			background-attachment: fixed;
+			background-color: var(--offblack) !important;
+			overscroll-behavior: none;
+		}
+
+		#header-text {
+			color: var(--offwhite) !important;
+		}
+
+		#header-text h1, #header-text h3 {
+			text-shadow: 0 0 2px var(--black), 0 0 6px var(--black), 0 0 12px rgba(21, 21, 21, 0.8);
+		}
+
+		#nav-links > a {
+			color: var(--offwhite) !important;
+			text-shadow: 0 0 1px var(--black), 0 0 4px rgba(21, 21, 21, 0.6);
+		}
+
+		#nav-links > a:hover {
+			color: var(--halloween-orange) !important;
+		}
+
+		.hacksignia {
+			filter: drop-shadow(0 0 3px var(--black)) drop-shadow(0 0 8px rgba(21, 21, 21, 0.7));
+		}
+
+		.rule {
+			background-color: var(--offwhite) !important;
+			filter: drop-shadow(0 0 2px var(--black)) drop-shadow(0 0 5px rgba(21, 21, 21, 0.6));
+		}
+
+		.post-text-rule {
+			background-color: var(--offwhite) !important;
+		}
+
+		.title-and-subtitle {
+			color: var(--offwhite) !important;
+		}
+
+		.x {
+			background: var(--offwhite) !important;
+		}
+
+		.x:after {
+			background: var(--offwhite) !important;
+		}
+
+		.pushpin {
+			color: var(--offwhite) !important;
+		}
+
+		.post-text {
+			background-color: var(--offblack) !important;
+			color: var(--offwhite) !important;
+		}
+
+		.button.disabled {
+			background-color: var(--offblack) !important;
+		}
+
+		.post {
+			box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.47) !important;
+		}
+
+		.post-map {
+			filter: invert(92%) hue-rotate(180deg) brightness(85%) contrast(110%) saturate(110%) !important;
+		}
+
+		#current-page {
+			--black: var(--offwhite);
+			text-shadow: 0 0 1px black, 0 0 4px rgba(21, 21, 21, 0.6) !important;
+		}
+
+		#pushpin-light {
+			display: none !important;
+		}
+
+		#pushpin-dark {
+			display: inline-block !important;
+		}
+
+		.calendar-link {
+			background-color: var(--offblack) !important;
+		}
+
+		.month-and-time {
+			color: var(--offwhite) !important;
+		}
+
+		.circled-date {
+			background-color: var(--offwhite) !important;
+			color: var(--black) !important;
+		}
+
+		.post-text-rule-mini {
+			background-color: var(--offwhite) !important;
+		}
+
+		.past-text {
+			color: var(--offwhite) !important;
+			text-shadow: 0 0 2px var(--black), 0 0 6px rgba(21, 21, 21, 0.6);
+		}
+
+		.past-line {
+			background-color: var(--offwhite) !important;
+			filter: drop-shadow(0 0 2px var(--black)) drop-shadow(0 0 5px rgba(21, 21, 21, 0.6));
+		}
+
+		.post-image {
+			filter: brightness(95%) !important;
+		}
+
+		#donation-jar {
+			filter: brightness(75%) !important;
+		}
+
+		@media(any-hover: hover) and (any-pointer: fine) {
+			.x-box:hover .x {
+				background: var(--halloween-orange) !important;
+			}
+			.x-box:hover .x:after {
+				background: var(--halloween-orange) !important;
+			}
+		}
+	`;
+	document.head.appendChild(styleSheet);
+
+	// Add spiderweb element
+	const spiderweb = document.createElement('div');
+	spiderweb.id = 'halloween-spiderweb';
+	document.body.appendChild(spiderweb);
+
+	// Update carousel images to Halloween theme
+	const carouselSubstitute = document.getElementById('carousel-substitute');
+	const carouselContainer = document.getElementById('carousel-container');
+	const carouselFirstImage = document.querySelector('#carousel-container .post-image.first');
+
+	if (carouselSubstitute && carouselContainer && carouselFirstImage) {
+		const halloweenImages = [
+			'/resources/images/pumpkin_carving.jpg',
+			'/resources/images/pumpkin_carving2.jpg',
+			'/resources/images/pumpkin_chunkin.jpg'
+		];
+
+		carouselSubstitute.src = halloweenImages[0];
+		carouselContainer.setAttribute('data-images', JSON.stringify(halloweenImages));
+		carouselFirstImage.src = halloweenImages[0];
+	}
+
+	// Halloween Ghost Animation System
+	let ghostCount = 0;
+	const MAX_GHOSTS = 2;
+	const MIN_SCALE = 0.8;
+	const MAX_SCALE = 1.2;
+	const MIN_FADE_DURATION = 3000;
+	const MAX_FADE_DURATION = 8000;
+	const MIN_SPAWN_INTERVAL = 8000;
+	const MAX_SPAWN_INTERVAL = 20000;
+
+	function getRandomPosition() {
+		const viewportWidth = window.innerWidth;
+		const viewportHeight = window.innerHeight;
+		const ghostSize = 200; // approximate ghost size
+
+		return {
+			x: Math.random() * (viewportWidth - ghostSize),
+			y: Math.random() * (viewportHeight - ghostSize)
+		};
+	}
+
+	function getRandomScale() {
+		return MIN_SCALE + Math.random() * (MAX_SCALE - MIN_SCALE);
+	}
+
+	function getRandomDuration() {
+		return MIN_FADE_DURATION + Math.random() * (MAX_FADE_DURATION - MIN_FADE_DURATION);
+	}
+
+	function createGhost() {
+		if (ghostCount >= MAX_GHOSTS) return;
+
+		const ghost = document.createElement('div');
+		ghost.className = 'halloween-ghost';
+
+		const position = getRandomPosition();
+		const scale = getRandomScale();
+		const size = 180; // Fixed base size
+
+		ghost.style.left = position.x + 'px';
+		ghost.style.top = position.y + 'px';
+		ghost.style.width = size + 'px';
+		ghost.style.height = size + 'px';
+		ghost.style.transform = `scale(${scale})`;
+
+		document.body.appendChild(ghost);
+		ghostCount++;
+
+		// Fade in
+		setTimeout(() => {
+			ghost.style.opacity = '0.7';
+		}, 100);
+
+		// Fade out and remove
+		const duration = getRandomDuration();
+		setTimeout(() => {
+			ghost.style.opacity = '0';
+			setTimeout(() => {
+				if (ghost.parentNode) {
+					ghost.parentNode.removeChild(ghost);
+					ghostCount--;
+				}
+			}, 2000); // Wait for fade transition
+		}, duration);
+	}
+
+	function scheduleNextGhost() {
+		const interval = MIN_SPAWN_INTERVAL + Math.random() * (MAX_SPAWN_INTERVAL - MIN_SPAWN_INTERVAL);
+		setTimeout(() => {
+			createGhost();
+			scheduleNextGhost();
+		}, interval);
+	}
+
+	// Handle window resize
+	function handleResize() {
+		// Optionally reposition existing ghosts on resize
+		const existingGhosts = document.querySelectorAll('.halloween-ghost');
+		existingGhosts.forEach(ghost => {
+			const position = getRandomPosition();
+			ghost.style.left = position.x + 'px';
+			ghost.style.top = position.y + 'px';
+		});
+	}
+
+	// Start the ghost system
+	function initGhosts() {
+		// Create initial ghost
+		setTimeout(createGhost, 1000);
+
+		// Schedule future ghosts
+		scheduleNextGhost();
+
+		// Handle window resize
+		window.addEventListener('resize', handleResize);
+	}
+
+	// Handle visibility change
+	document.addEventListener('visibilitychange', () => {
+		if (document.hidden) {
+			// Could pause ghost spawning if desired
+		} else {
+			// Resume ghost spawning if desired
+		}
+	});
+
+	// Start initial ghost system after delay
+	setTimeout(() => {
+		if (!document.hidden) {
+			initGhosts();
+		}
+	}, 2000);
+}
+
+// Initialize immediately on DOMContentLoaded
+document.addEventListener('DOMContentLoaded', initHalloween);
