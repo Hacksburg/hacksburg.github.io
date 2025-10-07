@@ -92,15 +92,6 @@ function initHalloween() {
 			text-shadow: 0 0 2px var(--black), 0 0 6px var(--black), 0 0 12px rgba(21, 21, 21, 0.8);
 		}
 
-		#nav-links > a {
-			color: var(--offwhite) !important;
-			text-shadow: 0 0 2px var(--black), 0 0 6px rgba(21, 21, 21, 0.9), 0 0 12px rgba(21, 21, 21, 0.7);
-		}
-
-		#nav-links > a:hover {
-			color: var(--halloween-orange) !important;
-		}
-
 		.hacksignia {
 			filter: drop-shadow(0 0 3px var(--black)) drop-shadow(0 0 8px rgba(21, 21, 21, 0.7));
 		}
@@ -147,10 +138,6 @@ function initHalloween() {
 			filter: invert(92%) hue-rotate(180deg) brightness(85%) contrast(110%) saturate(110%) !important;
 		}
 
-		#current-page {
-			--black: var(--offwhite);
-			text-shadow: 0 0 1px black, 0 0 4px rgba(21, 21, 21, 0.6) !important;
-		}
 
 		#pushpin-light {
 			display: none !important;
