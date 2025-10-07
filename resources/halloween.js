@@ -223,6 +223,29 @@ function initHalloween() {
 		carouselFirstImage.src = halloweenImages[0];
 	}
 
+	// Create Audio Context for effects
+	const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+	// Create a convolver node for reverb effect
+	const convolver = audioContext.createConvolver();
+
+	// Generate impulse response for reverb
+	function createReverbImpulse(duration, decay) {
+		const sampleRate = audioContext.sampleRate;
+		const length = sampleRate * duration;
+		const impulse = audioContext.createBuffer(2, length, sampleRate);
+		const impulseL = impulse.getChannelData(0);
+		const impulseR = impulse.getChannelData(1);
+
+		for (let i = 0; i < length; i++) {
+			impulseL[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / length, decay);
+			impulseR[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / length, decay);
+		}
+		return impulse;
+	}
+
+	convolver.buffer = createReverbImpulse(2.5, 3);
+
 	// Preload ghost sound effects
 	const ghostSounds = [
 		new Audio('/resources/sounds/ghost1.mp3'),
@@ -277,7 +300,25 @@ function initHalloween() {
 		lastPlayedSoundIndex = randomIndex;
 
 		const sound = ghostSounds[randomIndex].cloneNode();
-		sound.volume = 0.5;
+
+		// Create audio nodes for effect processing
+		const source = audioContext.createMediaElementSource(sound);
+		const gainNode = audioContext.createGain();
+		const dryGain = audioContext.createGain();
+		const wetGain = audioContext.createGain();
+
+		// Set volume levels
+		gainNode.gain.value = 0.5;
+		dryGain.gain.value = 0.4; // Dry signal (original)
+		wetGain.gain.value = 0.6; // Wet signal (reverb)
+
+		// Route audio: source -> split into dry and wet paths -> merge -> destination
+		source.connect(dryGain);
+		source.connect(convolver);
+		convolver.connect(wetGain);
+		dryGain.connect(gainNode);
+		wetGain.connect(gainNode);
+		gainNode.connect(audioContext.destination);
 
 		if (onEnd) {
 			sound.addEventListener('loadedmetadata', () => {
@@ -368,14 +409,29 @@ function initHalloween() {
 	}
 
 	// Handle window resize
+	let resizeTimeout;
+	let isResizing = false;
+
 	function handleResize() {
-		// Optionally reposition existing ghosts on resize
+		// Immediately despawn all ghosts without fadeout
 		const existingGhosts = document.querySelectorAll('.halloween-ghost');
 		existingGhosts.forEach(ghost => {
-			const position = getRandomPosition();
-			ghost.style.left = position.x + 'px';
-			ghost.style.top = position.y + 'px';
+			if (ghost.parentNode) {
+				ghost.parentNode.removeChild(ghost);
+				ghostCount--;
+			}
 		});
+
+		// Set resizing flag
+		isResizing = true;
+
+		// Clear existing timeout
+		clearTimeout(resizeTimeout);
+
+		// Resume spawning after resize ends (300ms of no resize events)
+		resizeTimeout = setTimeout(() => {
+			isResizing = false;
+		}, 300);
 	}
 
 	// Start the ghost system
