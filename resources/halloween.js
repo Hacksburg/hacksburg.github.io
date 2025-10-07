@@ -81,7 +81,7 @@ function initHalloween() {
 		}
 
 		body {
-			background-color: #0c0c0c !important;
+			background-color: #0d0d0d !important;
 		}
 
 		#header-text {
@@ -90,6 +90,10 @@ function initHalloween() {
 
 		#header-text h1, #header-text h3 {
 			text-shadow: 0 0 2px var(--black), 0 0 6px var(--black), 0 0 12px rgba(21, 21, 21, 0.8);
+		}
+
+		#nav-links > a {
+			--black: var(--halloween-offwhite);
 		}
 
 		.hacksignia {
@@ -282,7 +286,7 @@ function initHalloween() {
 		return MIN_FADE_DURATION + Math.random() * (MAX_FADE_DURATION - MIN_FADE_DURATION);
 	}
 
-	function playRandomGhostSound(onEnd) {
+	function playRandomGhostSound(ghostX, onEnd) {
 		// Select a random sound that's different from the last one played
 		let randomIndex;
 		do {
@@ -298,18 +302,27 @@ function initHalloween() {
 		const gainNode = audioContext.createGain();
 		const dryGain = audioContext.createGain();
 		const wetGain = audioContext.createGain();
+		const panNode = audioContext.createStereoPanner();
+
+		// Calculate pan value based on ghost's horizontal position
+		// ghostX is the left position, we need to normalize to -1 (left) to 1 (right)
+		const viewportWidth = window.innerWidth;
+		const ghostCenterX = ghostX + 90; // 90 is half of the 180px ghost size
+		const panValue = (ghostCenterX / viewportWidth) * 2 - 1; // Convert to range [-1, 1]
+		panNode.pan.value = Math.max(-1, Math.min(1, panValue)); // Clamp to valid range
 
 		// Set volume levels
 		gainNode.gain.value = 0.2;
 		dryGain.gain.value = 0.4; // Dry signal (original)
 		wetGain.gain.value = 0.6; // Wet signal (reverb)
 
-		// Route audio: source -> split into dry and wet paths -> merge -> destination
+		// Route audio: source -> split into dry and wet paths -> pan -> merge -> destination
 		source.connect(dryGain);
 		source.connect(convolver);
 		convolver.connect(wetGain);
-		dryGain.connect(gainNode);
-		wetGain.connect(gainNode);
+		dryGain.connect(panNode);
+		wetGain.connect(panNode);
+		panNode.connect(gainNode);
 		gainNode.connect(audioContext.destination);
 
 		if (onEnd) {
@@ -357,7 +370,7 @@ function initHalloween() {
 				clearTimeout(fadeTimeout);
 			}
 
-			playRandomGhostSound(() => {
+			playRandomGhostSound(position.x, () => {
 				// After sound ends, start fade out
 				ghost.style.opacity = '0';
 				setTimeout(() => {
