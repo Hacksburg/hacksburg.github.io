@@ -1,4 +1,3 @@
-// Immediately inject CSS to prevent FOUC (runs as soon as script is parsed)
 (function() {
 	// Check if current month is October (month is 0-based, so October is 9)
 	const currentMonth = new Date().getMonth();
@@ -33,6 +32,13 @@
 			pointer-events: none;
 		}
 
+		@media only screen and (max-width: 50rem) {
+			#halloween-spiderweb {
+				display: none;
+			}
+		}
+
+
 		.halloween-ghost {
 			position: fixed;
 			background-image: url('/resources/images/ghost.gif');
@@ -52,6 +58,16 @@
 		}
 
 		#nav-links {
+			position: relative;
+			z-index: 2;
+		}
+
+		#header {
+			position: relative;
+			z-index: 2;
+		}
+
+		.rule {
 			position: relative;
 			z-index: 2;
 		}
@@ -197,6 +213,14 @@
 		}
 	`;
 	document.head.appendChild(styleSheet);
+
+	// Update favicon to Halloween version
+	const favicon = document.querySelector('link[rel="icon"]') || document.createElement('link');
+	favicon.rel = 'icon';
+	favicon.href = '/resources/hacksignia_halloween_favicon.svg';
+	if (!favicon.parentNode) {
+		document.head.appendChild(favicon);
+	}
 })();
 
 function initHalloween() {
@@ -275,6 +299,12 @@ function initHalloween() {
 	const MAX_FADE_DURATION = 8000;
 	const MIN_SPAWN_INTERVAL = 8000;
 	const MAX_SPAWN_INTERVAL = 20000;
+	const RESPONSIVE_BREAKPOINT = 1008; // 63rem = 1008px
+
+	// Check if screen is wide enough for ghosts
+	function isWideScreen() {
+		return window.innerWidth > RESPONSIVE_BREAKPOINT;
+	}
 
 	function getRandomPosition() {
 		const viewportWidth = window.innerWidth;
@@ -351,7 +381,7 @@ function initHalloween() {
 	}
 
 	function createGhost() {
-		if (ghostCount >= MAX_GHOSTS || isResizing) return;
+		if (ghostCount >= MAX_GHOSTS || isResizing || !isWideScreen()) return;
 
 		const ghost = document.createElement('div');
 		ghost.className = 'halloween-ghost';
@@ -445,19 +475,26 @@ function initHalloween() {
 		// Resume spawning after resize ends (300ms of no resize events)
 		resizeTimeout = setTimeout(() => {
 			isResizing = false;
+			// Only spawn a new ghost if screen is now wide enough
+			if (isWideScreen()) {
+				createGhost();
+			}
 		}, 300);
 	}
 
 	// Start the ghost system
 	function initGhosts() {
+		// Handle window resize - register even if starting narrow
+		window.addEventListener('resize', handleResize);
+
+		// Only initialize ghosts if screen is wide enough
+		if (!isWideScreen()) return;
+
 		// Create initial ghost
 		setTimeout(createGhost, 1000);
 
 		// Schedule future ghosts
 		scheduleNextGhost();
-
-		// Handle window resize
-		window.addEventListener('resize', handleResize);
 	}
 
 	// Handle visibility change
