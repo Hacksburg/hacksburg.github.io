@@ -1,11 +1,12 @@
-function initHalloween() {
+// Immediately inject CSS to prevent FOUC (runs as soon as script is parsed)
+(function() {
 	// Check if current month is October (month is 0-based, so October is 9)
 	const currentMonth = new Date().getMonth();
 	if (currentMonth !== 9) {
 		return; // Exit if not October
 	}
 
-	// Create and inject the CSS
+	// Create and inject the CSS immediately
 	const styleSheet = document.createElement('style');
 	styleSheet.textContent = `
 		/* Halloween Theme CSS */
@@ -196,6 +197,14 @@ function initHalloween() {
 		}
 	`;
 	document.head.appendChild(styleSheet);
+})();
+
+function initHalloween() {
+	// Check if current month is October (month is 0-based, so October is 9)
+	const currentMonth = new Date().getMonth();
+	if (currentMonth !== 9) {
+		return; // Exit if not October
+	}
 
 	// Add spiderweb element
 	const spiderweb = document.createElement('div');
