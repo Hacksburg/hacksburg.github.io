@@ -38,10 +38,21 @@ function initHalloween() {
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
-			z-index: -10;
-			pointer-events: none;
+			z-index: 1;
+			pointer-events: auto;
 			opacity: 0;
 			transition: opacity 2s ease-in-out;
+			cursor: pointer;
+		}
+
+		.post {
+			position: relative;
+			z-index: 2;
+		}
+
+		#nav-links {
+			position: relative;
+			z-index: 2;
 		}
 
 		.button {
@@ -64,15 +75,8 @@ function initHalloween() {
 			content: url('/resources/hacksignia_dark_halloween.svg');
 		}
 
-		html {
-			overscroll-behavior: none;
-		}
-
 		body {
-			background: linear-gradient(to top, var(--black), var(--offblack)) !important;
-			background-attachment: fixed;
-			background-color: var(--offblack) !important;
-			overscroll-behavior: none;
+			background-color: #0c0c0c !important;
 		}
 
 		#header-text {
@@ -219,6 +223,21 @@ function initHalloween() {
 		carouselFirstImage.src = halloweenImages[0];
 	}
 
+	// Preload ghost sound effects
+	const ghostSounds = [
+		new Audio('/resources/sounds/ghost1.mp3'),
+		new Audio('/resources/sounds/ghost2.mp3'),
+		new Audio('/resources/sounds/ghost3.mp3')
+	];
+
+	// Preload all sounds
+	ghostSounds.forEach(sound => {
+		sound.preload = 'auto';
+		sound.load();
+	});
+
+	let lastPlayedSoundIndex = -1;
+
 	// Halloween Ghost Animation System
 	let ghostCount = 0;
 	const MAX_GHOSTS = 2;
@@ -248,6 +267,34 @@ function initHalloween() {
 		return MIN_FADE_DURATION + Math.random() * (MAX_FADE_DURATION - MIN_FADE_DURATION);
 	}
 
+	function playRandomGhostSound(onEnd) {
+		// Select a random sound that's different from the last one played
+		let randomIndex;
+		do {
+			randomIndex = Math.floor(Math.random() * ghostSounds.length);
+		} while (randomIndex === lastPlayedSoundIndex && ghostSounds.length > 1);
+
+		lastPlayedSoundIndex = randomIndex;
+
+		const sound = ghostSounds[randomIndex].cloneNode();
+		sound.volume = 0.5;
+
+		if (onEnd) {
+			sound.addEventListener('loadedmetadata', () => {
+				const duration = sound.duration;
+				const triggerTime = duration * 0.60;
+				setTimeout(onEnd, triggerTime * 1000);
+			});
+		}
+
+		sound.play().catch(err => {
+			// Silently catch if autoplay is blocked
+			console.log('Audio play prevented:', err);
+			// Call onEnd immediately if play fails
+			if (onEnd) onEnd();
+		});
+	}
+
 	function createGhost() {
 		if (ghostCount >= MAX_GHOSTS) return;
 
@@ -264,6 +311,31 @@ function initHalloween() {
 		ghost.style.height = size + 'px';
 		ghost.style.transform = `scale(${scale})`;
 
+		let clicked = false;
+		let fadeTimeout;
+
+		// Add click event listener
+		ghost.addEventListener('click', () => {
+			if (clicked) return; // Prevent multiple clicks
+			clicked = true;
+
+			// Clear the scheduled fade out
+			if (fadeTimeout) {
+				clearTimeout(fadeTimeout);
+			}
+
+			playRandomGhostSound(() => {
+				// After sound ends, start fade out
+				ghost.style.opacity = '0';
+				setTimeout(() => {
+					if (ghost.parentNode) {
+						ghost.parentNode.removeChild(ghost);
+						ghostCount--;
+					}
+				}, 2000); // Wait for fade transition
+			});
+		});
+
 		document.body.appendChild(ghost);
 		ghostCount++;
 
@@ -274,14 +346,16 @@ function initHalloween() {
 
 		// Fade out and remove
 		const duration = getRandomDuration();
-		setTimeout(() => {
-			ghost.style.opacity = '0';
-			setTimeout(() => {
-				if (ghost.parentNode) {
-					ghost.parentNode.removeChild(ghost);
-					ghostCount--;
-				}
-			}, 2000); // Wait for fade transition
+		fadeTimeout = setTimeout(() => {
+			if (!clicked) { // Only fade out naturally if not clicked
+				ghost.style.opacity = '0';
+				setTimeout(() => {
+					if (ghost.parentNode) {
+						ghost.parentNode.removeChild(ghost);
+						ghostCount--;
+					}
+				}, 2000); // Wait for fade transition
+			}
 		}, duration);
 	}
 
