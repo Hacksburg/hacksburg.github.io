@@ -294,18 +294,18 @@ function initHalloween() {
 	let ghostCount = 0;
 	const MIN_SCALE = 0.8;
 	const MAX_SCALE = 1.2;
-	const MIN_FADE_DURATION = 3000;
-	const MAX_FADE_DURATION = 8000;
+	const MIN_FADE_DURATION = 9000;
+	const MAX_FADE_DURATION = 24000;
 	const BASE_MIN_SPAWN_INTERVAL = 8000;
 	const BASE_MAX_SPAWN_INTERVAL = 20000;
 	const RESPONSIVE_BREAKPOINT = 1008; // 63rem = 1008px
 
-	// Calculate max ghosts based on day of October (2 at start, 5 on Halloween)
+	// Calculate max ghosts based on day of October (1 at start, 3 on Halloween)
 	function getMaxGhosts() {
 		const currentDate = new Date();
 		const dayOfMonth = currentDate.getDate(); // 1-31
-		// Scale from 2 on Oct 1 to 5 on Oct 31
-		return Math.floor(2 + (dayOfMonth - 1) / 30 * 3); // 2 + (0 to 3)
+		// Scale from 1 on Oct 1 to 3 on Oct 31
+		return Math.floor(1 + (dayOfMonth - 1) / 30 * 2); // 1 + (0 to 2)
 	}
 
 	// Calculate spawn rate multiplier based on day of October (1x to 15x by Halloween)
