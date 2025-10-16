@@ -111,6 +111,7 @@
 
 		#nav-links > a {
 			--black: var(--halloween-offwhite);
+			text-shadow: 0 0 2px #0d0d0d, 0 0 6px #0d0d0d, 0 0 12px rgba(13, 13, 13, 0.8) !important;
 		}
 
 		.hacksignia {
