@@ -1,5 +1,11 @@
 {
-	"announcements": [],
+	"announcements": [
+		{
+			"title": "Annual Members-Only Meeting on Tuesday, December 16th",
+			"subtitle": "Public weekly meeting will not be held. Happy Holidays!",
+			"description": "Hacksburg will hold its annual members-only meeting tonight at 6:00pm (not the usual 7:30pm). Tonight's public weekly meeting will not be held."
+		}
+	],
 	"posts": [
 		{
 			"title": "Laser Cutter 101: Valentine's Edition",
