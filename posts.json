@@ -34,7 +34,7 @@
 			"materials_fee": null,
 			"image": "building_personal_websites.png",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/building-personal-websites-2",
-			"cancelled": false,
+			"cancelled": true,
 			"sold_out": false
 		},
 		{
