@@ -49,7 +49,7 @@
 			"offered_in_person": true,
 			"member_price": 0,
 			"non_member_price": 5,
-			"materials_fee": TBD,
+			"materials_fee": null,
 			"image": "",
 			"zeffy_link": null,
 			"cancelled": false,
