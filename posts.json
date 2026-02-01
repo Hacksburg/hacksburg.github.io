@@ -160,7 +160,7 @@
 			"materials_fee": 10,
 			"image": "glow_cat.jpg",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/laser-101-valentines-edition",
-			"cancelled": false,
+			"cancelled": true,
 			"sold_out": false
 		},
 		{
