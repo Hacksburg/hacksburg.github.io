@@ -143,7 +143,7 @@
 			"image": "wooden_lathe.jpg",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/intro-to-woodturning-on-the-lathe-2",
 			"cancelled": false,
-			"sold_out": false
+			"sold_out": true
 		},
 		{
 			"title": "Laser Cutter 101: Valentine's Edition",
