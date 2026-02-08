@@ -125,7 +125,7 @@
 			"image": "podcast.jpg",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/podcasting--101",
 			"cancelled": false,
-			"sold_out": false
+			"sold_out": true
 		},
 		{
 			"title": "Intro to Woodturning",
