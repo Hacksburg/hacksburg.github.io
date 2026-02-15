@@ -2,6 +2,24 @@
 	"announcements": [],
 	"posts": [
 		{
+			"title": "Rescheduled Laser Cutter 101: Valentine's Edition",
+			"subtitle": "Learn to use Hacksburg's laser cutter",
+			"description": "<p>This workshop covers the Hacksburg 80W CO2 laser cutter. Basic laser safety, design guidelines, and examples will be presented. Attendees will learn how to make their own edge-lit acrylic sign and receive an LED base with the optional materials fee.</p><p>Ages 16+, Attendees under 18 must be accompanied by a parent or guardian at all times.</p>",
+			"date": "2026-02-21",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 5,
+			"materials_fee": 10,
+			"image": "glow_cat.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/laser-101-valentines-edition-2",
+			"cancelled": true,
+			"sold_out": false
+		},
+		{
 			"title": "Silicone Mold Making and Casting",
 			"subtitle": "",
 			"description": "<p>Turn one object into many! In this interactive class, you’ll learn how to make budget-friendly silicone molds for cosplay props, prototypes, and creative projects. By the end, you’ll have built a silicone mold yourself and used it to create a wax replica—no prior experience required. Ages 14+.",
@@ -50,8 +68,8 @@
 			"member_price": 0,
 			"non_member_price": 5,
 			"materials_fee": null,
-			"image": "",
-			"zeffy_link": null,
+			"image": "RaspberryPi.jpeg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/pi-day-special-diy-weather-station-on-a-raspberry-pi",
 			"cancelled": false,
 			"sold_out": false
 		},
@@ -89,7 +107,7 @@
 			"image": "sewing.jpg",
 			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/sewing--101-3",
 			"cancelled": false,
-			"sold_out": false
+			"sold_out": true
 		},
 		{
 			"title": "Intro to CNC Machining",
