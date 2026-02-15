@@ -58,7 +58,7 @@
 		{
 			"title": "Pi Day Special: DIY Weather Station of a Raspberry Pi",
 			"subtitle": "",
-			"description": "<p></p>",
+			"description": "<p>Ever wondered if it’s really hotter now? Want to join the Weather Underground? Do you have a fancy weather console in your kitchen you haven't actually looked at in years? Want to know what's going on at your home rather than a near(ish) by courthouse or airport? This Pi Day, dive into the world of weather tracking with us! Join our class where we’ll show you how to harness the power of a Raspberry Pi to monitor and analyse weather data. We’ll focus on WeeWx, a fantastic software that operates seamlessly on a Raspberry Pi paired with an Acurite Weather Station. </p>",
 			"date": "2026-03-15",
 			"start_time": "01:00pm",
 			"end_time": "04:00pm",
