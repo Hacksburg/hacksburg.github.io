@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-laser-room",
-      "name": "Laser Room",
+      "id": "0-woodshop-entrance",
+      "name": "Woodshop Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -22,56 +22,50 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1440,
+      "faceSize": 1920,
       "initialViewParameters": {
-        "yaw": -0.1666505795262161,
-        "pitch": 0.09332808768193601,
-        "fov": 1.3687812585745385
+        "yaw": 0.5585053606382022,
+        "pitch": 0.34373962069322417,
+        "fov": 1.395287170018175
       },
       "linkHotspots": [
         {
-          "yaw": 2.3360282648076707,
-          "pitch": 0.11378688496314915,
+          "yaw": -2.355627993468085,
+          "pitch": 0.841638826583468,
           "rotation": 0,
-          "target": "1-woodshop"
+          "target": "18-laser-room-laser"
+        },
+        {
+          "yaw": -0.26718815671167917,
+          "pitch": 0.867528821139377,
+          "rotation": 0,
+          "target": "6-woodshop-tablesaw"
+        },
+        {
+          "yaw": 1.3869615561150468,
+          "pitch": 0.8971554696967452,
+          "rotation": 0,
+          "target": "1-woodshop-cubbies"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 3.1293183947197765,
-          "pitch": 0.22712926819867185,
-          "title": "Laser Cutter",
-          "text": "80W CO2 Laser Cutter<div>- Cuts wood, acrylic, fabric, and more</div><div>- Marks stone, glass, and metal</div>"
+          "yaw": -0.882829377194847,
+          "pitch": 0.42258838976512614,
+          "title": "Sandblasting Cabinet",
+          "text": "Used for cleaning parts or applying surface finishes."
         },
         {
-          "yaw": -2.293326681596973,
-          "pitch": 0.20836572052939317,
-          "title": "Computer Workstation",
-          "text": "Includes software for graphics, CAD, CAM, and more."
-        },
-        {
-          "yaw": 0.5510559844565854,
-          "pitch": 0.3069801436687811,
-          "title": "Electronics Bench",
-          "text": "Diagnose and repair electronics with soldering equipment, multimeters, power supplies, oscilloscopes, function generators, and other tools."
-        },
-        {
-          "yaw": -0.6169082817719094,
-          "pitch": 0.18177302929938932,
-          "title": "3D Printers",
-          "text": "16x16x16\" FDM printer with high flow direct-drive extruder for large parts<div><br></div><div>10\" 8K resin printer for high detail parts</div>"
-        },
-        {
-          "yaw": 0.11000785707511085,
-          "pitch": -0.18170523021304774,
-          "title": "Server and Printer",
-          "text": "Runs several of Hacksburg's web services, including remote access to CAD/CAM softwares. Member's may request a VM for personal projects."
+          "yaw": 0.2610325633429813,
+          "pitch": 0.4078038899503653,
+          "title": "Table Saw",
+          "text": "Text"
         }
       ]
     },
     {
-      "id": "1-woodshop",
-      "name": "Woodshop",
+      "id": "1-woodshop-cubbies",
+      "name": "Woodshop Cubbies",
       "levels": [
         {
           "tileSize": 256,
@@ -91,311 +85,319 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1440,
+      "faceSize": 1920,
       "initialViewParameters": {
-        "yaw": 0.049864609249922864,
-        "pitch": 0.24230591486056952,
-        "fov": 1.3687812585745385
+        "yaw": 2.8872606200222037,
+        "pitch": 0.2756330222511494,
+        "fov": 1.395287170018175
       },
       "linkHotspots": [
         {
-          "yaw": -3.0113631234672624,
-          "pitch": 0.4793081121894627,
+          "yaw": -1.9950021106883113,
+          "pitch": 0.7645170883013108,
           "rotation": 0,
-          "target": "0-laser-room"
+          "target": "0-woodshop-entrance"
         },
         {
-          "yaw": 0.5109853076641464,
-          "pitch": 0.45677613815106355,
+          "yaw": 1.2315713374594903,
+          "pitch": 0.8987713235485906,
           "rotation": 0,
-          "target": "2-woodshop"
+          "target": "7-woodshop-green-cabinet"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-woodshop-mid-table",
+      "name": "Woodshop Mid-Table",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": -0.9576023558340854,
-          "pitch": 0.5513282587776107,
-          "rotation": 0,
-          "target": "5-woodshop"
+          "tileSize": 512,
+          "size": 512
         },
         {
-          "yaw": 0.35049376980458824,
-          "pitch": 0.1250297152712161,
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -1.1281540115461492,
+        "pitch": 0.5208763855078544,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.18697493557207245,
+          "pitch": 0.687201246268458,
           "rotation": 0,
-          "target": "6-storage-and-crafts"
+          "target": "7-woodshop-green-cabinet"
+        },
+        {
+          "yaw": 0.8588597903752397,
+          "pitch": 0.6758267681111256,
+          "rotation": 0,
+          "target": "1-woodshop-cubbies"
+        },
+        {
+          "yaw": -2.486222027999709,
+          "pitch": 0.681665127750307,
+          "rotation": 0,
+          "target": "3-woodshop-cnc-router"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.08814389598995831,
-          "pitch": 0.45469193870953717,
+          "yaw": -0.995626477655124,
+          "pitch": 0.6022306526099559,
+          "title": "Slow-speed Knife Grinder",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.0973131507744096,
+          "pitch": 0.29925357766002314,
+          "title": "Small Wood Lathe",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.5666669215047868,
+          "pitch": 0.5122323254572194,
+          "title": "Scroll Saw",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.3526922744561283,
+          "pitch": 0.18944952806797133,
+          "title": "Small Bandsaw",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.5556385806142181,
+          "pitch": 0.09958092663049456,
+          "title": "Drill Press",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "3-woodshop-cnc-router",
+      "name": "Woodshop CNC Router",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -2.634387345671458,
+        "pitch": 0.3607287424604344,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.5416447201019103,
+          "pitch": 0.8634590302568501,
+          "rotation": 0,
+          "target": "2-woodshop-mid-table"
+        },
+        {
+          "yaw": 2.2873892365899433,
+          "pitch": 0.9376889867044937,
+          "rotation": 0,
+          "target": "4-woodshop-wood-rack"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.27962230856369,
+          "pitch": 0.22468338182500602,
+          "title": "CNC Router",
+          "text": "Thanks to donations by Torc Robotics and Onefinity CNC, this CNC router is capable of cutting wood and aluminum into intricate shapes."
+        },
+        {
+          "yaw": -1.3549148513477398,
+          "pitch": 0.26958286541728427,
+          "title": "Compound Miter Saw",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.9212955682439059,
+          "pitch": 0.3728450916232262,
+          "title": "Belt Sander",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.6403118560630006,
+          "pitch": 0.27052672502458464,
+          "title": "Oscillating Spindle Sander",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "4-woodshop-wood-rack",
+      "name": "Woodshop Wood rack",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -3.0092724359259027,
+        "pitch": 0.37981397153647833,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.2198286720163267,
+          "pitch": 0.8530799899381325,
+          "rotation": 0,
+          "target": "3-woodshop-cnc-router"
+        },
+        {
+          "yaw": -2.073927225271124,
+          "pitch": 0.8003412333063196,
+          "rotation": 0,
+          "target": "5-woodshop-sink"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.770452510101469,
+          "pitch": 0.38905428392071073,
+          "title": "Wood Rack",
+          "text": "Members may store wood on this rack on a limited basis. Communal materials are also stored here."
+        },
+        {
+          "yaw": -0.17658859045214825,
+          "pitch": 0.39671409417116266,
+          "title": "Dust collector",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.1418534483850582,
+          "pitch": 0.415463115671038,
           "title": "Router Table",
           "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "5-woodshop-sink",
+      "name": "Woodshop Sink",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": -0.5695218053018607,
-          "pitch": 0.3741307644387284,
-          "title": "Table Saw",
-          "text": "Text"
+          "tileSize": 512,
+          "size": 512
         },
         {
-          "yaw": 1.378440350081668,
-          "pitch": 0.690876076079622,
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -1.6400899977757728,
+        "pitch": 0.5647446048931002,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.6692932828007034,
+          "pitch": 0.8467073243140053,
+          "rotation": 0,
+          "target": "4-woodshop-wood-rack"
+        },
+        {
+          "yaw": 2.132929512820489,
+          "pitch": 0.8047692257996921,
+          "rotation": 0,
+          "target": "6-woodshop-tablesaw"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.29601967450624755,
+          "pitch": 0.6419040238434377,
           "title": "Jointer",
           "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "2-woodshop",
-      "name": "Woodshop",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          "yaw": -0.998948200707023,
+          "pitch": 0.493028276923992,
+          "title": "Thickness Planer",
+          "text": "Text"
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          "yaw": -1.3004401887822077,
+          "pitch": 0.6965133683059079,
+          "title": "Robot Vacuum",
+          "text": "Text"
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1440,
-      "initialViewParameters": {
-        "yaw": 0.0676808987956079,
-        "pitch": 0.3016427607488339,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.3058195875602845,
-          "pitch": 0.7122474088742852,
-          "rotation": 0,
-          "target": "6-storage-and-crafts"
+          "yaw": 2.746893614208827,
+          "pitch": 0.5783866024844109,
+          "title": "Thickness Planer #2",
+          "text": "Text"
         },
         {
-          "yaw": 0.9191992781733287,
-          "pitch": 0.35599268980762844,
-          "rotation": 0,
-          "target": "3-woodshop"
-        },
-        {
-          "yaw": -0.7775861824370551,
-          "pitch": 0.44154020317872167,
-          "rotation": 0,
-          "target": "1-woodshop"
-        },
-        {
-          "yaw": -0.7834463900888107,
-          "pitch": 0.08655057596722493,
-          "rotation": 0,
-          "target": "0-laser-room"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.3214471050381178,
-          "pitch": 0.29742500552877615,
-          "title": "Materials Storage",
-          "text": "Both member owned and \"free to use\" woodshop materials"
-        },
-        {
-          "yaw": -2.9935304834864738,
-          "pitch": 0.6315551403574258,
-          "title": "Hand Tools",
-          "text": "Tape measures, calipers, screwdrivers, pliers, wrenches, etc. Also includes sanding supplies and a wide variety of fastners (metric and imperial)."
-        },
-        {
-          "yaw": -2.2017332901235847,
-          "pitch": 0.7683805387594909,
-          "title": "Flammables Cabinet",
-          "text": "Safe storage of paints, stains, and cleaning supplies"
-        },
-        {
-          "yaw": 0.14295991912572958,
-          "pitch": 0.453536196422224,
-          "title": "Work Surfaces",
-          "text": "11' x 6' total area"
-        },
-        {
-          "yaw": -1.64314528719596,
-          "pitch": 0.04084284628418189,
-          "title": "Power Tools",
-          "text": "Also storage for safety equipment; dust, hearing and eye protection."
-        }
-      ]
-    },
-    {
-      "id": "3-woodshop",
-      "name": "Woodshop",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1440,
-      "initialViewParameters": {
-        "yaw": -0.5926588901730625,
-        "pitch": 0.4279148733824947,
-        "fov": 1.2074393756439121
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.5598648935400838,
-          "pitch": 0.49450137793227,
-          "rotation": 0,
-          "target": "4-woodshop"
-        },
-        {
-          "yaw": 2.2395921607481064,
-          "pitch": 0.4061284406880823,
-          "rotation": 0,
-          "target": "2-woodshop"
-        },
-        {
-          "yaw": -2.9559496970114854,
-          "pitch": 0.0321626850885437,
-          "rotation": 0,
-          "target": "0-laser-room"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.264392384383239,
-          "pitch": 0.5878068695604668,
-          "title": "Onefinity Woodworker",
-          "text": "32\"x32\" CNC Gantry Mill<div><br></div><div>Equipped with 2.2kW auto-tool-change spindle</div><div><br></div><div>Can machine wood, plastics, aluminum, and light cuts on steel</div>"
-        },
-        {
-          "yaw": -2.5046125154279792,
-          "pitch": 0.48361566758584473,
-          "title": "Dust Collection",
-          "text": "All tools are equipped with dust collection for clean and safe operation"
-        },
-        {
-          "yaw": -2.198793372270533,
-          "pitch": 0.4419524851568326,
-          "title": "12\" Thickness Planer",
-          "text": "12\" wide x 6.5\" depth"
-        },
-        {
-          "yaw": -2.105034416265786,
-          "pitch": 0.24141141294466628,
-          "title": "Disk/Belt Sander",
-          "text": "6x48\" belt, 9\" disk"
-        },
-        {
-          "yaw": -1.798040167818435,
-          "pitch": 0.2590054366946202,
-          "title": "Sliding Compound Miter Saw",
-          "text": "Makita LS1013 10in Dual Sliding Compound Miter Saw"
-        },
-        {
-          "yaw": -1.1288760043451305,
-          "pitch": 0.3138309663941854,
-          "title": "Sand Blasting Cabinet",
-          "text": "Includes vacuum media recovery and filtering"
-        }
-      ]
-    },
-    {
-      "id": "4-woodshop",
-      "name": "Woodshop",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1440,
-      "initialViewParameters": {
-        "yaw": 0.13357144453045144,
-        "pitch": 0.3510963256142592,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.6184976187069591,
-          "pitch": 0.49349132910986704,
-          "rotation": 0,
-          "target": "3-woodshop"
-        },
-        {
-          "yaw": 0.5836148920472066,
-          "pitch": 0.5621516653752803,
-          "rotation": 0,
-          "target": "5-woodshop"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.2601721475483565,
-          "pitch": 0.5085661838936986,
-          "title": "Wood Lathe",
-          "text": "10\"x18\", 1/2 HP"
-        },
-        {
-          "yaw": 0.21087858595709363,
-          "pitch": 0.4264066209116848,
-          "title": "Oscillating Drum Sander",
-          "text": ""
-        },
-        {
-          "yaw": 0.3676633340294977,
-          "pitch": 0.30769019213401094,
-          "title": "Band Saw",
-          "text": "9\" throat x 3.5\" height"
-        },
-        {
-          "yaw": 1.65056250956356,
-          "pitch": 0.4958304324742997,
-          "title": "Ultrasonic Cleaner",
-          "text": ""
-        },
-        {
-          "yaw": -1.5699036537847544,
-          "pitch": 0.9358482532909473,
-          "title": "TIG/Stick Welder",
+          "yaw": -3.0974264702987035,
+          "pitch": 0.11946961060284167,
+          "title": "<div>Metallurgy Kiln</div>",
           "text": "Text"
         }
       ]
     },
     {
-      "id": "5-woodshop",
-      "name": "Woodshop",
+      "id": "6-woodshop-tablesaw",
+      "name": "Woodshop Tablesaw",
       "levels": [
         {
           "tileSize": 256,
@@ -415,62 +417,50 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1440,
+      "faceSize": 1920,
       "initialViewParameters": {
-        "yaw": 0.0017809482163215762,
-        "pitch": 0.23736089618992295,
-        "fov": 1.3687812585745385
+        "yaw": 1.3076543780326713,
+        "pitch": 0.4454030530383015,
+        "fov": 1.395287170018175
       },
       "linkHotspots": [
         {
-          "yaw": -1.0084217256014796,
-          "pitch": 0.5612910523123809,
+          "yaw": -0.08450557067979858,
+          "pitch": 0.7445832073795096,
           "rotation": 0,
-          "target": "4-woodshop"
+          "target": "5-woodshop-sink"
         },
         {
-          "yaw": 1.861037294151318,
-          "pitch": 0.566348214825874,
+          "yaw": 2.7639399110600333,
+          "pitch": 0.8379222216754307,
           "rotation": 0,
-          "target": "1-woodshop"
-        },
-        {
-          "yaw": 2.469562149905216,
-          "pitch": 0.09848274078002639,
-          "rotation": 6.283185307179586,
-          "target": "0-laser-room"
+          "target": "0-woodshop-entrance"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.37045404318588027,
-          "pitch": 0.40020757107412663,
-          "title": "Scroll Saw",
-          "text": "Central Machinery 16\" Variable Speed Scroll Saw"
-        },
-        {
-          "yaw": 0.1597794837611204,
-          "pitch": 0.41867123883574386,
-          "title": "Drill Press",
-          "text": "Sears 15\" Variable Speed Drill Press"
-        },
-        {
-          "yaw": 0.9135537147727693,
-          "pitch": 0.6030294155354845,
-          "title": "Table Saw",
+          "yaw": 1.3040920219757126,
+          "pitch": 0.5078610420255281,
+          "title": "Tablesaw",
           "text": "Text"
         },
         {
-          "yaw": 2.44205173265407,
-          "pitch": 0.7130842745525481,
-          "title": "Additional work surface",
-          "text": "3' x 7' work area"
+          "yaw": -1.7880656922621103,
+          "pitch": 0.5243018831832913,
+          "title": "Bandsaw",
+          "text": "A large 14\" bandsaw suitable for resawing."
+        },
+        {
+          "yaw": -2.7838250064963272,
+          "pitch": -0.07556814130067124,
+          "title": "Air Quality Monitor",
+          "text": "Text"
         }
       ]
     },
     {
-      "id": "6-storage-and-crafts",
-      "name": "Storage and Crafts",
+      "id": "7-woodshop-green-cabinet",
+      "name": "Woodshop Green Cabinet",
       "levels": [
         {
           "tileSize": 256,
@@ -490,86 +480,50 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1440,
+      "faceSize": 1920,
       "initialViewParameters": {
-        "yaw": -0.636112011821135,
-        "pitch": 0.4204540596482076,
-        "fov": 1.3687812585745385
+        "yaw": 3.115690216436665,
+        "pitch": 0.4794064266421145,
+        "fov": 1.395287170018175
       },
       "linkHotspots": [
         {
-          "yaw": 1.430211877492778,
-          "pitch": 0.6551589842130916,
+          "yaw": -1.8724275422677366,
+          "pitch": 0.9063906386399054,
           "rotation": 0,
-          "target": "2-woodshop"
+          "target": "1-woodshop-cubbies"
         },
         {
-          "yaw": 2.5747663566268457,
-          "pitch": 0.6555270436318601,
-          "rotation": 0.7853981633974483,
-          "target": "7-metal-shop"
+          "yaw": -0.7223483389748431,
+          "pitch": 0.9403468627912623,
+          "rotation": 0,
+          "target": "2-woodshop-mid-table"
         },
         {
-          "yaw": 1.395328096269182,
-          "pitch": 0.04911127892285805,
+          "yaw": 1.5235261179561679,
+          "pitch": 0.8623623838102414,
           "rotation": 0,
-          "target": "0-laser-room"
-        },
-        {
-          "yaw": 1.3553526684046382,
-          "pitch": 0.2671210581532417,
-          "rotation": 0,
-          "target": "1-woodshop"
+          "target": "8-storage-room-woodshop-door"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.11217706555015106,
-          "pitch": 0.539844114921582,
-          "title": "Industrial Sewing Machine",
-          "text": "Plus storage for sewing and craft supplies"
+          "yaw": 2.5074897757029273,
+          "pitch": 0.7289228380514388,
+          "title": "Fastener Collection",
+          "text": "Hacksburg has a large fastener collection to supply members building mechanical projects."
         },
         {
-          "yaw": -1.3368235027692563,
-          "pitch": 0.21383414781032783,
-          "title": "Lockers",
-          "text": "Members can request a locker for storage of personal projects and materials&nbsp;"
-        },
-        {
-          "yaw": -2.142505245522564,
-          "pitch": 0.21137422001744,
-          "title": "Project Supplies",
-          "text": "\"Free to use\" project supplies including motors, power supplies, and more"
-        },
-        {
-          "yaw": -3.0474502585673804,
-          "pitch": 0.22891046285181105,
-          "title": "Class Storage",
-          "text": "Storage of supplies and materials for Hacksburg classes"
-        },
-        {
-          "yaw": -1.4878234326204485,
-          "pitch": 1.1390674769893785,
-          "title": "Work table",
-          "text": "For crafting or fabric arts. Includes cutting mat"
-        },
-        {
-          "yaw": 0.4540566850154004,
-          "pitch": 0.527699242407266,
-          "title": "Air Compressor",
-          "text": "Supplies compressed air to wood and metal shop"
-        },
-        {
-          "yaw": -1.6474657318391692,
-          "pitch": 0.7979358066833679,
-          "title": "Sewing Machine",
-          "text": "Multiple sewing machines availible for use"
+          "yaw": -2.68843138412163,
+          "pitch": 0.08532865688735924,
+          "title": "Safety Gear",
+          "text": "Text"
         }
       ]
     },
     {
-      "id": "7-metal-shop",
-      "name": "Metal Shop",
+      "id": "8-storage-room-woodshop-door",
+      "name": "Storage Room Woodshop Door",
       "levels": [
         {
           "tileSize": 256,
@@ -589,74 +543,164 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1440,
+      "faceSize": 1920,
       "initialViewParameters": {
-        "yaw": 1.689562205526169,
-        "pitch": 0.4217240667052451,
-        "fov": 1.2074584246565028
+        "yaw": -0.7370659687268493,
+        "pitch": 0.26981499903452466,
+        "fov": 1.395287170018175
       },
       "linkHotspots": [
         {
-          "yaw": -2.940977023581379,
-          "pitch": 0.7071599316746227,
+          "yaw": 2.802172827019982,
+          "pitch": 0.7925998052205774,
           "rotation": 0,
-          "target": "6-storage-and-crafts"
+          "target": "7-woodshop-green-cabinet"
         },
         {
-          "yaw": 0.8433518165522447,
-          "pitch": 0.33636641765289,
-          "rotation": 5.497787143782138,
-          "target": "8-metal-shop"
+          "yaw": -1.8531514807056482,
+          "pitch": 0.7661487281868187,
+          "rotation": 0,
+          "target": "9-metalshop-entrance"
+        },
+        {
+          "yaw": 0.4493053931583244,
+          "pitch": 0.7406091922129647,
+          "rotation": 0,
+          "target": "12-storage-room-lockers"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.3774140795632626,
-          "pitch": 0.42004570972499167,
+          "yaw": -1.0959123892338454,
+          "pitch": 0.375394007211753,
+          "title": "Vacuum Former",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.198699471737207,
+          "pitch": 0.07107157626461102,
+          "title": "Silicone Moldmaking Supplies",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "9-metalshop-entrance",
+      "name": "Metalshop Entrance",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -2.5502549658500904,
+        "pitch": 0.31528892874221626,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.5057708945166333,
+          "pitch": 0.9976277019339204,
+          "rotation": 0,
+          "target": "8-storage-room-woodshop-door"
+        },
+        {
+          "yaw": -1.7574403233305436,
+          "pitch": 0.95268394016664,
+          "rotation": 0,
+          "target": "10-metalshop-cnc-mill"
+        },
+        {
+          "yaw": -2.842745440523915,
+          "pitch": 0.857512628430019,
+          "rotation": 0,
+          "target": "11-metalshop-lathe"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.2200725868281594,
+          "pitch": 0.8065805440436158,
+          "title": "Metalshop Bandsaw",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.7881847560389499,
+          "pitch": 0.47355567897443507,
+          "title": "2'x2' Surface Plate",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "10-metalshop-cnc-mill",
+      "name": "Metalshop CNC Mill",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -2.357573795249614,
+        "pitch": 0.56866100815542,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.006771693209769225,
+          "pitch": 0.805752533141531,
+          "rotation": 0,
+          "target": "9-metalshop-entrance"
+        },
+        {
+          "yaw": 1.291278834385908,
+          "pitch": 0.775246859799493,
+          "rotation": 0,
+          "target": "11-metalshop-lathe"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.357573795249614,
+          "pitch": 0.56866100815542,
           "title": "CNC Mill",
-          "text": "Controlled via LinuxCNC<div>4th axis availible</div>"
-        },
-        {
-          "yaw": 2.262382230615014,
-          "pitch": 0.4573363266813928,
-          "title": "24\"x24\" Surface Plate",
-          "text": "For measuring machined parts accurately"
-        },
-        {
-          "yaw": -0.6829637238074824,
-          "pitch": 0.48657599481790115,
-          "title": "Metal Lathe",
-          "text": "10\"x30\" 1HP Southbend Lathe&nbsp;<div>VFD controlled</div>"
-        },
-        {
-          "yaw": 0.3989045115579515,
-          "pitch": 0.09374406026521065,
-          "title": "Hydraulic Press",
-          "text": "20 ton with pressure gauge"
-        },
-        {
-          "yaw": 2.1129383320493806,
-          "pitch": 0.7363715652604075,
-          "title": "Metal Cutting Bandsaw",
-          "text": "For cutting metal stock up to 4\"x6\""
-        },
-        {
-          "yaw": -1.4910008567265507,
-          "pitch": 0.7416009537319095,
-          "title": "Lathe Tools",
-          "text": "Including collets, tool holders, and indexable tooling"
-        },
-        {
-          "yaw": 0.3353062706173944,
-          "pitch": 0.7770067844982158,
-          "title": "Mill Tools",
-          "text": "Collets, tooling, and fixturing"
+          "text": "A manual milling machine converted to CNC operation. Includes a rotary axis. Built around LinuxCNC."
         }
       ]
     },
     {
-      "id": "8-metal-shop",
-      "name": "Metal Shop",
+      "id": "11-metalshop-lathe",
+      "name": "Metalshop Lathe",
       "levels": [
         {
           "tileSize": 256,
@@ -676,67 +720,550 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1440,
+      "faceSize": 1920,
       "initialViewParameters": {
-        "yaw": 0.35513295224532904,
-        "pitch": 0.2086956737027741,
-        "fov": 1.0669590349709652
+        "yaw": 2.229362244518601,
+        "pitch": 0.47647868864460996,
+        "fov": 1.395287170018175
       },
       "linkHotspots": [
         {
-          "yaw": -2.2342912205288226,
-          "pitch": 0.5880332640752641,
+          "yaw": 0.8171899215712202,
+          "pitch": 0.6734717089794877,
           "rotation": 0,
-          "target": "7-metal-shop"
-        },
-        {
-          "yaw": -2.4364415057456448,
-          "pitch": 0.16437726810904607,
-          "rotation": 5.497787143782138,
-          "target": "6-storage-and-crafts"
+          "target": "9-metalshop-entrance"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.18400272691443753,
-          "pitch": 0.3958330917132944,
-          "title": "Mini CNC Mill",
-          "text": "Sherline&nbsp;12″ Deluxe Tabletop Mill"
-        },
-        {
-          "yaw": 0.6794862868174061,
-          "pitch": 0.2934129668991101,
-          "title": "Mini CNC Lathe",
-          "text": "Sherline 8\" CNC Lathe"
-        },
-        {
-          "yaw": 0.29175845418128077,
-          "pitch": 0.3872776740683932,
-          "title": "Mini Manual Lathe",
-          "text": "Sherline 8\" Tabletop Lathe (17\" also availible)"
-        },
-        {
-          "yaw": 0.6354458467167312,
-          "pitch": 0.7465776563641953,
-          "title": "Metal Casting Supplies",
+          "yaw": 1.7806683690976524,
+          "pitch": 0.48941512598252856,
+          "title": "Manual Lathe",
           "text": "Text"
         },
         {
-          "yaw": 0.6593076839789536,
-          "pitch": 0.5041829586285456,
-          "title": "Scrap Metal",
-          "text": "For welding or machining practice"
+          "yaw": -0.13507206859619814,
+          "pitch": 0.19534133127291042,
+          "title": "Shop Press",
+          "text": "Our shop press leaves this space twice a year for our annual apple cider making event each Fall."
         },
         {
-          "yaw": -0.5225187294623996,
-          "pitch": 0.21640491477496404,
-          "title": "Hacksleg",
-          "text": "Kinect motion controlled robotic leg"
+          "yaw": -0.8844877429398945,
+          "pitch": 0.6642138028542206,
+          "title": "Casting equipment",
+          "text": "Casting equipment is used during casting classes to show the art of pouring metal into sand molds."
+        }
+      ]
+    },
+    {
+      "id": "12-storage-room-lockers",
+      "name": "Storage Room Lockers",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": 1.2809412250965604,
+        "pitch": 0.23049348163979033,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4954619605374635,
+          "pitch": 0.6289959016796196,
+          "rotation": 0,
+          "target": "9-metalshop-entrance"
+        },
+        {
+          "yaw": -2.2118936610513984,
+          "pitch": 0.7104999340892384,
+          "rotation": 0,
+          "target": "8-storage-room-woodshop-door"
+        },
+        {
+          "yaw": 0.5388833247255249,
+          "pitch": 0.6663392647103805,
+          "rotation": 0,
+          "target": "13-craft-room-large-printer"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.2167062163581335,
+          "pitch": 0.20452826635471055,
+          "title": "Lockers",
+          "text": "Members may claim a locker, subject to availability, to store personal items and projects at the space."
+        }
+      ]
+    },
+    {
+      "id": "13-craft-room-large-printer",
+      "name": "Craft Room Large Printer",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": 0.48474222002395173,
+        "pitch": 0.5766168873031621,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.3498986431522262,
+          "pitch": 0.8239715064493751,
+          "rotation": 0,
+          "target": "12-storage-room-lockers"
+        },
+        {
+          "yaw": -0.5488592982749179,
+          "pitch": 0.7472002349488633,
+          "rotation": 0,
+          "target": "14-craft-room-desk"
+        },
+        {
+          "yaw": -2.281442164748288,
+          "pitch": 0.7918743679773179,
+          "rotation": 0,
+          "target": "17-craft-room-entrance"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.48474222002395173,
+          "pitch": 0.5766168873031621,
+          "title": "Large 2D Printer",
+          "text": "Designed for printing posters and technical drawings."
+        },
+        {
+          "yaw": 3.106035599001058,
+          "pitch": 0.577226270887568,
+          "title": "Fabric Arts Supplies",
+          "text": "Sewing and embroidery thread, leatherworking supplies, printmaking supplies..."
+        }
+      ]
+    },
+    {
+      "id": "14-craft-room-desk",
+      "name": "Craft Room Desk",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": 0.0375917069660332,
+        "pitch": 0.5119133060861429,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.0328175997659157,
+          "pitch": 0.8253274780097755,
+          "rotation": 0,
+          "target": "13-craft-room-large-printer"
+        },
+        {
+          "yaw": -1.9910823066148957,
+          "pitch": 0.8531117434312865,
+          "rotation": 0,
+          "target": "15-craft-room-serger"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.3093046454037829,
+          "pitch": 0.44692961728770975,
+          "title": "Knitting Machine",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "15-craft-room-serger",
+      "name": "Craft Room Serger",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": 2.9012490900463366,
+        "pitch": 0.6025298212191483,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.243324025612596,
+          "pitch": 0.8228392732236234,
+          "rotation": 0,
+          "target": "14-craft-room-desk"
+        },
+        {
+          "yaw": 1.4825628592888318,
+          "pitch": 0.8102828993323392,
+          "rotation": 0,
+          "target": "16-craft-room-lockers"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.9012490900463366,
+          "pitch": 0.6025298212191483,
+          "title": "Serger",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "16-craft-room-lockers",
+      "name": "Craft Room Lockers",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": 1.5119402600258631,
+        "pitch": 0.33050242804030994,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.6128152874274662,
+          "pitch": 0.8192784243169697,
+          "rotation": 0,
+          "target": "15-craft-room-serger"
+        },
+        {
+          "yaw": 0.2658607190398179,
+          "pitch": 0.6969829889462353,
+          "rotation": 0,
+          "target": "17-craft-room-entrance"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.4295793828503172,
+          "pitch": 0.4825758619401572,
+          "title": "Small 2D Printer",
+          "text": "Text"
+        },
+        {
+          "yaw": 2.816832853997907,
+          "pitch": 0.3665960899197529,
+          "title": "Medium 2D Printer",
+          "text": "Optimized for printing photographs."
+        },
+        {
+          "yaw": -2.5245429356716684,
+          "pitch": 0.38216750313590353,
+          "title": "Embroidery Machine",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.782785746721027,
+          "pitch": 0.2693989975708373,
+          "title": "Sewing Machines",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "17-craft-room-entrance",
+      "name": "Craft Room Entrance",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -1.9160020509926028,
+        "pitch": 0.46426703596398866,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.7928011321871153,
+          "pitch": 0.7345682558400135,
+          "rotation": 0,
+          "target": "16-craft-room-lockers"
+        },
+        {
+          "yaw": -0.956958283549401,
+          "pitch": 0.7100280006448045,
+          "rotation": 0,
+          "target": "13-craft-room-large-printer"
+        },
+        {
+          "yaw": 1.59976228982309,
+          "pitch": 0.7670120822276143,
+          "rotation": 0,
+          "target": "18-laser-room-laser"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.14081109609708342,
+          "pitch": 0.34792190071783047,
+          "title": "Signup Forms",
+          "text": "To sign up for a membership, go to https://hacksburg.org/join"
+        }
+      ]
+    },
+    {
+      "id": "18-laser-room-laser",
+      "name": "Laser Room Laser",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -2.740990273552482,
+        "pitch": 0.2971976074767131,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.283750883137442,
+          "pitch": 0.5681145305704494,
+          "rotation": 0,
+          "target": "0-woodshop-entrance"
+        },
+        {
+          "yaw": 0.7546602039598813,
+          "pitch": 0.8894633385486284,
+          "rotation": 0,
+          "target": "19-laser-room-resin-printer"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.7700499757130377,
+          "pitch": 0.3918261021100946,
+          "title": "Laser Cutter",
+          "text": "<div>Industrial CO2 Laser Cutter</div><div>&nbsp;- Cuts wood, acrylic, fabric, and more</div><div>&nbsp;- Marks stone, glass, and metal</div>"
+        },
+        {
+          "yaw": -1.2569837703302582,
+          "pitch": 0.49846784854080894,
+          "title": "Computer Workstation",
+          "text": "Includes software for graphics, CAD, CAM, and more."
+        }
+      ]
+    },
+    {
+      "id": "19-laser-room-resin-printer",
+      "name": "Laser Room Resin Printer",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": 3.1131445253236283,
+        "pitch": 0.12353440420291406,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.327855831899944,
+          "pitch": 0.8770337057473476,
+          "rotation": 0,
+          "target": "18-laser-room-laser"
+        },
+        {
+          "yaw": -2.037682925659432,
+          "pitch": 1.0293800256980088,
+          "rotation": 0,
+          "target": "20-laser-room-server-rack"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.349344950561367,
+          "pitch": 0.3776605739747705,
+          "title": "3D Printers",
+          "text": "Two Bambu P1-series printers, and one Elegoo resin printer."
+        }
+      ]
+    },
+    {
+      "id": "20-laser-room-server-rack",
+      "name": "Laser Room Server Rack",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -0.4524430445554586,
+        "pitch": 0.25477860348335213,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.8659641641167841,
+          "pitch": 0.9156616241227269,
+          "rotation": 0,
+          "target": "19-laser-room-resin-printer"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.4181398929173135,
+          "pitch": 0.46719463700423347,
+          "title": "Server Rack",
+          "text": "Manages Hacksburg web services, including remote access to some Hacksburg software. Members may request a VM for personal projects."
+        },
+        {
+          "yaw": -0.4139042925390406,
+          "pitch": 0.4967636366337551,
+          "title": "Electronics Bench",
+          "text": "Diagnose and repair electronics with soldering equipment, multimeters, power supplies, oscilloscopes, function generators, and more."
         }
       ]
     }
   ],
-  "name": "Hacksburg Workshop",
+  "name": "Hacksburg June 2026",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
