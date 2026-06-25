@@ -268,7 +268,7 @@
 "materials_fee": null,
 "image": "serger.jpg",
 "zeffy_link": "https://www.zeffy.com/en-US/ticketing/serger--101",
-"cancelled": false,
+"cancelled": true,
 "sold_out": false
 },
 		{
