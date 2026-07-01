@@ -2,6 +2,24 @@
 	"announcements": [],
 	"posts": [
 		{
+"title": "Shark Week Special - CNC Jaws:",
+"subtitle": "Building shark tooth display cases with CNC",
+"description": "<p>TAt this special CNC workshop in recognition of Shark Week we will build a jaw-some shark themed display case to contain your collected shark teeth, sea glass, or anything else you want.</p>",
+"date": "2026-08-01",
+"start_time": "01:00pm",
+"end_time": "05:00pm",
+"offsite_location": null,
+"offered_online": false,
+"offered_in_person": true,
+"member_price": 0,
+"non_member_price": 5,
+"materials_fee": 20,
+"image": "sharkweek2026.jpeg",
+"zeffy_link": "https://www.zeffy.com/en-US/ticketing/shark-week-special-cnc-jaws-building-shark-tooth-display-cases-with-cnc",
+"cancelled": false,
+"sold_out": false
+},
+		{
 "title": "Vinyl Cutter 101",
 "subtitle": "",
 "description": "<p>This workshop covers basic safety, design guidelines, and hands-on techniques for creating your own vinyl decals or custom shirts.</p>",
