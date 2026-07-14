@@ -53,7 +53,7 @@
 "image": "embroidery.jpg",
 "zeffy_link": "https://www.zeffy.com/en-US/ticketing/machine-embroidery-workshop-custom-designs-on-fabric",
 "cancelled": false,
-"sold_out": false
+"sold_out": true
 },
 {
 "title": "Intro to FDM 3D Printing",
