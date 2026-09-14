@@ -44,7 +44,7 @@
 			"date": "2026-09-30",
 			"start_time": "5:00pm",
 			"end_time": "10:00pm",
-			"offsite_location": 117 S Main St, Blacksburg, VA 24060,
+			"offsite_location": "117 S Main St, Blacksburg, VA 24060",
 			"offered_online": false,
 			"offered_in_person": true,
 			"member_price": 0,
