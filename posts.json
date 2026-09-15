@@ -1,7 +1,43 @@
 {
 	"announcements": [],
 	"posts": [
-				{
+		{
+			"title": "The Great Ghostly Paint-In",
+			"subtitle": "",
+			"description": "<p>Join us for a spooky, creative craft night where we’ll transform beautiful pastoral landscape paintings into delightfully haunted works of art! Add wandering ghosts, swooping bats, creepy trees, jack-o’-lanterns, witches, black cats, and whatever other Halloween mischief your imagination can conjure.No painting experience required—just bring your creativity, your love of Halloween, and a willingness to make perfectly innocent landscapes slightly suspicious.</p>",
+			"date": "2026-10-04",
+			"start_time": "1:00pm",
+			"end_time": "4:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 15,
+			"non_member_price": 20,
+			"materials_fee": 0,
+			"image": "Ghost_Painting.jpg",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/the-great-ghostly-paint-in",
+			"cancelled": false,
+			"sold_out": false
+		},
+		{
+"title": "The Maker's Board:",
+"subtitle": "Craft Your Own Cutting Board (2-Day Class)",
+"description": "<p>There's something special about a handmade cutting board — a piece you built yourself that earns its place in your kitchen and gets better with every use. In this beginner-friendly woodworking class, you'll craft a beautiful, functional cutting board from start to finish using quality hardwoods and professional tools. This class is a two-day class (April 18 & 19)!</p>",
+"date": "2026-11-21",
+"start_time": "01:00pm",
+"end_time": "04:00pm",
+"offsite_location": null,
+"offered_online": false,
+"offered_in_person": true,
+"member_price": 50,
+"non_member_price": 55,
+"materials_fee": 0,
+"image": "cutting-board.jpg",
+"zeffy_link": "https://www.zeffy.com/en-US/ticketing/the-makers-board-craft-your-own-cutting-board-2-day-class",
+"cancelled": false,
+"sold_out": true
+		},
+		{
 			"title": "Intro to CNC Machining: Part 1",
 			"subtitle": "",
 			"description": "<p>This class will teach you how to use our CNC gantry router, generously supported by Onefinity, Torc Robotics, and other donors. We will design the CAM for a part in MillMage, and then machine the part out of wood. This is done as one group activity; class attendees will not machine their own part.</p>",
