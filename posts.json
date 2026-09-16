@@ -2,6 +2,24 @@
 	"announcements": [],
 	"posts": [
 		{
+			"title": "8th Annual Ornaments & Cocoa: A Hacksburg Tradition",
+			"subtitle": "Happy Holidays to all the Makers",
+			"description": "<p>🎄Ornaments & Cocoa: A Hacksburg Tradition🎁</p><p>Join us for our 8th annual festive, family-friendly DIY workshop where makers of all ages can create their own personalized gifts — including laser cut felt Holiday ornaments, custom laser cut wooden displays and cards, and hand polished metal wind chimes. Warm up with our hot chocolate bar and coffee while you craft!</p><p>The event is free, but donations to cover material costs are greatly appreciated.</p>",
+			"date": "2026-12-07",
+			"start_time": "01:00pm",
+			"end_time": "04:00pm",
+			"offsite_location": null,
+			"offered_online": false,
+			"offered_in_person": true,
+			"member_price": 0,
+			"non_member_price": 0,
+			"materials_fee": null,
+			"image": "2018_all_ornaments.png",
+			"zeffy_link": "https://www.zeffy.com/en-US/ticketing/8th-annual-ornaments-and-cocoa-a-hacksburg-tradition",
+			"cancelled": false,
+			"sold_out": false
+		},
+		{
 			"title": "The Great Ghostly Paint-In",
 			"subtitle": "",
 			"description": "<p>Join us for a spooky, creative craft night where we’ll transform beautiful pastoral landscape paintings into delightfully haunted works of art! Add wandering ghosts, swooping bats, creepy trees, jack-o’-lanterns, witches, black cats, and whatever other Halloween mischief your imagination can conjure.No painting experience required—just bring your creativity, your love of Halloween, and a willingness to make perfectly innocent landscapes slightly suspicious.</p>",
@@ -92,7 +110,7 @@
 			"sold_out": false
 		},
 		{
-			"title": "12th Annual Cider Making",
+			"title": "12th Annual Community Cider Pressing",
 			"subtitle": "Fresh, all-natural, and delicious!",
 			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety; using only one type typically results in cider that is extremely sweet or tart. Ten pounds of apples makes about three quarts of cider. Free for everyone in the community, no RSVP required.</p><p>For more information, visit Hacksburg's <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">Cider Making</a> page.</p><p>All ages are welcome at this event. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2026-10-18",
@@ -110,7 +128,7 @@
 			"sold_out": false
 		},
 		{
-			"title": "12th Annual Cider Making",
+			"title": "12th Annual Community Cider Pressing",
 			"subtitle": "Fresh, all-natural, and delicious!",
 			"description": "<p>Come to Hacksburg with apples and you'll be able to make your own cider! The best kind of apples to bring is a variety; using only one type typically results in cider that is extremely sweet or tart. Ten pounds of apples makes about three quarts of cider. Free for everyone in the community, no RSVP required.</p><p>For more information, visit Hacksburg's <a href=\"https://hb.gy/0nAyF\" target=\"_blank\">Cider Making</a> page.</p><p>All ages are welcome at this event. Attendees under 18 must be accompanied by a parent/guardian at all times.</p>",
 			"date": "2026-10-25",
