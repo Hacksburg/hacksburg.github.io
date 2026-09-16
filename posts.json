@@ -1,5 +1,11 @@
 {
-	"announcements": [],
+	"announcements": [
+		{
+			"title": "Vote for Hacksburg!",
+			"subtitle": "",
+			"description": "<p>Hacksburg is in the running for the annual &quot;Give a Chance&quot; event hosted by Solomon Blacksburg's Give A Chance (GAC)! Prizes include a $10,000 grand prize, two $5,000 second-place prizes, and two $2,500 third-place prizes.</p><p>The best part? The community votes! Please go to https://linkto.run/p/3I1D85R8 and vote for Hacksburg! You can vote daily so please do so!</p>"
+		}
+	],
 	"posts": [
 		{
 			"title": "8th Annual Ornaments & Cocoa: A Hacksburg Tradition",
